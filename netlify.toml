@@ -1,0 +1,11 @@
+[build]
+command = "npm run build:netlify"
+publish = ".next"
+
+[build.environment]
+NODE_VERSION = "22"
+
+# Netlify's Next.js runtime serves /privacy, /terms, and /support from the
+# same generated canonical content used by the native application. Runtime
+# release values remain environment/configuration concerns; this file does
+# not authorize public publication or supply production values.
