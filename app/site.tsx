@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { publicReleaseConfig } from './releaseConfig.generated';
 import { releaseContent } from './releaseContent.generated';
+import { StoreLinks } from './storeLinks';
 
 export function SiteShell({ children }: { children: React.ReactNode }) {
   return (
@@ -33,7 +34,7 @@ function releaseDocumentText(value: string) {
   return value
     .replaceAll('{{LAUNCH_DATE}}', publicReleaseConfig.launchDate ?? 'Pending launch configuration')
     .replaceAll('{{SUPPORT_EMAIL}}', publicReleaseConfig.supportEmail ?? 'Support email pending release configuration')
-    .replaceAll('{{OPERATOR_LEGAL_NAME}}', publicReleaseConfig.operatorLegalName ?? 'Operator legal name pending release configuration');
+    .replaceAll('{{OPERATOR_LEGAL_NAME}}', publicReleaseConfig.operatorLegalName ?? 'Developer legal name pending release configuration');
 }
 
 export function DocumentPage({ document }: { document: ReleaseDocument }) {
@@ -73,12 +74,7 @@ export function OwnershipPromise() {
           <div><dt>Ultimate price</dt><dd>{publicReleaseConfig.ultimatePriceDisplay}</dd></div>
         </dl>
       ) : <p className="release-pending">Approved launch and ultimate prices will appear here together before public release.</p>}
-      {publicReleaseConfig.storesReady ? (
-        <div className="store-links">
-          <a className="button" href={publicReleaseConfig.appStoreUrl!}>View on the App Store</a>
-          <a className="button secondary" href={publicReleaseConfig.playStoreUrl!}>View on Google Play</a>
-        </div>
-      ) : null}
+      <StoreLinks />
     </section>
   );
 }

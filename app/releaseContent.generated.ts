@@ -219,7 +219,7 @@ export const releaseContent = {
       {
         "title": "12. Limitation of liability",
         "paragraphs": [
-          "To the extent permitted by applicable law, Discover and its operator will not be liable for indirect, incidental, special, consequential, or similar damages arising from the use of or inability to use Discover.",
+          "To the extent permitted by applicable law, Discover and its developer will not be liable for indirect, incidental, special, consequential, or similar damages arising from the use of or inability to use Discover.",
           "Nothing in these Terms limits liability where such limitation is prohibited by law."
         ]
       },

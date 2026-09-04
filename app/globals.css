@@ -60,7 +60,11 @@ h3 { font-size: 27px; }
 .price-pair dt { color: var(--secondary); font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; }
 .price-pair dd { margin: 8px 0 0; font-family: Georgia, serif; font-size: 30px; }
 .release-pending, .document-status { padding: 16px 20px; border-left: 3px solid var(--bronze); background: var(--source); color: var(--text) !important; }
-.store-links { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 32px; }
+.store-links { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-top: 32px; }
+.store-availability { margin: 0; color: var(--secondary); font-size: 14px; font-weight: 650; }
+.store-badge { display: inline-flex; min-height: 48px; align-items: center; }
+.store-badge img { display: block; height: 40px; width: auto; }
+.store-badge-google img { height: 48px; }
 .button { display: inline-flex; min-height: 48px; padding: 10px 22px; align-items: center; border-radius: 999px; background: var(--dark); color: var(--cream); text-decoration: none; font-weight: 750; }
 .button.secondary { background: var(--bronze-soft); color: var(--text); }
 .document-page { padding: 100px 0 130px; max-width: 800px; }
@@ -90,6 +94,7 @@ h3 { font-size: 27px; }
   .positioning { margin-top: 0; padding: 38px 28px; grid-template-columns: 1fr; gap: 28px; }
   .included { padding: 88px 0 60px; grid-template-columns: 1fr; gap: 34px; }
   .price-pair { grid-template-columns: 1fr; }
+  .store-links { flex-direction: column; align-items: flex-start; }
   .ownership-card { margin-bottom: 86px; }
   .document-page { padding: 72px 0 100px; }
   .site-footer { align-items: flex-start; flex-direction: column; }

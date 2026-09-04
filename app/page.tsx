@@ -1,5 +1,6 @@
 import { releaseContent } from './releaseContent.generated';
 import { OwnershipPromise, SiteShell } from './site';
+import { StoreLinks } from './storeLinks';
 
 const principles = [
   ['Follow', 'People through changing places, relationships, decisions, pressure, failure, and memory.'],
@@ -11,7 +12,7 @@ export default function Home() {
   return (
     <SiteShell><main>
       <section className="hero">
-        <div className="hero-copy"><p className="eyebrow">{releaseContent.home.eyebrow}</p><h1>{releaseContent.home.title}</h1><p className="hero-lead">{releaseContent.home.lead}</p></div>
+        <div className="hero-copy"><p className="eyebrow">{releaseContent.home.eyebrow}</p><h1>{releaseContent.home.title}</h1><p className="hero-lead">{releaseContent.home.lead}</p><StoreLinks /></div>
         <div className="instrument-card" aria-label="A sample Scripture investigation">
           <p className="eyebrow">Look again</p><blockquote>“What becomes visible when the passages are held together?”</blockquote>
           <div className="source-line"><span>Source</span><strong>Inspectable Scripture</strong></div>
