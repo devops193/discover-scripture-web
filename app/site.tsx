@@ -34,7 +34,7 @@ function releaseDocumentText(value: string) {
   return value
     .replaceAll('{{LAUNCH_DATE}}', publicReleaseConfig.launchDate ?? 'Pending launch configuration')
     .replaceAll('{{SUPPORT_EMAIL}}', publicReleaseConfig.supportEmail ?? 'Support email pending release configuration')
-    .replaceAll('{{OPERATOR_LEGAL_NAME}}', publicReleaseConfig.operatorLegalName ?? 'Developer legal name pending release configuration');
+    .replaceAll('{{DEVELOPER_LEGAL_NAME}}', publicReleaseConfig.developerLegalName ?? 'Developer legal name pending release configuration');
 }
 
 export function DocumentPage({ document }: { document: ReleaseDocument }) {

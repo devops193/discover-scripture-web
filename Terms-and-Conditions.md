@@ -1,10 +1,8 @@
 # Terms & Conditions
 
-Discover Scripture
-
-**Version:** 1.0  
-**Effective date:** Pending launch configuration  
-**Last updated:** Pending launch configuration
+**Effective Date:** [LAUNCH_DATE]
+**Version:** 1.0
+**Last Updated:** [LAUNCH_DATE]
 
 These Terms & Conditions govern your use of Discover Scripture (“Discover”). By downloading, purchasing, or using Discover, you agree to these Terms.
 
@@ -142,4 +140,4 @@ Changes to these Terms will not be used to impose a Discover subscription, paid 
 
 Questions about these Terms or Discover may be sent to:
 
-Support email pending release configuration
+[SUPPORT_EMAIL]
