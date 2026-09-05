@@ -1,0 +1,107 @@
+{
+  "page": "home",
+  "url": "https://discover-scripture.netlify.app/",
+  "documentTitle": "Discover Scripture",
+  "metaDescription": "A calm, offline-first instrument for investigating Scripture.",
+  "renderedTopToBottom": [
+    {
+      "region": "previewBanner",
+      "role": "status",
+      "text": "Private release preview · public publication is blocked pending approval"
+    },
+    {
+      "region": "header",
+      "brand": {
+        "mark": "✦",
+        "name": "Discover Scripture",
+        "href": "/",
+        "ariaLabel": "Discover Scripture home"
+      },
+      "navigation": {
+        "ariaLabel": "Primary navigation",
+        "links": [
+          { "text": "About", "href": "/about" },
+          { "text": "Support", "href": "/support" }
+        ]
+      }
+    },
+    {
+      "region": "hero",
+      "eyebrow": "Scripture is the content. Discovery is the product.",
+      "heading": "Read Scripture with more of your attention intact.",
+      "lead": "Discover Scripture is a calm, offline-first instrument for following people, entering events, and tracing ideas across the biblical text."
+    },
+    {
+      "region": "lookAgain",
+      "ariaLabel": "A sample Scripture investigation",
+      "eyebrow": "Look again",
+      "quote": "What becomes visible when the passages are held together?",
+      "rows": [
+        { "label": "Source", "value": "Inspectable Scripture" },
+        { "label": "Method", "value": "Observation before conclusion" }
+      ]
+    },
+    {
+      "region": "threeLenses",
+      "eyebrow": "Three lenses",
+      "heading": "A whole-canon instrument built for attention",
+      "items": [
+        {
+          "index": "01",
+          "title": "Follow",
+          "body": "People through changing places, relationships, decisions, pressure, failure, and memory."
+        },
+        {
+          "index": "02",
+          "title": "Enter",
+          "body": "Events as complete scenes with people, actions, tensions, consequences, and source evidence."
+        },
+        {
+          "index": "03",
+          "title": "Trace",
+          "body": "Ideas and patterns as they move through different voices and moments in Scripture."
+        }
+      ]
+    },
+    {
+      "region": "positioning",
+      "eyebrow": "A different posture",
+      "heading": "An investigation instrument—not an AI Bible chatbot",
+      "body": "Authored trails, inspectable Scripture evidence, comparisons, and questions help you notice what the text contains without completing your interpretation for you."
+    },
+    {
+      "region": "included",
+      "eyebrow": "Included",
+      "heading": "One instrument. Local Scripture. No reader account.",
+      "items": [
+        "Character, Event, and Concept discoveries",
+        "Local canonical Scripture for source inspection",
+        "Trails, Dissect, Compare, Pivot, Saved, and Reader Ask tools",
+        "Future enhancements for existing owners"
+      ]
+    },
+    {
+      "region": "ownership",
+      "eyebrow": "Ownership",
+      "heading": "One purchase. Permanent ownership.",
+      "paragraphs": [
+        "Existing owners pay no subscription, later upgrade charge, or paid content-pack fee.",
+        "Future Discover enhancements are included for existing owners."
+      ],
+      "pending": "Approved launch and ultimate prices will appear here together before public release."
+    },
+    {
+      "region": "footer",
+      "name": "Discover Scripture",
+      "tagline": "Scripture is the content. Discovery is the product.",
+      "navigation": {
+        "ariaLabel": "Legal and support",
+        "links": [
+          { "text": "Privacy", "href": "/privacy" },
+          { "text": "Terms", "href": "/terms" },
+          { "text": "Support", "href": "/support" }
+        ]
+      }
+    }
+  ]
+}
