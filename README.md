@@ -2,7 +2,7 @@
 
 Public website for Discover Scripture — a calm, offline-first instrument for following people, entering events, and tracing ideas across the biblical text.
 
-Scripture is the content. Discovery is the product.
+Scripture is the content. Discover is the instrument.
 
 This repository is the product site (home, about, privacy, terms, and support). It is not the native iOS/Android application.
 

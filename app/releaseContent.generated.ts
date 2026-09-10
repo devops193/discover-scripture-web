@@ -2,21 +2,31 @@
 export const releaseContent = {
   "schemaVersion": 2,
   "productName": "Discover Scripture",
-  "commercialPromise": "One purchase. Permanent ownership.",
-  "existingOwnerPromise": "Existing owners pay no subscription, later upgrade charge, or paid content-pack fee.",
-  "futureEnhancementsPromise": "Future Discover enhancements are included for existing owners.",
+  "commercialPromise": "One purchase. No subscription.",
+  "existingOwnerPromise": "Existing owners pay no subscription or paid content-pack fee.",
+  "futureEnhancementsPromise": "New Discover content packs and product updates are included for existing owners.",
   "home": {
-    "eyebrow": "Scripture is the content. Discovery is the product.",
+    "eyebrow": "Scripture is the content. Discover is the instrument.",
     "title": "Read Scripture with more of your attention intact.",
-    "lead": "Discover Scripture is a calm, offline-first instrument for following people, entering events, and tracing ideas across the biblical text.",
-    "positioningTitle": "An investigation instrument—not an AI Bible chatbot",
-    "positioningBody": "Authored trails, inspectable Scripture evidence, comparisons, and questions help you notice what the text contains without completing your interpretation for you.",
+    "lead": "A calm, offline-first Scripture instrument for following people, events, and ideas across the whole canon—including the Apocrypha.",
+    "positioningTitle": "Scripture investigation instrument\nNo interpretation\nYou conclude",
+    "positioningBody": "Authored trails, inspectable Scripture evidence, comparisons, and questions keep the text in view—so you can follow the evidence and form your own conclusions.",
     "included": [
       "Character, Event, and Concept discoveries",
-      "Local canonical Scripture for source inspection",
-      "Trails, Dissect, Compare, Pivot, Saved, and Reader Ask tools",
-      "Future enhancements for existing owners"
-    ]
+      "Local Scripture—including the Apocrypha—for source inspection",
+      "Trails, Dissect, Compare, Pivot, Saved, and Discover content packs",
+      "New content packs and Discover enhancements added regularly"
+    ],
+    "libraryEyebrow": "Current Scripture library",
+    "libraryTitle": "What is already inside.",
+    "libraryStats": [
+      "50 Topics",
+      "4,640 Scripture Scenes",
+      "1,510 Compares",
+      "760 Pivots",
+      "599 Source-language glosses"
+    ],
+    "libraryNote": "Built into the instrument and available offline. New content packs are added regularly."
   },
   "privacy": {
     "title": "Privacy Policy",

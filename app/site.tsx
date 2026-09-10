@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import type { ReactNode } from 'react';
 import { publicReleaseConfig } from './releaseConfig.generated';
 import { releaseContent } from './releaseContent.generated';
 import { StoreLinks } from './storeLinks';
@@ -6,14 +7,12 @@ import { StoreLinks } from './storeLinks';
 export function SiteShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="site-shell">
-      {!publicReleaseConfig.publicationReady ? <div className="preview-banner" role="status">Private release preview · public publication is blocked pending approval</div> : null}
       <header className="site-header">
         <Link className="brand" href="/" aria-label="Discover Scripture home"><span className="brand-mark" aria-hidden="true">✦</span><span>Discover Scripture</span></Link>
-        <nav aria-label="Primary navigation"><Link href="/about">About</Link><Link href="/support">Support</Link></nav>
+        <nav aria-label="Primary navigation"><Link href="/about">About</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link><Link href="/support">Support</Link></nav>
       </header>
       {children}
       <footer className="site-footer">
-        <div><strong>Discover Scripture</strong><p>Scripture is the content. Discovery is the product.</p></div>
         <nav aria-label="Legal and support"><Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link><Link href="/support">Support</Link></nav>
       </footer>
     </div>
@@ -37,6 +36,27 @@ function releaseDocumentText(value: string) {
     .replaceAll('{{DEVELOPER_LEGAL_NAME}}', publicReleaseConfig.developerLegalName ?? 'Developer legal name pending release configuration');
 }
 
+function DocumentParagraph({ value }: { value: string }) {
+  const text = releaseDocumentText(value);
+  if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(text)) {
+    return <p><a href={`mailto:${text}`}>{text}</a></p>;
+  }
+
+  const nodes: ReactNode[] = [];
+  const pattern = /Privacy Policy|Terms & Conditions/g;
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+  let key = 0;
+  while ((match = pattern.exec(text))) {
+    if (match.index > lastIndex) nodes.push(text.slice(lastIndex, match.index));
+    const href = match[0] === 'Privacy Policy' ? '/privacy' : '/terms';
+    nodes.push(<Link href={href} key={key++}>{match[0]}</Link>);
+    lastIndex = match.index + match[0].length;
+  }
+  if (lastIndex < text.length) nodes.push(text.slice(lastIndex));
+  return <p>{nodes.length ? nodes : text}</p>;
+}
+
 export function DocumentPage({ document }: { document: ReleaseDocument }) {
   return (
     <SiteShell>
@@ -53,7 +73,9 @@ export function DocumentPage({ document }: { document: ReleaseDocument }) {
         {document.sections.map((section) => (
           <section className="document-section" key={section.title}>
             <h2>{section.title}</h2>
-            {section.paragraphs.map((paragraph) => <p key={paragraph}>{releaseDocumentText(paragraph)}</p>)}
+            {section.paragraphs.map((paragraph) => (
+              <DocumentParagraph key={paragraph} value={paragraph} />
+            ))}
           </section>
         ))}
       </main>
@@ -71,7 +93,7 @@ export function OwnershipPromise() {
       {publicReleaseConfig.pricesReady ? (
         <dl className="price-pair">
           <div><dt>Launch price</dt><dd>{publicReleaseConfig.launchPriceDisplay}</dd></div>
-          <div><dt>Ultimate price</dt><dd>{publicReleaseConfig.ultimatePriceDisplay}</dd></div>
+          <div><dt>Standard price</dt><dd>{publicReleaseConfig.ultimatePriceDisplay}</dd></div>
         </dl>
       ) : <p className="release-pending">Approved launch and ultimate prices will appear here together before public release.</p>}
       <StoreLinks />
