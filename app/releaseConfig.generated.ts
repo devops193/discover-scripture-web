@@ -12,7 +12,7 @@ export const publicReleaseConfig = {
   "supportUrl": "https://dscripture.com/support",
   "launchPriceDisplay": "$39.99",
   "ultimatePriceDisplay": "$59.99",
-  "appStoreUrl": null,
+  "appStoreUrl": "https://apps.apple.com/app/id6810717915",
   "playStoreUrl": null,
   "supportEmail": "support@jstifyd.com"
 } as const;
