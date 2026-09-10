@@ -8,7 +8,7 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="site-shell">
       <header className="site-header">
-        <Link className="brand" href="/" aria-label="Discover Scripture home"><span className="brand-mark" aria-hidden="true">✦</span><span>Discover Scripture</span></Link>
+        <Link className="brand" href="/" aria-label="Discover Scripture home"><img className="brand-logo" src="/Dscrip_web_logo.png" alt="" width={44} height={44} /><span>Discover Scripture</span></Link>
         <nav aria-label="Primary navigation"><Link href="/about">About</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Terms</Link><Link href="/support">Support</Link></nav>
       </header>
       {children}

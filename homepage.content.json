@@ -7,7 +7,7 @@
     {
       "region": "header",
       "brand": {
-        "mark": "✦",
+        "mark": "/Dscrip_web_logo.png",
         "name": "Discover Scripture",
         "href": "/",
         "ariaLabel": "Discover Scripture home"
