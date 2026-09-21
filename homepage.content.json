@@ -99,8 +99,8 @@
         "New Discover content packs and product updates are included for existing owners."
       ],
       "prices": [
-        { "label": "Launch price", "value": "$39.99" },
-        { "label": "Standard price", "value": "$59.99" }
+        { "label": "Launch price", "value": "$9.99" },
+        { "label": "Full Pack", "value": "$19.99" }
       ]
     },
     {

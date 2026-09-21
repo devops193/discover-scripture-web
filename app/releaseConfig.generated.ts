@@ -10,8 +10,8 @@ export const publicReleaseConfig = {
   "privacyUrl": "https://dscripture.com/privacy",
   "termsUrl": "https://dscripture.com/terms",
   "supportUrl": "https://dscripture.com/support",
-  "launchPriceDisplay": "$39.99",
-  "ultimatePriceDisplay": "$59.99",
+  "launchPriceDisplay": "$9.99",
+  "ultimatePriceDisplay": "$19.99",
   "appStoreUrl": "https://apps.apple.com/app/id6810717915",
   "playStoreUrl": null,
   "supportEmail": "support@jstifyd.com"

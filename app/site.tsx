@@ -93,7 +93,7 @@ export function OwnershipPromise() {
       {publicReleaseConfig.pricesReady ? (
         <dl className="price-pair">
           <div><dt>Launch price</dt><dd>{publicReleaseConfig.launchPriceDisplay}</dd></div>
-          <div><dt>Standard price</dt><dd>{publicReleaseConfig.ultimatePriceDisplay}</dd></div>
+          <div><dt>Full Pack</dt><dd>{publicReleaseConfig.ultimatePriceDisplay}</dd></div>
         </dl>
       ) : <p className="release-pending">Approved launch and ultimate prices will appear here together before public release.</p>}
       <StoreLinks />
