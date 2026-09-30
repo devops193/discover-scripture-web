@@ -4,9 +4,9 @@ export const releaseContent = {
   "productName": "Discover Scripture",
   "commercialPromise": "One purchase. No subscription.",
   "existingOwnerPromise": "Existing owners pay no subscription or paid content-pack fee.",
-  "futureEnhancementsPromise": "New Discover content packs and product updates are included for existing owners.",
+  "futureEnhancementsPromise": "New Discover Scripture content packs and product updates are included for existing owners.",
   "home": {
-    "eyebrow": "Scripture is the content. Discover is the instrument.",
+    "eyebrow": "Scripture is the content. Discover Scripture is the instrument.",
     "title": "Read Scripture with more of your attention intact.",
     "lead": "A calm, offline-first Scripture instrument for following people, events, and ideas across the whole canon—including the Apocrypha.",
     "positioningTitle": "Scripture investigation instrument\nNo interpretation\nYou conclude",
@@ -14,8 +14,8 @@ export const releaseContent = {
     "included": [
       "Character, Event, and Concept discoveries",
       "Local Scripture—including the Apocrypha—for source inspection",
-      "Trails, Dissect, Compare, Pivot, Saved, and Discover content packs",
-      "New content packs and Discover enhancements added regularly"
+      "Trails, Dissect, Compare, Pivot, Saved, and Discover Scripture content packs",
+      "New content packs and Discover Scripture enhancements added regularly"
     ],
     "libraryEyebrow": "Current Scripture library",
     "libraryTitle": "What is already inside.",

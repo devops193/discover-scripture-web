@@ -24,7 +24,7 @@
     },
     {
       "region": "hero",
-      "eyebrow": "Scripture is the content. Discover is the instrument.",
+      "eyebrow": "Scripture is the content. Discover Scripture is the instrument.",
       "heading": "Read Scripture with more of your attention intact.",
       "lead": "A calm, offline-first Scripture instrument for following people, events, and ideas across the whole canon—including the Apocrypha."
     },
@@ -86,8 +86,8 @@
       "items": [
         "Character, Event, and Concept discoveries",
         "Local Scripture—including the Apocrypha—for source inspection",
-        "Trails, Dissect, Compare, Pivot, Saved, and Discover content packs",
-        "New content packs and Discover enhancements added regularly"
+        "Trails, Dissect, Compare, Pivot, Saved, and Discover Scripture content packs",
+        "New content packs and Discover Scripture enhancements added regularly"
       ]
     },
     {
@@ -96,7 +96,7 @@
       "heading": "One purchase. No subscription.",
       "paragraphs": [
         "Existing owners pay no subscription or paid content-pack fee.",
-        "New Discover content packs and product updates are included for existing owners."
+        "New Discover Scripture content packs and product updates are included for existing owners."
       ],
       "prices": [
         { "label": "Launch price", "value": "$9.99" },
