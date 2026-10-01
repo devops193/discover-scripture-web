@@ -4,21 +4,12 @@ import { APP_STORE_URL } from './platform';
 import { publicReleaseConfig } from './releaseConfig.generated';
 import { releaseContent } from './releaseContent.generated';
 import { StoreLinks } from './storeLinks';
+import { SiteHeader } from './siteHeader';
 
 export function SiteShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="site-shell">
-      <header className="site-header">
-        {/* Native home links so the logo and section titles navigate from every page, including About, Privacy, Terms, and Support. */}
-        {/* eslint-disable @next/next/no-html-link-for-pages */}
-        <a className="brand" href="/" aria-label="Discover Scripture home"><img className="brand-logo" src="/Dscrip_web_logo.png" alt="" width={44} height={44} /><span>Discover Scripture</span></a>
-        <nav aria-label="Primary navigation">
-          <a href="/#church-edition-summary">Scripture Discovery CE</a>
-          <a href="/#commander-ce">Commander CE</a>
-          <a href="/#personal-edition">Scripture Discovery PE</a>
-          <a className="button nav-cta" href="/church-edition#pilot">Request a Pilot</a>
-        </nav>
-      </header>
+      <SiteHeader />
       {children}
       <footer className="site-footer">
         <div className="footer-col">

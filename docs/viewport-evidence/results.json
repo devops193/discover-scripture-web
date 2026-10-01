@@ -1,0 +1,468 @@
+{
+  "startupMs": 2600,
+  "errors": [
+    "Canonical WEBU corpus unavailable; continuing with legacy Scripture sources. AggregateError: WEBU corpus import retry failed\n    at blob:http://localhost:3095/823696b0-74ba-4dff-a7a6-d37e6484ef5e:1411:402\n    at async Promise.allSettled (index 0)",
+    "Error: Error finalizing statement",
+    "locator.waitFor: Timeout 45000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#product-panel-commander [role=status]') to be hidden\u001b[22m\n\u001b[2m    93 × locator resolved to visible <div role=\"status\" class=\"productViewport-module__RhHpSa__status\">…</div>\u001b[22m\n",
+    "Canonical WEBU corpus unavailable; continuing with legacy Scripture sources. Error: Error: sqlite3_open_v2\n    at e.workerMessageHandler (blob:http://localhost:3095/3510ab73-d6c5-4917-8d83-75c5d8ccac91:913:602)\n    at Worker.<anonymous> (blob:http://localhost:3095/3510ab73-d6c5-4917-8d83-75c5d8ccac91:912:600)",
+    "Error: sqlite3_open_v2",
+    "Error: sqlite3_open_v2",
+    "Canonical WEBU corpus unavailable; continuing with legacy Scripture sources. Error: Error: sqlite3_open_v2\n    at e.workerMessageHandler (blob:http://localhost:3095/05cddd65-ea48-4caf-91ce-2f7d499d70b1:913:602)\n    at Worker.<anonymous> (blob:http://localhost:3095/05cddd65-ea48-4caf-91ce-2f7d499d70b1:912:600)",
+    "Error: sqlite3_open_v2",
+    "Canonical WEBU corpus unavailable; continuing with legacy Scripture sources. Error: Error: sqlite3_open_v2\n    at e.workerMessageHandler (blob:http://localhost:3095/933ea817-88cf-466a-abd1-be5517d2f952:913:602)\n    at Worker.<anonymous> (blob:http://localhost:3095/933ea817-88cf-466a-abd1-be5517d2f952:912:600)",
+    "Error: sqlite3_open_v2",
+    "Error: sqlite3_open_v2",
+    "Canonical WEBU corpus unavailable; continuing with legacy Scripture sources. Error: Error: sqlite3_open_v2\n    at e.workerMessageHandler (blob:http://localhost:3095/43ad73f0-b4d7-4590-bd4e-4052c0f74941:913:602)\n    at Worker.<anonymous> (blob:http://localhost:3095/43ad73f0-b4d7-4590-bd4e-4052c0f74941:912:600)",
+    "Error: sqlite3_open_v2",
+    "Canonical WEBU corpus unavailable; continuing with legacy Scripture sources. Error: Error: sqlite3_open_v2\n    at e.workerMessageHandler (blob:http://localhost:3095/b2649852-2bce-457f-a769-26a123c68a85:913:602)\n    at Worker.<anonymous> (blob:http://localhost:3095/b2649852-2bce-457f-a769-26a123c68a85:912:600)",
+    "Error: sqlite3_open_v2",
+    "Error: sqlite3_open_v2",
+    "Canonical WEBU corpus unavailable; continuing with legacy Scripture sources. Error: Error: sqlite3_open_v2\n    at e.workerMessageHandler (blob:http://localhost:3095/a8321874-5794-4cc1-a2b1-5caa73507313:913:602)\n    at Worker.<anonymous> (blob:http://localhost:3095/a8321874-5794-4cc1-a2b1-5caa73507313:912:600)",
+    "Error: sqlite3_open_v2",
+    "Canonical WEBU corpus unavailable; continuing with legacy Scripture sources. Error: Error: sqlite3_open_v2\n    at e.workerMessageHandler (blob:http://localhost:3095/56bf9a6b-25e8-4443-b2a1-53488d220560:913:602)\n    at Worker.<anonymous> (blob:http://localhost:3095/56bf9a6b-25e8-4443-b2a1-53488d220560:912:600)",
+    "Error: sqlite3_open_v2",
+    "Error: sqlite3_open_v2",
+    "Canonical WEBU corpus unavailable; continuing with legacy Scripture sources. Error: Error: sqlite3_open_v2\n    at e.workerMessageHandler (blob:http://localhost:3095/b51c5a2a-892a-49d7-94f1-321a77745f49:913:602)\n    at Worker.<anonymous> (blob:http://localhost:3095/b51c5a2a-892a-49d7-94f1-321a77745f49:912:600)",
+    "Error: sqlite3_open_v2",
+    "Canonical WEBU corpus unavailable; continuing with legacy Scripture sources. Error: Error: sqlite3_open_v2\n    at e.workerMessageHandler (blob:http://localhost:3095/0d26faac-2106-4297-96e3-f048b6e33f0c:913:602)\n    at Worker.<anonymous> (blob:http://localhost:3095/0d26faac-2106-4297-96e3-f048b6e33f0c:912:600)",
+    "Error: sqlite3_open_v2",
+    "Error: sqlite3_open_v2",
+    "Canonical WEBU corpus unavailable; continuing with legacy Scripture sources. Error: Error: sqlite3_open_v2\n    at e.workerMessageHandler (blob:http://localhost:3095/11b36177-a0c8-42df-885c-8661a7a1a7d0:913:602)\n    at Worker.<anonymous> (blob:http://localhost:3095/11b36177-a0c8-42df-885c-8661a7a1a7d0:912:600)",
+    "Error: sqlite3_open_v2",
+    "Canonical WEBU corpus unavailable; continuing with legacy Scripture sources. Error: Error: sqlite3_open_v2\n    at e.workerMessageHandler (blob:http://localhost:3095/ffb1e61d-a245-4fad-9245-236598f210ac:913:602)\n    at Worker.<anonymous> (blob:http://localhost:3095/ffb1e61d-a245-4fad-9245-236598f210ac:912:600)",
+    "Error: sqlite3_open_v2",
+    "Error: sqlite3_open_v2",
+    "Canonical WEBU corpus unavailable; continuing with legacy Scripture sources. Error: Error: sqlite3_open_v2\n    at e.workerMessageHandler (blob:http://localhost:3095/8c19627e-c86c-4eb4-844b-d6d1c09f182a:913:602)\n    at Worker.<anonymous> (blob:http://localhost:3095/8c19627e-c86c-4eb4-844b-d6d1c09f182a:912:600)",
+    "Error: sqlite3_open_v2",
+    "Canonical WEBU corpus unavailable; continuing with legacy Scripture sources. Error: Error: sqlite3_open_v2\n    at e.workerMessageHandler (blob:http://localhost:3095/10e3f644-9024-4fd2-baef-e47fd9f5d9bd:913:602)\n    at Worker.<anonymous> (blob:http://localhost:3095/10e3f644-9024-4fd2-baef-e47fd9f5d9bd:912:600)",
+    "Error: sqlite3_open_v2",
+    "Error: sqlite3_open_v2",
+    "Canonical WEBU corpus unavailable; continuing with legacy Scripture sources. Error: Error: sqlite3_open_v2\n    at e.workerMessageHandler (blob:http://localhost:3095/266bc0c1-95c1-4fa3-bef2-f668c38d0f01:913:602)\n    at Worker.<anonymous> (blob:http://localhost:3095/266bc0c1-95c1-4fa3-bef2-f668c38d0f01:912:600)",
+    "Error: sqlite3_open_v2"
+  ],
+  "records": [
+    {
+      "width": 360,
+      "height": 800,
+      "product": "discover",
+      "geometry": {
+        "overflow": false,
+        "top": 65,
+        "width": 360,
+        "height": 735,
+        "bottom": 800,
+        "buttons": [
+          {
+            "width": 166,
+            "height": 48
+          },
+          {
+            "width": 166,
+            "height": 48
+          }
+        ]
+      },
+      "inside": {
+        "overflow": false,
+        "viewportWidth": 360,
+        "viewportHeight": 675
+      },
+      "tabletOnly": false,
+      "productMounted": true,
+      "textSample": "Discover Scripture\nLook again.\nFollow a person. Enter an event. Trace an idea through Scripture.\nExplore Scripture…\n17 available\nCharacter\nWho moves through the story?\nFollow a person through changing relationships, places, decisions, pressure, failure, and memory.\n15 available\nEvent\nWhat happened?\nEnter a moment in Scripture and inspect the people, actions, places, objects, tensions, and consequences inside it.\n18 available\nConcept\nWhat keeps appearing?\nTrace an idea, image, tension, or pattern as it moves through different people and moments in Scripture.\nAVAILABLE NOW\nLive discoveries\nCHARACTER DISCOVERY\nNEW\nAbraham\nCall · land · household · promise · testing · memory\nCHARACTER DISCOVERY\nNEW\nAdam\nImage · ground · garden · family · death · Christ\nCONCEPT DISCOVERY\nNEW\nAngels\nSent · speaking · guiding · judging · worshiping · contending\nEVENT DISCOVERY\nNEW\nBaptism of Jesus\nJordan · John · Spirit · voice · witness\nEVENT DISCOVERY\nNEW\nBinding of Isaac\nPromise · son · test · Moriah · halt · provision · memory\nEVENT DISCOVERY\nNEW\nBridegroom of blood\nExodus 4:24–26 · decisive action · unresolved referents\nCONCEPT DISCOVERY\nNEW\nCleansing\nClean · unclean · washing · restoration · access\n"
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "product": "commander",
+      "geometry": {
+        "overflow": false,
+        "top": 65,
+        "width": 360,
+        "height": 735,
+        "bottom": 800,
+        "buttons": [
+          {
+            "width": 166,
+            "height": 48
+          },
+          {
+            "width": 166,
+            "height": 48
+          }
+        ]
+      },
+      "inside": {
+        "overflow": false,
+        "viewportWidth": 360,
+        "viewportHeight": 675
+      },
+      "tabletOnly": false,
+      "productMounted": true,
+      "textSample": "Commander\nRestoring Commander…"
+    },
+    {
+      "width": 430,
+      "height": 930,
+      "product": "discover",
+      "geometry": {
+        "overflow": false,
+        "top": 65,
+        "width": 430,
+        "height": 865,
+        "bottom": 930,
+        "buttons": [
+          {
+            "width": 201,
+            "height": 48
+          },
+          {
+            "width": 201,
+            "height": 48
+          }
+        ]
+      },
+      "inside": {
+        "overflow": false,
+        "viewportWidth": 430,
+        "viewportHeight": 805
+      },
+      "tabletOnly": false,
+      "productMounted": true,
+      "textSample": "Discover Scripture\nLook again.\nFollow a person. Enter an event. Trace an idea through Scripture.\nExplore Scripture…\n17 available\nCharacter\nWho moves through the story?\nFollow a person through changing relationships, places, decisions, pressure, failure, and memory.\n15 available\nEvent\nWhat happened?\nEnter a moment in Scripture and inspect the people, actions, places, objects, tensions, and consequences inside it.\n18 available\nConcept\nWhat keeps appearing?\nTrace an idea, image, tension, or pattern as it moves through different people and moments in Scripture.\nAVAILABLE NOW\nLive discoveries\nCHARACTER DISCOVERY\nNEW\nAbraham\nCall · land · household · promise · testing · memory\nCHARACTER DISCOVERY\nNEW\nAdam\nImage · ground · garden · family · death · Christ\nCONCEPT DISCOVERY\nNEW\nAngels\nSent · speaking · guiding · judging · worshiping · contending\nEVENT DISCOVERY\nNEW\nBaptism of Jesus\nJordan · John · Spirit · voice · witness\nEVENT DISCOVERY\nNEW\nBinding of Isaac\nPromise · son · test · Moriah · halt · provision · memory\nEVENT DISCOVERY\nNEW\nBridegroom of blood\nExodus 4:24–26 · decisive action · unresolved referents\nCONCEPT DISCOVERY\nNEW\nCleansing\nClean · unclean · washing · restoration · access\n"
+    },
+    {
+      "width": 430,
+      "height": 930,
+      "product": "commander",
+      "geometry": {
+        "overflow": false,
+        "top": 65,
+        "width": 430,
+        "height": 865,
+        "bottom": 930,
+        "buttons": [
+          {
+            "width": 201,
+            "height": 48
+          },
+          {
+            "width": 201,
+            "height": 48
+          }
+        ]
+      },
+      "inside": {
+        "overflow": false,
+        "viewportWidth": 430,
+        "viewportHeight": 805
+      },
+      "tabletOnly": false,
+      "productMounted": true,
+      "textSample": "Commander\nRestoring Commander…"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "product": "discover",
+      "geometry": {
+        "overflow": false,
+        "top": 91,
+        "width": 768,
+        "height": 933,
+        "bottom": 1024,
+        "buttons": [
+          {
+            "width": 189.734375,
+            "height": 48
+          },
+          {
+            "width": 151.71875,
+            "height": 48
+          }
+        ]
+      },
+      "inside": {
+        "overflow": false,
+        "viewportWidth": 768,
+        "viewportHeight": 865
+      },
+      "tabletOnly": false,
+      "productMounted": true,
+      "textSample": "Discover Scripture\nLook again.\nFollow a person. Enter an event. Trace an idea through Scripture.\nExplore Scripture…\n17 available\nCharacter\nWho moves through the story?\nFollow a person through changing relationships, places, decisions, pressure, failure, and memory.\n15 available\nEvent\nWhat happened?\nEnter a moment in Scripture and inspect the people, actions, places, objects, tensions, and consequences inside it.\n18 available\nConcept\nWhat keeps appearing?\nTrace an idea, image, tension, or pattern as it moves through different people and moments in Scripture.\nAVAILABLE NOW\nLive discoveries\nCHARACTER DISCOVERY\nNEW\nAbraham\nCall · land · household · promise · testing · memory\nCHARACTER DISCOVERY\nNEW\nAdam\nImage · ground · garden · family · death · Christ\nCONCEPT DISCOVERY\nNEW\nAngels\nSent · speaking · guiding · judging · worshiping · contending\nEVENT DISCOVERY\nNEW\nBaptism of Jesus\nJordan · John · Spirit · voice · witness\nEVENT DISCOVERY\nNEW\nBinding of Isaac\nPromise · son · test · Moriah · halt · provision · memory\nEVENT DISCOVERY\nNEW\nBridegroom of blood\nExodus 4:24–26 · decisive action · unresolved referents\nCONCEPT DISCOVERY\nNEW\nCleansing\nClean · unclean · washing · restoration · access\n"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "product": "commander",
+      "geometry": {
+        "overflow": false,
+        "top": 91,
+        "width": 768,
+        "height": 933,
+        "bottom": 1024,
+        "buttons": [
+          {
+            "width": 189.734375,
+            "height": 48
+          },
+          {
+            "width": 151.71875,
+            "height": 48
+          }
+        ]
+      },
+      "inside": {
+        "overflow": false,
+        "viewportWidth": 768,
+        "viewportHeight": 865
+      },
+      "tabletOnly": false,
+      "productMounted": true,
+      "textSample": "Commander\nRestoring Commander…"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "product": "discover",
+      "geometry": {
+        "overflow": false,
+        "top": 86,
+        "width": 1024,
+        "height": 682,
+        "bottom": 768,
+        "buttons": [
+          {
+            "width": 189.734375,
+            "height": 48
+          },
+          {
+            "width": 151.71875,
+            "height": 48
+          }
+        ]
+      },
+      "inside": {
+        "overflow": false,
+        "viewportWidth": 1024,
+        "viewportHeight": 614
+      },
+      "tabletOnly": false,
+      "productMounted": true,
+      "textSample": "Discover Scripture\nLook again.\nFollow a person. Enter an event. Trace an idea through Scripture.\nExplore Scripture…\n17 available\nCharacter\nWho moves through the story?\nFollow a person through changing relationships, places, decisions, pressure, failure, and memory.\n15 available\nEvent\nWhat happened?\nEnter a moment in Scripture and inspect the people, actions, places, objects, tensions, and consequences inside it.\n18 available\nConcept\nWhat keeps appearing?\nTrace an idea, image, tension, or pattern as it moves through different people and moments in Scripture.\nAVAILABLE NOW\nLive discoveries\nCHARACTER DISCOVERY\nNEW\nAbraham\nCall · land · household · promise · testing · memory\nCHARACTER DISCOVERY\nNEW\nAdam\nImage · ground · garden · family · death · Christ\nCONCEPT DISCOVERY\nNEW\nAngels\nSent · speaking · guiding · judging · worshiping · contending\nEVENT DISCOVERY\nNEW\nBaptism of Jesus\nJordan · John · Spirit · voice · witness\nEVENT DISCOVERY\nNEW\nBinding of Isaac\nPromise · son · test · Moriah · halt · provision · memory\nEVENT DISCOVERY\nNEW\nBridegroom of blood\nExodus 4:24–26 · decisive action · unresolved referents\nCONCEPT DISCOVERY\nNEW\nCleansing\nClean · unclean · washing · restoration · access\n"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "product": "commander",
+      "geometry": {
+        "overflow": false,
+        "top": 86,
+        "width": 1024,
+        "height": 682,
+        "bottom": 768,
+        "buttons": [
+          {
+            "width": 189.734375,
+            "height": 48
+          },
+          {
+            "width": 151.71875,
+            "height": 48
+          }
+        ]
+      },
+      "inside": {
+        "overflow": false,
+        "viewportWidth": 1024,
+        "viewportHeight": 614
+      },
+      "tabletOnly": false,
+      "productMounted": true,
+      "textSample": "Commander\nRestoring Commander…"
+    },
+    {
+      "width": 1024,
+      "height": 1366,
+      "product": "discover",
+      "geometry": {
+        "overflow": false,
+        "top": 86,
+        "width": 1024,
+        "height": 1280,
+        "bottom": 1366,
+        "buttons": [
+          {
+            "width": 189.734375,
+            "height": 48
+          },
+          {
+            "width": 151.71875,
+            "height": 48
+          }
+        ]
+      },
+      "inside": {
+        "overflow": false,
+        "viewportWidth": 1024,
+        "viewportHeight": 1212
+      },
+      "tabletOnly": false,
+      "productMounted": true,
+      "textSample": "Discover Scripture\nLook again.\nFollow a person. Enter an event. Trace an idea through Scripture.\nExplore Scripture…\n17 available\nCharacter\nWho moves through the story?\nFollow a person through changing relationships, places, decisions, pressure, failure, and memory.\n15 available\nEvent\nWhat happened?\nEnter a moment in Scripture and inspect the people, actions, places, objects, tensions, and consequences inside it.\n18 available\nConcept\nWhat keeps appearing?\nTrace an idea, image, tension, or pattern as it moves through different people and moments in Scripture.\nAVAILABLE NOW\nLive discoveries\nCHARACTER DISCOVERY\nNEW\nAbraham\nCall · land · household · promise · testing · memory\nCHARACTER DISCOVERY\nNEW\nAdam\nImage · ground · garden · family · death · Christ\nCONCEPT DISCOVERY\nNEW\nAngels\nSent · speaking · guiding · judging · worshiping · contending\nEVENT DISCOVERY\nNEW\nBaptism of Jesus\nJordan · John · Spirit · voice · witness\nEVENT DISCOVERY\nNEW\nBinding of Isaac\nPromise · son · test · Moriah · halt · provision · memory\nEVENT DISCOVERY\nNEW\nBridegroom of blood\nExodus 4:24–26 · decisive action · unresolved referents\nCONCEPT DISCOVERY\nNEW\nCleansing\nClean · unclean · washing · restoration · access\n"
+    },
+    {
+      "width": 1024,
+      "height": 1366,
+      "product": "commander",
+      "geometry": {
+        "overflow": false,
+        "top": 86,
+        "width": 1024,
+        "height": 1280,
+        "bottom": 1366,
+        "buttons": [
+          {
+            "width": 189.734375,
+            "height": 48
+          },
+          {
+            "width": 151.71875,
+            "height": 48
+          }
+        ]
+      },
+      "inside": {
+        "overflow": false,
+        "viewportWidth": 1024,
+        "viewportHeight": 1212
+      },
+      "tabletOnly": false,
+      "productMounted": true,
+      "textSample": "Commander\nRestoring Commander…"
+    },
+    {
+      "width": 1366,
+      "height": 1024,
+      "product": "discover",
+      "geometry": {
+        "overflow": false,
+        "top": 106,
+        "width": 1318,
+        "height": 898,
+        "bottom": 1004,
+        "buttons": [
+          {
+            "width": 189.734375,
+            "height": 48
+          },
+          {
+            "width": 151.71875,
+            "height": 48
+          }
+        ]
+      },
+      "inside": {
+        "overflow": false,
+        "viewportWidth": 1316,
+        "viewportHeight": 828
+      },
+      "tabletOnly": false,
+      "productMounted": true,
+      "textSample": "Discover Scripture\nLook again.\nFollow a person. Enter an event. Trace an idea through Scripture.\nExplore Scripture…\n17 available\nCharacter\nWho moves through the story?\nFollow a person through changing relationships, places, decisions, pressure, failure, and memory.\n15 available\nEvent\nWhat happened?\nEnter a moment in Scripture and inspect the people, actions, places, objects, tensions, and consequences inside it.\n18 available\nConcept\nWhat keeps appearing?\nTrace an idea, image, tension, or pattern as it moves through different people and moments in Scripture.\nAVAILABLE NOW\nLive discoveries\nCHARACTER DISCOVERY\nNEW\nAbraham\nCall · land · household · promise · testing · memory\nCHARACTER DISCOVERY\nNEW\nAdam\nImage · ground · garden · family · death · Christ\nCONCEPT DISCOVERY\nNEW\nAngels\nSent · speaking · guiding · judging · worshiping · contending\nEVENT DISCOVERY\nNEW\nBaptism of Jesus\nJordan · John · Spirit · voice · witness\nEVENT DISCOVERY\nNEW\nBinding of Isaac\nPromise · son · test · Moriah · halt · provision · memory\nEVENT DISCOVERY\nNEW\nBridegroom of blood\nExodus 4:24–26 · decisive action · unresolved referents\nCONCEPT DISCOVERY\nNEW\nCleansing\nClean · unclean · washing · restoration · access\n"
+    },
+    {
+      "width": 1366,
+      "height": 1024,
+      "product": "commander",
+      "geometry": {
+        "overflow": false,
+        "top": 106,
+        "width": 1318,
+        "height": 898,
+        "bottom": 1004,
+        "buttons": [
+          {
+            "width": 189.734375,
+            "height": 48
+          },
+          {
+            "width": 151.71875,
+            "height": 48
+          }
+        ]
+      },
+      "inside": {
+        "overflow": false,
+        "viewportWidth": 1316,
+        "viewportHeight": 828
+      },
+      "tabletOnly": false,
+      "productMounted": true,
+      "textSample": "Commander\nRestoring Commander…"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "product": "discover",
+      "geometry": {
+        "overflow": false,
+        "top": 106,
+        "width": 1392,
+        "height": 774,
+        "bottom": 880,
+        "buttons": [
+          {
+            "width": 189.734375,
+            "height": 48
+          },
+          {
+            "width": 151.71875,
+            "height": 48
+          }
+        ]
+      },
+      "inside": {
+        "overflow": false,
+        "viewportWidth": 1390,
+        "viewportHeight": 704
+      },
+      "tabletOnly": false,
+      "productMounted": true,
+      "textSample": "Discover Scripture\nLook again.\nFollow a person. Enter an event. Trace an idea through Scripture.\nExplore Scripture…\n17 available\nCharacter\nWho moves through the story?\nFollow a person through changing relationships, places, decisions, pressure, failure, and memory.\n15 available\nEvent\nWhat happened?\nEnter a moment in Scripture and inspect the people, actions, places, objects, tensions, and consequences inside it.\n18 available\nConcept\nWhat keeps appearing?\nTrace an idea, image, tension, or pattern as it moves through different people and moments in Scripture.\nAVAILABLE NOW\nLive discoveries\nCHARACTER DISCOVERY\nNEW\nAbraham\nCall · land · household · promise · testing · memory\nCHARACTER DISCOVERY\nNEW\nAdam\nImage · ground · garden · family · death · Christ\nCONCEPT DISCOVERY\nNEW\nAngels\nSent · speaking · guiding · judging · worshiping · contending\nEVENT DISCOVERY\nNEW\nBaptism of Jesus\nJordan · John · Spirit · voice · witness\nEVENT DISCOVERY\nNEW\nBinding of Isaac\nPromise · son · test · Moriah · halt · provision · memory\nEVENT DISCOVERY\nNEW\nBridegroom of blood\nExodus 4:24–26 · decisive action · unresolved referents\nCONCEPT DISCOVERY\nNEW\nCleansing\nClean · unclean · washing · restoration · access\n"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "product": "commander",
+      "geometry": {
+        "overflow": false,
+        "top": 106,
+        "width": 1392,
+        "height": 774,
+        "bottom": 880,
+        "buttons": [
+          {
+            "width": 189.734375,
+            "height": 48
+          },
+          {
+            "width": 151.71875,
+            "height": 48
+          }
+        ]
+      },
+      "inside": {
+        "overflow": false,
+        "viewportWidth": 1390,
+        "viewportHeight": 704
+      },
+      "tabletOnly": false,
+      "productMounted": true,
+      "textSample": "Commander\nRestoring Commander…"
+    }
+  ],
+  "browserBack": true,
+  "browserForward": true,
+  "refresh": true
+}

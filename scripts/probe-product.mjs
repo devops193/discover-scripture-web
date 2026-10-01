@@ -1,0 +1,14 @@
+import { chromium } from '@playwright/test';
+const browser = await chromium.launch({ channel: 'chrome', headless: true });
+const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+page.on('pageerror', e => console.log('PAGE_ERROR', e.message));
+page.on('requestfailed', r => console.log('FAILED_REQUEST', r.url(), r.failure()?.errorText));
+page.on('response', r => { if (r.status() >= 400) console.log('HTTP_ERROR', r.status(), r.url()); });
+page.on('console', m => { if (m.type() === 'error') console.log('CONSOLE_ERROR', m.text().slice(0, 700)); });
+page.on('console', async m => { if (m.type() === 'error') for (const arg of m.args()) console.log('DETAIL', await arg.evaluate(x => x instanceof Error ? { message: x.message, stack: x.stack, errors: x.errors?.map(e => ({ message: e.message, stack: e.stack })) } : null).catch(() => null)); });
+await page.goto('http://localhost:3095/' + (process.argv[2] === 'commander' ? '?product=commander' : ''), { waitUntil: 'domcontentloaded' });
+await page.waitForTimeout(20000);
+console.log('FRAMES', page.frames().map(f => f.url()));
+for (const frame of page.frames()) console.log('TEXT', (await frame.locator('body').innerText()).slice(0, 3500));
+await page.screenshot({ path: `docs/viewport-probe-${process.argv[2] || 'discover'}.png` });
+await browser.close();

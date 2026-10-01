@@ -11,6 +11,7 @@ import {
 } from './platform';
 import { releaseContent } from './releaseContent.generated';
 import { OwnershipPromise, SiteShell } from './site';
+import { ProductViewport } from './productViewport';
 
 const principles = [
   ['Follow', 'People across changing places, relationships, decisions, pressure, failure, and memory.'],
@@ -27,6 +28,8 @@ export default function Home() {
   return (
     <SiteShell>
       <main>
+        <ProductViewport />
+        <div id="website-content" />
         <MinistryHero />
         <MinistryFlowSection />
         <ChurchEditionSection />

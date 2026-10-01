@@ -190,7 +190,7 @@ export function SupportLivesSection() {
       <ul className="supportlives-list">
         {supportLivesAreas.map((area) => <li key={area}>{area}</li>)}
       </ul>
-      <p className="foundation-note"><strong>DiscoveryMinistryNetworkCE Foundation</strong> <MoreInfoButton ariaLabel="More info about DiscoveryMinistryNetworkCE Foundation" /></p>
+      <div className="foundation-note"><strong>DiscoveryMinistryNetworkCE Foundation</strong> <MoreInfoButton ariaLabel="More info about DiscoveryMinistryNetworkCE Foundation" /></div>
     </section>
   );
 }

@@ -24,6 +24,8 @@ a { color: inherit; }
 .site-header nav a, .site-footer nav a { text-decoration: none; font-size: 14px; font-weight: 650; }
 .brand { display: inline-flex; align-items: center; gap: 11px; text-decoration: none; font-weight: 750; letter-spacing: -.02em; }
 .brand-logo { width: 44px; height: 44px; display: block; border-radius: 999px; }
+.site-menu-toggle { display: none; min-width: 48px; min-height: 48px; padding: 8px; border: 1px solid var(--line); border-radius: 10px; color: var(--text); background: var(--surface); font: inherit; }
+.site-menu-toggle:focus-visible { outline: 3px solid var(--bronze); outline-offset: 2px; }
 .hero { width: min(1180px, calc(100% - 48px)); margin: 0 auto; min-height: 670px; padding: 112px 0; display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(320px, .8fr); align-items: center; gap: clamp(48px, 8vw, 110px); }
 .eyebrow { margin: 0; color: var(--bronze); font-size: 12px; line-height: 1.4; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; }
 h1, h2, h3 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-weight: 600; letter-spacing: -.035em; line-height: 1.08; }
@@ -246,8 +248,11 @@ button.button { border: 0; cursor: pointer; font: inherit; font-weight: 750; }
 
 @media (max-width: 760px) {
   .site-header, .site-footer { width: min(100% - 32px, 1180px); }
-  .site-header { min-height: 0; padding: 16px 0; flex-direction: column; align-items: flex-start; gap: 12px; }
-  .site-header nav { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+  .site-header { min-height: 64px; padding: 8px 0; flex-direction: row; align-items: center; gap: 8px; }
+  .site-menu-toggle { display: block; }
+  .site-header nav { display: none; width: 100%; flex-direction: column; gap: 4px; }
+  .site-header[data-menu-open=true] nav { display: flex; }
+  .site-header nav a { min-height: 48px; display: flex; align-items: center; padding: 8px; }
   .hero, .principles, .library, .positioning, .included, .ownership-card, .document-page { width: min(100% - 32px, 1040px); }
   .hero { min-height: 0; padding: 78px 0; grid-template-columns: 1fr; }
   .principles { padding: 80px 0; }
