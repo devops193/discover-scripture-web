@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "revision": "9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43",
+  "scope": "SELECTED_RECORD_TRANSPORT_NOT_NATIVE_TREE_CONSUMER_ACCEPTANCE",
+  "recordCount": 64188,
+  "selectedTopicRecordHydrations": 2,
+  "selectedTopicPacketRequests": 5,
+  "sceneIdentityMetadataRequiresNoBody": true,
+  "knownUnacquiredBodyThrows": true,
+  "repeatedScenePacketRequests": 0,
+  "exactOriginalRecordEquivalence": true,
+  "nativeSegmentHashesValidatedAtBuild": true,
+  "runtimeRecordHashesAndAuthorityChecked": true,
+  "publicActivation": false
+}

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "productionActive": false,
+  "runtimeBound": false,
+  "subjectCount": 50,
+  "cardCount": 55,
+  "bytes": 395869,
+  "sha256": "be70d82cc93825989e37789a8d77e454b6753cd32fc5b606c9b28e17c39f582a",
+  "output": ".product-build-r2-startup/be70d82cc93825989e37789a8d77e454b6753cd32fc5b606c9b28e17c39f582a.json",
+  "existingApprovedBaselineFunctionExecuted": true,
+  "capabilityAndReferenceEquivalence": "PASS",
+  "cardOrderEquivalence": "PASS",
+  "hydratedTopicBodiesIncluded": false,
+  "nativeSourceMutated": false
+}

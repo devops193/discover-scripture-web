@@ -1,0 +1,26 @@
+# Static product export: mirror next.config.ts for Netlify's static asset path.
+/product-app/*
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: credentialless
+/product-app/_expo/static/js/web/*
+  Content-Encoding: br
+  Content-Type: application/javascript; charset=utf-8
+  Cache-Control: public, max-age=31536000, immutable
+/product-app/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+/product-app/assets/__ScriptureDiscovery/assets/scripture/*
+  Content-Encoding: br
+/product-app/boot.js
+  Cache-Control: no-cache
+/product-app/index.html
+  Cache-Control: no-cache
+/product-app/progressive-manifest.json
+  Cache-Control: no-cache
+/sdw/*
+  Cache-Control: public, max-age=31536000, immutable
+/product-app/sdw/*.sqlite
+  Content-Encoding: br
+  Content-Type: application/vnd.sqlite3
+  Cache-Control: public, max-age=31536000, immutable
+/product-app/sdw/manifest.json
+  Cache-Control: no-cache

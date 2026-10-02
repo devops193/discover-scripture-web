@@ -8,15 +8,16 @@ const names: Record<Product, string> = { discover: 'Scripture Discovered', comma
 const products: Product[] = ['discover', 'commander'];
 const fromUrl = (): Product => new URLSearchParams(window.location.search).get('product') === 'commander' ? 'commander' : 'discover';
 
-/** Temporary document isolation for the actual Expo web export, not a mock product. */
+/** One persistent application document; product selection changes its route only. */
 export function ProductViewport() {
   const [active, setActive] = useState<Product>('discover');
-  const [mountedProduct, setMountedProduct] = useState<Product | null>(null);
+  const [booted, setBooted] = useState(false);
   const [ready, setReady] = useState<Partial<Record<Product, boolean>>>({});
   const [failed, setFailed] = useState<Partial<Record<Product, boolean>>>({});
   const [attempt, setAttempt] = useState(0);
+  const [installation, setInstallation] = useState('');
   const root = useRef<HTMLElement>(null);
-  const frames = useRef<Partial<Record<Product, HTMLIFrameElement | null>>>({});
+  const frame = useRef<HTMLIFrameElement>(null);
 
   useEffect(() => {
     const sync = () => {
@@ -31,10 +32,19 @@ export function ProductViewport() {
     if (header) observer.observe(header);
     measure();
     const onMessage = (event: MessageEvent) => {
+      if (event.origin === window.location.origin && event.source === frame.current?.contentWindow) {
+        if (event.data?.type === 'discovery:installation-progress' && typeof event.data.message === 'string') {
+          setInstallation(event.data.message); return;
+        }
+        if (event.data?.type === 'discovery:installation-failed') {
+          setFailed({ discover: true, commander: true }); return;
+        }
+      }
       if (event.origin !== window.location.origin || !['discovery:viewport-ready', 'discovery:viewport-unavailable'].includes(event.data?.type)) return;
-      const product = products.find(p => frames.current[p]?.contentWindow === event.source);
+      const product = event.source === frame.current?.contentWindow && products.includes(event.data.product) ? event.data.product as Product : null;
       if (product) {
         const available = event.data.type === 'discovery:viewport-ready';
+        setBooted(true);
         setReady(r => ({ ...r, [product]: available })); setFailed(f => ({ ...f, [product]: !available }));
       }
     };
@@ -43,20 +53,16 @@ export function ProductViewport() {
   }, []);
 
   useEffect(() => {
-    // SQLite OPFS permits one access handle per file. Suspend the old document
-    // before mounting another; persisted product data stays in browser storage.
-    setMountedProduct(null);
-    setReady({});
-    setFailed({});
-    const timer = window.setTimeout(() => setMountedProduct(active), 150);
-    return () => window.clearTimeout(timer);
-  }, [active, attempt]);
+    // Two-way readiness handshake: a warm iframe can report before the host
+    // hydrates. Send the desired surface on host mount as well as after boot.
+    frame.current?.contentWindow?.postMessage({ type: 'discovery:select-surface', product: active }, window.location.origin);
+  }, [active, booted]);
 
   useEffect(() => {
     if (ready[active]) return;
     const timer = window.setTimeout(() => setFailed(f => ({ ...f, [active]: true })), 30000);
     return () => window.clearTimeout(timer);
-  }, [active, ready, attempt]);
+  }, [active, ready, attempt, installation]);
 
   const select = (product: Product) => {
     if (product === active) return;
@@ -70,7 +76,7 @@ export function ProductViewport() {
     <div className={styles.toolbar}>
       <div className={styles.switcher} role="tablist" aria-label="Choose a product">
         {products.map((product, index) => <button key={product} id={`product-tab-${product}`} role="tab"
-          aria-selected={active === product} aria-controls={`product-panel-${product}`} tabIndex={active === product ? 0 : -1}
+          aria-selected={active === product} aria-controls="product-panel" tabIndex={active === product ? 0 : -1}
           onClick={() => select(product)} onKeyDown={event => {
             const next = event.key === 'Home' ? products[0] : event.key === 'End' ? products[1] : ['ArrowLeft', 'ArrowRight'].includes(event.key) ? products[1 - index] : null;
             if (next) { event.preventDefault(); select(next); document.getElementById(`product-tab-${next}`)?.focus(); }
@@ -78,15 +84,15 @@ export function ProductViewport() {
       </div>
       <a className={styles.siteLink} href="#website-content">About the platform</a>
     </div>
-    {products.map(product => <div key={product} id={`product-panel-${product}`} role="tabpanel"
-      aria-labelledby={`product-tab-${product}`} hidden={active !== product} className={styles.panel}>
-      {mountedProduct === product && <iframe key={`${product}-${attempt}`} ref={frame => { frames.current[product] = frame; }}
-        className={styles.frame} title={`${names[product]} application`} src={`/product-app/index.html?product=${product}`}
-        allow="fullscreen; clipboard-write" />}
-      {!ready[product] && <div className={styles.status} role="status">
-        <p>{failed[product] ? product === 'commander' ? 'Commander CE is not available in this web build.' : `${names[product]} could not finish opening.` : `Opening ${names[product]}…`}</p>
-        {failed[product] && <button onClick={() => { setReady({}); setFailed({}); setAttempt(a => a + 1); }}>Try again</button>}
+    <div id="product-panel" role="tabpanel"
+      aria-labelledby={`product-tab-${active}`} className={styles.panel}>
+      <iframe key={attempt} ref={frame}
+        className={styles.frame} title="Scripture Discovered shared application" src="/product-app/"
+        allow="fullscreen; clipboard-write" />
+      {!ready[active] && <div className={styles.status} role="status">
+        <p>{failed[active] ? `${names[active]} could not finish opening.` : installation || `Opening ${names[active]}…`}</p>
+        {failed[active] && <button onClick={() => { setBooted(false); setReady({}); setFailed({}); setAttempt(a => a + 1); }}>Try again</button>}
       </div>}
-    </div>)}
+    </div>
   </section>;
 }

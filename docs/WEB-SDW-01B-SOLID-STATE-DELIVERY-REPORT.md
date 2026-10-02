@@ -1,0 +1,19 @@
+# WEB-SDW-01B-R1 — Solid-state delivery
+
+Status: PAUSED_BY_USER pending R2; implementation preserved, final traversal/update/live-release checks incomplete.
+
+R1 supersedes the prior chapter-file prototype. That prototype is not active. The website now packages the existing canonical SQLite database and 260 exact governed payloads into one content-addressed SQLite artifact. No new semantic compilation or native source edits occur. The 260 payloads contain 132,854,638 bytes of preserved source/generated values; the complete indexed package is 146,575,360 bytes. Its source identity, schema, engine compatibility, size and SHA-256 are retained in a small mutable manifest.
+
+The executable app entry fell from 125,001,033 decoded bytes to approximately 5.9 MB. Exact final encoded/decoded sizes are in `public/product-app/build-manifest.json`. Earlier shared-chunk attribution found 98.1% data; `docs/01b-evidence/shared-chunk-composition-before.json` retains the source-level accounting. Large JSON and generated canonical/search modules now resolve through local SQLite, not HTTP queries. Module evaluation remains lazy where the existing application was lazy. No chapter network fragments are deployed.
+
+Installation uses the existing single-flight Expo SQLite worker and persistent OPFS-backed VFS. A small SQLite registry stores verified active/previous descriptors; the world is read-only. The canonical reader uses the same open package handle as governed payload reads. Commander switches routes within the same app/root and does not initialize another Scripture owner.
+
+The package is downloaded to non-active memory, length/hash checked, imported into a revision-specific non-active VFS file, structurally/authority checked, and then activated by one atomic registry statement. Import handles are closed on failure; failed candidate files are removed. Previous data is not deleted before activation. Package filenames retain the full hash; the website adapter expands the dependency's 64-character pathname limit within its existing 512-byte header allowance. No native dependency files are changed.
+
+The first-install binary buffer is temporary, not a parsed whole-world JavaScript object graph. Startup reads 35 existing runtime payloads totaling 45,911,914 bytes rather than parsing all 132.9 MB. This still exposes an existing eager-startup cost: warm local hydration is slower than the formerly embedded-data baseline. It must be reported, not hidden behind the network improvement. Bounded indexed text records replaced an initial slow repeated-text-slice/BLOB prototype. The local index is not a second network transport format.
+
+Network evidence includes page and worker requests, explicit `cacheDisabled=false`, status, response headers and encoded transfer bytes. The `solid-state-text-index.json` run recorded 18,631,585 cold bytes, 13,606 warm bytes, and zero Commander-switch bytes. Warm package request count was zero; a deliberate unchanged JS/WASM/font cache probe also transferred zero bytes. Later final-build accounting is in `solid-state-final.json`; final isolated measurements are pending. Timing and heap measurements taken while other checks ran are observations, not device-performance certification. Main-realm heap is not total browser/WASM memory.
+
+Interrupted, truncated and hash-invalid downloads failed closed in browser tests. A corrupt update preserved the installed revision. Successful new-revision activation, complete offline traversal, final responsive verification and live Netlify checks remain pending. No production release or complete PASS is claimed here.
+
+Browser persistence permission was declined in measured Chrome contexts; installation and reuse still worked. Site-data clearing, eviction, another browser/device or a new revision can require installation again. This is not a claim of permanent storage or full PWA certification.

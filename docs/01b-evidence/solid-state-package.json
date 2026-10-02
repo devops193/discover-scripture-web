@@ -1,0 +1,1577 @@
+{
+  "schema": "SDW_SQLITE_V1",
+  "engineCompatibility": "SDW_WEB_ENGINE_V1",
+  "canonicalSha256": "f9dfbce6dd2edfe4bb3b4690acd6622f392035be2b0349df98f3607f0a05f6c2",
+  "authoritySha256": "678bb4230d47481911701bf49691b7ab9e01a4bfaa363284b0abcefd080890d6",
+  "payloadCount": 260,
+  "revision": "ae10b5a20cd564d5b6e00ecad2ba8cc6dd4ec20acf74e498bd3c3e01e7e4b2fd",
+  "format": "sqlite",
+  "contentUrl": "/product-app/sdw/ae10b5a20cd564d5b6e00ecad2ba8cc6dd4ec20acf74e498bd3c3e01e7e4b2fd.sqlite",
+  "bytes": 146575360,
+  "sha256": "ae10b5a20cd564d5b6e00ecad2ba8cc6dd4ec20acf74e498bd3c3e01e7e4b2fd",
+  "createdAt": "2026-10-01T00:00:00.000Z",
+  "rows": [
+    {
+      "key": "assets/c3/scene-anchors/abraham.json",
+      "bytes": 19574,
+      "sha256": "6c51cf6557b6feaa5564de009ee51da47abef3e834eec6547360ade9c53cef70",
+      "sourceSha256": "6c51cf6557b6feaa5564de009ee51da47abef3e834eec6547360ade9c53cef70"
+    },
+    {
+      "key": "assets/c3/scene-anchors/adam.json",
+      "bytes": 9815,
+      "sha256": "e1e55cd88fc43230b070317ec602fb08f3e5060ffd773ba0ec3a2eec7e6645a2",
+      "sourceSha256": "e1e55cd88fc43230b070317ec602fb08f3e5060ffd773ba0ec3a2eec7e6645a2"
+    },
+    {
+      "key": "assets/c3/scene-anchors/angels.json",
+      "bytes": 56520,
+      "sha256": "baebb681c3f6c749edf532a7efc9872c4de1127bd171bf9f5619a02a264d75ca",
+      "sourceSha256": "baebb681c3f6c749edf532a7efc9872c4de1127bd171bf9f5619a02a264d75ca"
+    },
+    {
+      "key": "assets/c3/scene-anchors/baptism-of-jesus.json",
+      "bytes": 14415,
+      "sha256": "82e3744b55f7aca309cfc279a91d1f39e26f91f2e74ecf7965fb941ee4802b0b",
+      "sourceSha256": "82e3744b55f7aca309cfc279a91d1f39e26f91f2e74ecf7965fb941ee4802b0b"
+    },
+    {
+      "key": "assets/c3/scene-anchors/binding-of-isaac.json",
+      "bytes": 8999,
+      "sha256": "146b2e3651f78d6337ab90eee38dc1e11fdc756136973c7c6f2825f37a0ab6e0",
+      "sourceSha256": "146b2e3651f78d6337ab90eee38dc1e11fdc756136973c7c6f2825f37a0ab6e0"
+    },
+    {
+      "key": "assets/c3/scene-anchors/bridegroom-of-blood.json",
+      "bytes": 2333,
+      "sha256": "2bc951ad43f675ed4310431d356d7eacbc8ff7f343d797fa04d5be63cbc11459",
+      "sourceSha256": "2bc951ad43f675ed4310431d356d7eacbc8ff7f343d797fa04d5be63cbc11459"
+    },
+    {
+      "key": "assets/c3/scene-anchors/cleansing.json",
+      "bytes": 23049,
+      "sha256": "e0e78d985e7a499a56bdf7353a7229c8121a1132d544b8418ee63e5d41cd25d6",
+      "sourceSha256": "e0e78d985e7a499a56bdf7353a7229c8121a1132d544b8418ee63e5d41cd25d6"
+    },
+    {
+      "key": "assets/c3/scene-anchors/consequence.json",
+      "bytes": 29859,
+      "sha256": "d0a5148ab0b6ef1340d0e5cb1b9cd46103bce357237080a09ec0596b9ca8c537",
+      "sourceSha256": "d0a5148ab0b6ef1340d0e5cb1b9cd46103bce357237080a09ec0596b9ca8c537"
+    },
+    {
+      "key": "assets/c3/scene-anchors/covenant.json",
+      "bytes": 18331,
+      "sha256": "3bd448e39553d6eaf9c2b00ca735df5b135ff0cf9c50fcb0496d4febb2dfbe81",
+      "sourceSha256": "3bd448e39553d6eaf9c2b00ca735df5b135ff0cf9c50fcb0496d4febb2dfbe81"
+    },
+    {
+      "key": "assets/c3/scene-anchors/creation.json",
+      "bytes": 11248,
+      "sha256": "f79556e26803ab9e56e1fca5d613a5b873def3ffe262f61f44ae1f55be6dab91",
+      "sourceSha256": "f79556e26803ab9e56e1fca5d613a5b873def3ffe262f61f44ae1f55be6dab91"
+    },
+    {
+      "key": "assets/c3/scene-anchors/crucifixion.json",
+      "bytes": 22398,
+      "sha256": "4c4577613ab1ee339fd47ee645e5600948529f6a1b04c21dccefed201809adbb",
+      "sourceSha256": "4c4577613ab1ee339fd47ee645e5600948529f6a1b04c21dccefed201809adbb"
+    },
+    {
+      "key": "assets/c3/scene-anchors/david.json",
+      "bytes": 42350,
+      "sha256": "c6746b83e408fb90e147e6d42af2af5351fe7d90a42f6a8a79d2a80a8339a4fc",
+      "sourceSha256": "c6746b83e408fb90e147e6d42af2af5351fe7d90a42f6a8a79d2a80a8339a4fc"
+    },
+    {
+      "key": "assets/c3/scene-anchors/demons.json",
+      "bytes": 14522,
+      "sha256": "3117e9aca1d59a5976c7354d3daf53537b557a11879e37e3e750fb632a60970e",
+      "sourceSha256": "3117e9aca1d59a5976c7354d3daf53537b557a11879e37e3e750fb632a60970e"
+    },
+    {
+      "key": "assets/c3/scene-anchors/eden-exile.json",
+      "bytes": 39735,
+      "sha256": "7bf61f01eeea059a71b28e860635156c11e3875a30d32909e161632501eacae9",
+      "sourceSha256": "7bf61f01eeea059a71b28e860635156c11e3875a30d32909e161632501eacae9"
+    },
+    {
+      "key": "assets/c3/scene-anchors/elijah.json",
+      "bytes": 13641,
+      "sha256": "a7027b9e81000fd7f86d890b6a647bbb61253586e96b2c03d65ac772f5007895",
+      "sourceSha256": "a7027b9e81000fd7f86d890b6a647bbb61253586e96b2c03d65ac772f5007895"
+    },
+    {
+      "key": "assets/c3/scene-anchors/exodus.json",
+      "bytes": 19529,
+      "sha256": "92078dd0cd41177f3a30ccd3090078c2a1bb1a7bdd2d0467adacb020b35a2ccb",
+      "sourceSha256": "92078dd0cd41177f3a30ccd3090078c2a1bb1a7bdd2d0467adacb020b35a2ccb"
+    },
+    {
+      "key": "assets/c3/scene-anchors/faith.json",
+      "bytes": 42643,
+      "sha256": "1559fc58b7623cf266b17813aeffe8f35d9622471027d00d614ca9e1e5aaf4f4",
+      "sourceSha256": "1559fc58b7623cf266b17813aeffe8f35d9622471027d00d614ca9e1e5aaf4f4"
+    },
+    {
+      "key": "assets/c3/scene-anchors/forgiveness.json",
+      "bytes": 27556,
+      "sha256": "654e5f19f42aa0d3649bdadd555f20f43583208a494d554e44c42d4122278879",
+      "sourceSha256": "654e5f19f42aa0d3649bdadd555f20f43583208a494d554e44c42d4122278879"
+    },
+    {
+      "key": "assets/c3/scene-anchors/god.json",
+      "bytes": 26960,
+      "sha256": "14bdde6b77ba9bbb3c8f1f71b88024d4f24f6eaa6d661231a2276c09ee63830c",
+      "sourceSha256": "14bdde6b77ba9bbb3c8f1f71b88024d4f24f6eaa6d661231a2276c09ee63830c"
+    },
+    {
+      "key": "assets/c3/scene-anchors/heavenly-assembly.json",
+      "bytes": 22703,
+      "sha256": "fee3f59074cb9ce4b30f35bc2a87c32ae442804cb41d5e6f5b861fa6b3f8836d",
+      "sourceSha256": "fee3f59074cb9ce4b30f35bc2a87c32ae442804cb41d5e6f5b861fa6b3f8836d"
+    },
+    {
+      "key": "assets/c3/scene-anchors/israel-collective.json",
+      "bytes": 37662,
+      "sha256": "865e120c11cdaed1b065f9c504c99970f6cd9a530455f3ef211672ae1f4ab432",
+      "sourceSha256": "865e120c11cdaed1b065f9c504c99970f6cd9a530455f3ef211672ae1f4ab432"
+    },
+    {
+      "key": "assets/c3/scene-anchors/jesus.json",
+      "bytes": 138191,
+      "sha256": "55b336bbdc20270045cc5c77ec00b373df88ab7b27e4c1db713fc26bacf95410",
+      "sourceSha256": "55b336bbdc20270045cc5c77ec00b373df88ab7b27e4c1db713fc26bacf95410"
+    },
+    {
+      "key": "assets/c3/scene-anchors/john-the-baptist.json",
+      "bytes": 16782,
+      "sha256": "ffd04a5dc3218e1c21b40e8c2674652c55061050c33f4a75848700a33aa06c16",
+      "sourceSha256": "ffd04a5dc3218e1c21b40e8c2674652c55061050c33f4a75848700a33aa06c16"
+    },
+    {
+      "key": "assets/c3/scene-anchors/joseph.json",
+      "bytes": 20987,
+      "sha256": "d9de030f77776d325a285bc8de12116be4c1cfbed46677ebad835d1daabd1ee3",
+      "sourceSha256": "d9de030f77776d325a285bc8de12116be4c1cfbed46677ebad835d1daabd1ee3"
+    },
+    {
+      "key": "assets/c3/scene-anchors/kingdom.json",
+      "bytes": 35707,
+      "sha256": "4c9e6fb8150e17ca4f4a090046437ad6f82792a9545e16ea594835d087a2a0a2",
+      "sourceSha256": "4c9e6fb8150e17ca4f4a090046437ad6f82792a9545e16ea594835d087a2a0a2"
+    },
+    {
+      "key": "assets/c3/scene-anchors/last-supper.json",
+      "bytes": 19493,
+      "sha256": "64f7c84725e80a30eb2ea80254b6c1572a9aeb67e3a53154a0dc1e89db03a4cd",
+      "sourceSha256": "64f7c84725e80a30eb2ea80254b6c1572a9aeb67e3a53154a0dc1e89db03a4cd"
+    },
+    {
+      "key": "assets/c3/scene-anchors/melchizedek.json",
+      "bytes": 6115,
+      "sha256": "b50ba12b1bfc5f08b6a119adb2131c98e169af8fb683bf86df9a72af1d382184",
+      "sourceSha256": "b50ba12b1bfc5f08b6a119adb2131c98e169af8fb683bf86df9a72af1d382184"
+    },
+    {
+      "key": "assets/c3/scene-anchors/moses.json",
+      "bytes": 23083,
+      "sha256": "b9c98f09061e68e516da7e0cebd61cdcea2ff119f68181a09916d4df0838bb4b",
+      "sourceSha256": "b9c98f09061e68e516da7e0cebd61cdcea2ff119f68181a09916d4df0838bb4b"
+    },
+    {
+      "key": "assets/c3/scene-anchors/noah.json",
+      "bytes": 7620,
+      "sha256": "25edc406864aa7379efc97d44b83b7111d1befa0e3881c8b60d5c2a053634b07",
+      "sourceSha256": "25edc406864aa7379efc97d44b83b7111d1befa0e3881c8b60d5c2a053634b07"
+    },
+    {
+      "key": "assets/c3/scene-anchors/passover.json",
+      "bytes": 19026,
+      "sha256": "6c743e554682df10f4adbf8479f2eb2072485bffb07100eab3cc194c88a5e9b0",
+      "sourceSha256": "6c743e554682df10f4adbf8479f2eb2072485bffb07100eab3cc194c88a5e9b0"
+    },
+    {
+      "key": "assets/c3/scene-anchors/paul.json",
+      "bytes": 93493,
+      "sha256": "26d8155b4c202aad22a5b20fc475a7568d21edb2ab891c45f63a9d4521238c75",
+      "sourceSha256": "26d8155b4c202aad22a5b20fc475a7568d21edb2ab891c45f63a9d4521238c75"
+    },
+    {
+      "key": "assets/c3/scene-anchors/pentecost.json",
+      "bytes": 18883,
+      "sha256": "9dfd2d28482c3b6f5b3d3aa3b0ff6ddf6380d0a9cf6ee534c4a8abc75b203548",
+      "sourceSha256": "9dfd2d28482c3b6f5b3d3aa3b0ff6ddf6380d0a9cf6ee534c4a8abc75b203548"
+    },
+    {
+      "key": "assets/c3/scene-anchors/peter.json",
+      "bytes": 19343,
+      "sha256": "c7017f705612dca0d643f3006292ade3335cc315e0485969bd57f5b97c185a46",
+      "sourceSha256": "c7017f705612dca0d643f3006292ade3335cc315e0485969bd57f5b97c185a46"
+    },
+    {
+      "key": "assets/c3/scene-anchors/prayer.json",
+      "bytes": 25908,
+      "sha256": "17fdf37a8df58d508ba8b5616d2947515b7f5ed60c8cf5f8b7d6b85f680e6130",
+      "sourceSha256": "17fdf37a8df58d508ba8b5616d2947515b7f5ed60c8cf5f8b7d6b85f680e6130"
+    },
+    {
+      "key": "assets/c3/scene-anchors/resurrection.json",
+      "bytes": 28442,
+      "sha256": "63c81ffd6c817a006cf2ccde9643814f8ef901659acc7e76188cd99cd4c83558",
+      "sourceSha256": "63c81ffd6c817a006cf2ccde9643814f8ef901659acc7e76188cd99cd4c83558"
+    },
+    {
+      "key": "assets/c3/scene-anchors/sacrifice.json",
+      "bytes": 42806,
+      "sha256": "b0efb78e42ea9be2407a22f54ef61790391ba5b665bc4a6ddbdf79f257518eb4",
+      "sourceSha256": "b0efb78e42ea9be2407a22f54ef61790391ba5b665bc4a6ddbdf79f257518eb4"
+    },
+    {
+      "key": "assets/c3/scene-anchors/satan.json",
+      "bytes": 23053,
+      "sha256": "68d447f59cc3216179b24d23becdf4d6a21705a01e98dbcd34f159be8ce37e90",
+      "sourceSha256": "68d447f59cc3216179b24d23becdf4d6a21705a01e98dbcd34f159be8ce37e90"
+    },
+    {
+      "key": "assets/c3/scene-anchors/saul-king.json",
+      "bytes": 16755,
+      "sha256": "014d06b0768d58c99c3abd4c0dda47ca42ee86befe2542f52763a779c83e287a",
+      "sourceSha256": "014d06b0768d58c99c3abd4c0dda47ca42ee86befe2542f52763a779c83e287a"
+    },
+    {
+      "key": "assets/c3/scene-anchors/sermon-on-the-mount.json",
+      "bytes": 15693,
+      "sha256": "26805bc126f9aba5781267ecf3f9448b4c7a95386e67f974830f4f2e5c9c783e",
+      "sourceSha256": "26805bc126f9aba5781267ecf3f9448b4c7a95386e67f974830f4f2e5c9c783e"
+    },
+    {
+      "key": "assets/c3/scene-anchors/sin.json",
+      "bytes": 25658,
+      "sha256": "6f90e165bc4de6f53566208a441def7dce351172fbc89c2dcae36bb3c53b7786",
+      "sourceSha256": "6f90e165bc4de6f53566208a441def7dce351172fbc89c2dcae36bb3c53b7786"
+    },
+    {
+      "key": "assets/c3/scene-anchors/sinai.json",
+      "bytes": 25531,
+      "sha256": "ccae399d80d5319321d886cf8f5aad24080da997f1aa3a891683778460c4a338",
+      "sourceSha256": "ccae399d80d5319321d886cf8f5aad24080da997f1aa3a891683778460c4a338"
+    },
+    {
+      "key": "assets/c3/scene-anchors/solomon.json",
+      "bytes": 24995,
+      "sha256": "753470c7f7acaf7b2c26f1aef77fe02fa5531d2d6f5b33c89b48319726d6f97f",
+      "sourceSha256": "753470c7f7acaf7b2c26f1aef77fe02fa5531d2d6f5b33c89b48319726d6f97f"
+    },
+    {
+      "key": "assets/c3/scene-anchors/spirit.json",
+      "bytes": 104247,
+      "sha256": "dcda4dd1ff4db651a2bec0ffd03a9fa4e3915e48f0ba686223696a48723da485",
+      "sourceSha256": "dcda4dd1ff4db651a2bec0ffd03a9fa4e3915e48f0ba686223696a48723da485"
+    },
+    {
+      "key": "assets/c3/scene-anchors/temple.json",
+      "bytes": 52917,
+      "sha256": "157707e2c58c3fe06793bc73525390b243dc6aec7429450467835939c79b0bd4",
+      "sourceSha256": "157707e2c58c3fe06793bc73525390b243dc6aec7429450467835939c79b0bd4"
+    },
+    {
+      "key": "assets/c3/scene-anchors/temptation-of-jesus.json",
+      "bytes": 10466,
+      "sha256": "c8b05639d46abe142bef063b733bba670cf02dc427d0e993df10605f0fbd6301",
+      "sourceSha256": "c8b05639d46abe142bef063b733bba670cf02dc427d0e993df10605f0fbd6301"
+    },
+    {
+      "key": "assets/c3/scene-anchors/transfiguration.json",
+      "bytes": 6684,
+      "sha256": "10a1a8ef3edd64bf16a59099d30f291fc4c83f959bc005aef0b4a00b90a02693",
+      "sourceSha256": "10a1a8ef3edd64bf16a59099d30f291fc4c83f959bc005aef0b4a00b90a02693"
+    },
+    {
+      "key": "assets/c3/scene-anchors/tree-of-life.json",
+      "bytes": 12050,
+      "sha256": "097ef44cb26e47cd1c1d57ceb1b29dc4e89e686d64434a2e8c5da5b6f0a1ce0f",
+      "sourceSha256": "097ef44cb26e47cd1c1d57ceb1b29dc4e89e686d64434a2e8c5da5b6f0a1ce0f"
+    },
+    {
+      "key": "assets/c3/scene-anchors/twelve-spies.json",
+      "bytes": 11184,
+      "sha256": "af2127d0fc03b56405b8bb39f189fdbaad141c29d4abb5f81d0f7731583b71c0",
+      "sourceSha256": "af2127d0fc03b56405b8bb39f189fdbaad141c29d4abb5f81d0f7731583b71c0"
+    },
+    {
+      "key": "assets/c3/scene-anchors/water.json",
+      "bytes": 2993,
+      "sha256": "b85a33c84ab4e54d0e88557fb1eb08ec9a29e8e841f714d102117759986873a2",
+      "sourceSha256": "b85a33c84ab4e54d0e88557fb1eb08ec9a29e8e841f714d102117759986873a2"
+    },
+    {
+      "key": "assets/c3/scene-anchors/wilderness.json",
+      "bytes": 13821,
+      "sha256": "e9426ca18973ff85cf55b0ec7fd0042f0361a1e64ca46421a784c81f6f67b708",
+      "sourceSha256": "e9426ca18973ff85cf55b0ec7fd0042f0361a1e64ca46421a784c81f6f67b708"
+    },
+    {
+      "key": "assets/dgr/abraham/events.json",
+      "bytes": 452262,
+      "sha256": "c0f0f89a38f7caa5a63bd43b01e7600fcaf0aa674bcdf82c063182dc32f6165b",
+      "sourceSha256": "c0f0f89a38f7caa5a63bd43b01e7600fcaf0aa674bcdf82c063182dc32f6165b"
+    },
+    {
+      "key": "assets/dgr/abraham/graph.json",
+      "bytes": 296730,
+      "sha256": "1d2506ef133bfda3ee6fb0d11cfff696dde9f97205e34173a9e3469769f06a03",
+      "sourceSha256": "1d2506ef133bfda3ee6fb0d11cfff696dde9f97205e34173a9e3469769f06a03"
+    },
+    {
+      "key": "assets/dgr/abraham/intents.json",
+      "bytes": 201166,
+      "sha256": "8d1514b56a7b798300a60ae8351fc82c9381ea86f9f22d24ca318aecabc55451",
+      "sourceSha256": "8d1514b56a7b798300a60ae8351fc82c9381ea86f9f22d24ca318aecabc55451"
+    },
+    {
+      "key": "assets/dgr/abraham/manifest.json",
+      "bytes": 1148,
+      "sha256": "2248b1aca27fdc0eb025a02bbe28c014e20eb418c996d72a230b56f0b7675e35",
+      "sourceSha256": "2248b1aca27fdc0eb025a02bbe28c014e20eb418c996d72a230b56f0b7675e35"
+    },
+    {
+      "key": "assets/dgr/abraham/nql.json",
+      "bytes": 145914,
+      "sha256": "223001b7f59c6d76542b139cca2b99b4febc4acf8bdf7a04b262985c7b718db9",
+      "sourceSha256": "223001b7f59c6d76542b139cca2b99b4febc4acf8bdf7a04b262985c7b718db9"
+    },
+    {
+      "key": "assets/dgr/abraham/questions.json",
+      "bytes": 897397,
+      "sha256": "d3c0a72deacd7973ee740b423d4636cc142de5e292475bd8748900be30af468b",
+      "sourceSha256": "d3c0a72deacd7973ee740b423d4636cc142de5e292475bd8748900be30af468b"
+    },
+    {
+      "key": "assets/dgr/abraham/traces.json",
+      "bytes": 226075,
+      "sha256": "4095d3e6ebff87944ce274ef8df26ba18d57a2a673d687937f11bb217c375f57",
+      "sourceSha256": "4095d3e6ebff87944ce274ef8df26ba18d57a2a673d687937f11bb217c375f57"
+    },
+    {
+      "key": "assets/dgr/angels/events.json",
+      "bytes": 1887800,
+      "sha256": "59bb0302c5942f516ad9f6848a4c8422f6b09029e12e8afe9a54d1dc51377b61",
+      "sourceSha256": "59bb0302c5942f516ad9f6848a4c8422f6b09029e12e8afe9a54d1dc51377b61"
+    },
+    {
+      "key": "assets/dgr/angels/graph.json",
+      "bytes": 1414319,
+      "sha256": "d50439c3e2467e78e21737ab35c80728fca57524f0c8842f1041b93af5d95d94",
+      "sourceSha256": "d50439c3e2467e78e21737ab35c80728fca57524f0c8842f1041b93af5d95d94"
+    },
+    {
+      "key": "assets/dgr/angels/intents.json",
+      "bytes": 693969,
+      "sha256": "5775aa4f914efd33f2415063692d2be8ce9efe151c0eada3c50c64bd8f10e351",
+      "sourceSha256": "5775aa4f914efd33f2415063692d2be8ce9efe151c0eada3c50c64bd8f10e351"
+    },
+    {
+      "key": "assets/dgr/angels/manifest.json",
+      "bytes": 1147,
+      "sha256": "a1a56cdd8dba5020e42def1c7dba4d24fd03a3fa2132d0f5731408522612b10a",
+      "sourceSha256": "a1a56cdd8dba5020e42def1c7dba4d24fd03a3fa2132d0f5731408522612b10a"
+    },
+    {
+      "key": "assets/dgr/angels/nql.json",
+      "bytes": 443016,
+      "sha256": "4fc4f5e25ee98c8ceb42542d8eee03877ca8579d294d1fe573e00fe2f464a8da",
+      "sourceSha256": "4fc4f5e25ee98c8ceb42542d8eee03877ca8579d294d1fe573e00fe2f464a8da"
+    },
+    {
+      "key": "assets/dgr/angels/questions.json",
+      "bytes": 2965704,
+      "sha256": "0bde7ad9c99277426ccdce60ffe7fffe227935d7babcf04fc7239262664e868d",
+      "sourceSha256": "0bde7ad9c99277426ccdce60ffe7fffe227935d7babcf04fc7239262664e868d"
+    },
+    {
+      "key": "assets/dgr/angels/traces.json",
+      "bytes": 702032,
+      "sha256": "c85b7ed1d0c4d10a9640f65bffeb301a706463fa624bff3da74c054ce178d995",
+      "sourceSha256": "c85b7ed1d0c4d10a9640f65bffeb301a706463fa624bff3da74c054ce178d995"
+    },
+    {
+      "key": "assets/dgr/coverage-02/canonical-reference-overlay.json",
+      "bytes": 186,
+      "sha256": "6805a64ce42f2166b2c73269596623f5610f33f014cfaee246c0f99c70d4ef08",
+      "sourceSha256": "6805a64ce42f2166b2c73269596623f5610f33f014cfaee246c0f99c70d4ef08"
+    },
+    {
+      "key": "assets/dgr/coverage-02/canonical-relation-overlay.json",
+      "bytes": 117504,
+      "sha256": "e2ab54ab405acd62aaa30df75020c07b8a242044d70976b3d89cb4a45d56536f",
+      "sourceSha256": "e2ab54ab405acd62aaa30df75020c07b8a242044d70976b3d89cb4a45d56536f"
+    },
+    {
+      "key": "assets/dgr/coverage-02/manifest.json",
+      "bytes": 1553,
+      "sha256": "39a6e7579e799bf0523b7f4eab8bb6da8f4e0f4b66719abe672121784387eb14",
+      "sourceSha256": "39a6e7579e799bf0523b7f4eab8bb6da8f4e0f4b66719abe672121784387eb14"
+    },
+    {
+      "key": "assets/dgr/coverage-02/question-capabilities.json",
+      "bytes": 245738,
+      "sha256": "2df755bffeda7477b084c92716df8421a72e179f05bff3da2b731c7ec57183a6",
+      "sourceSha256": "2df755bffeda7477b084c92716df8421a72e179f05bff3da2b731c7ec57183a6"
+    },
+    {
+      "key": "assets/dgr/coverage-02/question-contracts.json",
+      "bytes": 517731,
+      "sha256": "9161acd4771296b47aacb6757a3feb7299b85802bce644d3af757a9f74fe92b4",
+      "sourceSha256": "9161acd4771296b47aacb6757a3feb7299b85802bce644d3af757a9f74fe92b4"
+    },
+    {
+      "key": "assets/dgr/coverage-02/scene-eligible-question-index.json",
+      "bytes": 318721,
+      "sha256": "8c80d3864e8e433fca731658be76f352b73b4dc5a0b1890bd5a11a7f6a5f0282",
+      "sourceSha256": "8c80d3864e8e433fca731658be76f352b73b4dc5a0b1890bd5a11a7f6a5f0282"
+    },
+    {
+      "key": "assets/dgr/crucifixion/events.json",
+      "bytes": 566891,
+      "sha256": "a49b8cdd20022b389a2d275e4402dee71719c01b8d9a8444cc550ac8b17833b8",
+      "sourceSha256": "a49b8cdd20022b389a2d275e4402dee71719c01b8d9a8444cc550ac8b17833b8"
+    },
+    {
+      "key": "assets/dgr/crucifixion/graph.json",
+      "bytes": 392586,
+      "sha256": "11b9517f4ccba2dffac6953f440a9fe87f290303aa3f68273e664b3a9c5890ae",
+      "sourceSha256": "11b9517f4ccba2dffac6953f440a9fe87f290303aa3f68273e664b3a9c5890ae"
+    },
+    {
+      "key": "assets/dgr/crucifixion/intents.json",
+      "bytes": 145161,
+      "sha256": "6934c87912523c33fdcdf7861d17fd595bb83585e5d5ff5e0840087a0184e79b",
+      "sourceSha256": "6934c87912523c33fdcdf7861d17fd595bb83585e5d5ff5e0840087a0184e79b"
+    },
+    {
+      "key": "assets/dgr/crucifixion/manifest.json",
+      "bytes": 1152,
+      "sha256": "8f160080cebffeea3d47d0be58921a2a66df72a719750eefbbee49fb4c6091ef",
+      "sourceSha256": "8f160080cebffeea3d47d0be58921a2a66df72a719750eefbbee49fb4c6091ef"
+    },
+    {
+      "key": "assets/dgr/crucifixion/nql.json",
+      "bytes": 122484,
+      "sha256": "13ea24b4a5a77cdbd5a71a28745dcc134e9551d3c9727ad478fa1affab065d16",
+      "sourceSha256": "13ea24b4a5a77cdbd5a71a28745dcc134e9551d3c9727ad478fa1affab065d16"
+    },
+    {
+      "key": "assets/dgr/crucifixion/questions.json",
+      "bytes": 694294,
+      "sha256": "9680f11e72d7f0791667f26db078d476f8d628de6261ecf8704a1b9bd33f6df2",
+      "sourceSha256": "9680f11e72d7f0791667f26db078d476f8d628de6261ecf8704a1b9bd33f6df2"
+    },
+    {
+      "key": "assets/dgr/crucifixion/traces.json",
+      "bytes": 212252,
+      "sha256": "2933b7fd3fdce73a771ce009a8a0f6d2b4be6cbe1886ef5b8a857529642136be",
+      "sourceSha256": "2933b7fd3fdce73a771ce009a8a0f6d2b4be6cbe1886ef5b8a857529642136be"
+    },
+    {
+      "key": "assets/dgr/elijah/events.json",
+      "bytes": 383135,
+      "sha256": "bb4054509f0bc27bc7fcd5668137770d693f20e2021d38bb1cfd207aaaceb32d",
+      "sourceSha256": "bb4054509f0bc27bc7fcd5668137770d693f20e2021d38bb1cfd207aaaceb32d"
+    },
+    {
+      "key": "assets/dgr/elijah/graph.json",
+      "bytes": 268937,
+      "sha256": "5829b198c9e6376cfbcdd716747dbe21781d2e910bf887aed187cb08346d9387",
+      "sourceSha256": "5829b198c9e6376cfbcdd716747dbe21781d2e910bf887aed187cb08346d9387"
+    },
+    {
+      "key": "assets/dgr/elijah/intents.json",
+      "bytes": 137098,
+      "sha256": "44b7e36fe56b0ace29b864bb7c70df651a0880e54815546a6b30fe70a423d515",
+      "sourceSha256": "44b7e36fe56b0ace29b864bb7c70df651a0880e54815546a6b30fe70a423d515"
+    },
+    {
+      "key": "assets/dgr/elijah/manifest.json",
+      "bytes": 1147,
+      "sha256": "a0dde96acb02a3a5d86e61a393aefa4652735c3a16d7854b798a91517272305f",
+      "sourceSha256": "a0dde96acb02a3a5d86e61a393aefa4652735c3a16d7854b798a91517272305f"
+    },
+    {
+      "key": "assets/dgr/elijah/nql.json",
+      "bytes": 99488,
+      "sha256": "67623199681645d67f2f3c99e6b5abe059e6c610071697e91302064eeb72c52c",
+      "sourceSha256": "67623199681645d67f2f3c99e6b5abe059e6c610071697e91302064eeb72c52c"
+    },
+    {
+      "key": "assets/dgr/elijah/questions.json",
+      "bytes": 619206,
+      "sha256": "9685c9bc913e48bdb260d5850f050dc881dc2a760b5b98c5e8a95a0f65a03dd1",
+      "sourceSha256": "9685c9bc913e48bdb260d5850f050dc881dc2a760b5b98c5e8a95a0f65a03dd1"
+    },
+    {
+      "key": "assets/dgr/elijah/traces.json",
+      "bytes": 159949,
+      "sha256": "c255c4c8c0e3ba629cd0447866f486954ee9d719e0403dc9321b7839ac932202",
+      "sourceSha256": "c255c4c8c0e3ba629cd0447866f486954ee9d719e0403dc9321b7839ac932202"
+    },
+    {
+      "key": "assets/dgr/exodus/events.json",
+      "bytes": 547343,
+      "sha256": "78990bbbf4ef1e5b7ee1743abd0144e51b27dcdce38ba8abc6e186da58494389",
+      "sourceSha256": "78990bbbf4ef1e5b7ee1743abd0144e51b27dcdce38ba8abc6e186da58494389"
+    },
+    {
+      "key": "assets/dgr/exodus/graph.json",
+      "bytes": 395525,
+      "sha256": "5ae50817895ffd0c54523f374b9d29021c05aed4e4b8bad369c99e5ab25788a5",
+      "sourceSha256": "5ae50817895ffd0c54523f374b9d29021c05aed4e4b8bad369c99e5ab25788a5"
+    },
+    {
+      "key": "assets/dgr/exodus/intents.json",
+      "bytes": 182890,
+      "sha256": "02942f83b320120de7a514e66d0965b5dc678027d5623d3d8bb60f0328b8effb",
+      "sourceSha256": "02942f83b320120de7a514e66d0965b5dc678027d5623d3d8bb60f0328b8effb"
+    },
+    {
+      "key": "assets/dgr/exodus/manifest.json",
+      "bytes": 1147,
+      "sha256": "b9f5dbab99b53a287c41e4b0f0557e4bfe9e040a0774a3ace6d21c0dce7fa282",
+      "sourceSha256": "b9f5dbab99b53a287c41e4b0f0557e4bfe9e040a0774a3ace6d21c0dce7fa282"
+    },
+    {
+      "key": "assets/dgr/exodus/nql.json",
+      "bytes": 115482,
+      "sha256": "4bec2a9638b9cd62b13856e203e81805eaa4c8c4458fe2f4c89692f31082bdb1",
+      "sourceSha256": "4bec2a9638b9cd62b13856e203e81805eaa4c8c4458fe2f4c89692f31082bdb1"
+    },
+    {
+      "key": "assets/dgr/exodus/questions.json",
+      "bytes": 792030,
+      "sha256": "c993f3cea01a5f8c055e1fc9dfd433d4860da8cabdb813291b6d7946fa0e629d",
+      "sourceSha256": "c993f3cea01a5f8c055e1fc9dfd433d4860da8cabdb813291b6d7946fa0e629d"
+    },
+    {
+      "key": "assets/dgr/exodus/traces.json",
+      "bytes": 192276,
+      "sha256": "9202dba033bde2a54328b36d56ba2130553c060446d40bc1d09aecb6763d91a5",
+      "sourceSha256": "9202dba033bde2a54328b36d56ba2130553c060446d40bc1d09aecb6763d91a5"
+    },
+    {
+      "key": "assets/dgr/faith/events.json",
+      "bytes": 1092354,
+      "sha256": "adaf8f0c75f19617fdacccc22792761d3efaeb7c684ff46f3653da923a18c56f",
+      "sourceSha256": "adaf8f0c75f19617fdacccc22792761d3efaeb7c684ff46f3653da923a18c56f"
+    },
+    {
+      "key": "assets/dgr/faith/graph.json",
+      "bytes": 729577,
+      "sha256": "a1d4de761dd9a3012df40ee93001307d5efae6eb9551cecdebf4aacd2e2e28dd",
+      "sourceSha256": "a1d4de761dd9a3012df40ee93001307d5efae6eb9551cecdebf4aacd2e2e28dd"
+    },
+    {
+      "key": "assets/dgr/faith/intents.json",
+      "bytes": 348499,
+      "sha256": "9e15ea464171c417da02ed8d85bb931c5645a885b609726f9f575b8bf7f93732",
+      "sourceSha256": "9e15ea464171c417da02ed8d85bb931c5645a885b609726f9f575b8bf7f93732"
+    },
+    {
+      "key": "assets/dgr/faith/manifest.json",
+      "bytes": 1146,
+      "sha256": "49a32a720ba8f71d763b1cb71608ce815600484e6ff2d4ef194a0939a586e0d3",
+      "sourceSha256": "49a32a720ba8f71d763b1cb71608ce815600484e6ff2d4ef194a0939a586e0d3"
+    },
+    {
+      "key": "assets/dgr/faith/nql.json",
+      "bytes": 241748,
+      "sha256": "cf18626679d717b3004f8f0b24db94733e8f6edafefbf30427620c127528da46",
+      "sourceSha256": "cf18626679d717b3004f8f0b24db94733e8f6edafefbf30427620c127528da46"
+    },
+    {
+      "key": "assets/dgr/faith/questions.json",
+      "bytes": 1561565,
+      "sha256": "0f111d124755ce50cd9832df70aeafc4203a00f51f570637ebd1d13ae599a22e",
+      "sourceSha256": "0f111d124755ce50cd9832df70aeafc4203a00f51f570637ebd1d13ae599a22e"
+    },
+    {
+      "key": "assets/dgr/faith/traces.json",
+      "bytes": 381326,
+      "sha256": "4467f143333803fed3acf10e44cec19e431a551f0dc1d24f9579d2a1e1350acf",
+      "sourceSha256": "4467f143333803fed3acf10e44cec19e431a551f0dc1d24f9579d2a1e1350acf"
+    },
+    {
+      "key": "assets/dgr/runtime-02/production-question-authority.json",
+      "bytes": 686,
+      "sha256": "b6c59cb31ed41ec7bc85f9c5e842c1e81f1a6233ebc81b1d12a9c24e61eac4c9",
+      "sourceSha256": "b6c59cb31ed41ec7bc85f9c5e842c1e81f1a6233ebc81b1d12a9c24e61eac4c9"
+    },
+    {
+      "key": "assets/dgr/runtime-02/production-runtime-bundle.json",
+      "bytes": 1706792,
+      "sha256": "59596da883d93c1358ccf87c1646abce775acce941868360e3fcb35f7bae2be3",
+      "sourceSha256": "59596da883d93c1358ccf87c1646abce775acce941868360e3fcb35f7bae2be3"
+    },
+    {
+      "key": "assets/dgr/runtime-02/reading-investigation-binding.json",
+      "bytes": 2272596,
+      "sha256": "8e40a5747c2a8d6b39db07f22b0ec196f3569e798ec3c434f36e836c4a7cb3e1",
+      "sourceSha256": "8e40a5747c2a8d6b39db07f22b0ec196f3569e798ec3c434f36e836c4a7cb3e1"
+    },
+    {
+      "key": "assets/dgr/runtime-02/runtime-question-lookup-manifest.json",
+      "bytes": 953089,
+      "sha256": "626ec19bd87f60e13ba88a40e054a9c62073c2c1a81b1f3468238fc6245e7e2a",
+      "sourceSha256": "626ec19bd87f60e13ba88a40e054a9c62073c2c1a81b1f3468238fc6245e7e2a"
+    },
+    {
+      "key": "assets/dgr/v1/beta-policy.json",
+      "bytes": 668,
+      "sha256": "a1d75566d55eac74cb56ae45864c959e2b531fb4d6203feb1ba8ac16af383032",
+      "sourceSha256": "a1d75566d55eac74cb56ae45864c959e2b531fb4d6203feb1ba8ac16af383032"
+    },
+    {
+      "key": "assets/dgr/v1/canonical-reference-store.json",
+      "bytes": 71383,
+      "sha256": "813331e8ed2dc8340b1b5ac4dc8d630d0b995f23a52d868d435edf95c4a9607e",
+      "sourceSha256": "813331e8ed2dc8340b1b5ac4dc8d630d0b995f23a52d868d435edf95c4a9607e"
+    },
+    {
+      "key": "assets/dgr/v1/canonical-relation-store.json",
+      "bytes": 40850,
+      "sha256": "0fcb33c8b3fb6777c48f49eef1284d6e1ca44783805dca11b3008444285ed7fb",
+      "sourceSha256": "0fcb33c8b3fb6777c48f49eef1284d6e1ca44783805dca11b3008444285ed7fb"
+    },
+    {
+      "key": "assets/dgr/v1/canonical-scene-registry.json",
+      "bytes": 4193221,
+      "sha256": "7c6f66a6ec32d29171f1d2491b8784d44bccb569a186661bd31aa4c8d945d77b",
+      "sourceSha256": "7c6f66a6ec32d29171f1d2491b8784d44bccb569a186661bd31aa4c8d945d77b"
+    },
+    {
+      "key": "assets/dgr/v1/generic-reader-scene-contexts.json",
+      "bytes": 2101484,
+      "sha256": "7299aff23ce0558128bf1263d16c5301a100bcca6b00082a77decc50d0c3fad5",
+      "sourceSha256": "7299aff23ce0558128bf1263d16c5301a100bcca6b00082a77decc50d0c3fad5"
+    },
+    {
+      "key": "assets/dgr/v1/manifest.json",
+      "bytes": 1251,
+      "sha256": "4066a0cea0bd0307a47768ba6174bd740992194d2de033bf4a14cce155e41496",
+      "sourceSha256": "4066a0cea0bd0307a47768ba6174bd740992194d2de033bf4a14cce155e41496"
+    },
+    {
+      "key": "assets/dgr/v1/question-capabilities.json",
+      "bytes": 3358088,
+      "sha256": "5163e59c9e8539294c35113d158ae86c82ab86ff596a069b4a9b34b79444f513",
+      "sourceSha256": "5163e59c9e8539294c35113d158ae86c82ab86ff596a069b4a9b34b79444f513"
+    },
+    {
+      "key": "assets/dgr/v1/question-contracts.json",
+      "bytes": 4845831,
+      "sha256": "ea85e3685aac2e37a549d840270eb848f0e56592805180442661065633256a78",
+      "sourceSha256": "ea85e3685aac2e37a549d840270eb848f0e56592805180442661065633256a78"
+    },
+    {
+      "key": "assets/dgr/v1/reader-scene-contexts.json",
+      "bytes": 280859,
+      "sha256": "b48f45e4ffc304fc4fee61c981789e79ece93a03f6d25aa5986f31105ed01583",
+      "sourceSha256": "b48f45e4ffc304fc4fee61c981789e79ece93a03f6d25aa5986f31105ed01583"
+    },
+    {
+      "key": "assets/dgr/v1/runtime-01a-manifest.json",
+      "bytes": 832,
+      "sha256": "d3e0decbd50d93e4f0a8a6b960e8eea4f5b0165909ba5b94ad7ee61fe68e1f37",
+      "sourceSha256": "d3e0decbd50d93e4f0a8a6b960e8eea4f5b0165909ba5b94ad7ee61fe68e1f37"
+    },
+    {
+      "key": "assets/dgr/v1/runtime-01b-manifest.json",
+      "bytes": 1160,
+      "sha256": "af654014b5be28ed830682def963490c0b3072fd322a805f6cd0a22498fbcd9c",
+      "sourceSha256": "af654014b5be28ed830682def963490c0b3072fd322a805f6cd0a22498fbcd9c"
+    },
+    {
+      "key": "assets/dgr/v1/runtime-question-bindings.json",
+      "bytes": 21708,
+      "sha256": "a3663d8dff442bd5b39eacd5e10b74cccfc2321f89656a6b1cee604e0d25eaec",
+      "sourceSha256": "a3663d8dff442bd5b39eacd5e10b74cccfc2321f89656a6b1cee604e0d25eaec"
+    },
+    {
+      "key": "assets/dgr/v1/scene-eligible-question-index.json",
+      "bytes": 32255,
+      "sha256": "8d314c196898e27c78412d64344374ff105b47f4f7c6644675a1e9865e3b9118",
+      "sourceSha256": "8d314c196898e27c78412d64344374ff105b47f4f7c6644675a1e9865e3b9118"
+    },
+    {
+      "key": "assets/dgr/v1/scene-lineage.json",
+      "bytes": 139809,
+      "sha256": "1d666081194263b3547e8b2d98e5c489661eb0b55e6c3fe70b0153c2fe98191f",
+      "sourceSha256": "1d666081194263b3547e8b2d98e5c489661eb0b55e6c3fe70b0153c2fe98191f"
+    },
+    {
+      "key": "assets/dgr/v1/scene-profile-projection-index.json",
+      "bytes": 1120177,
+      "sha256": "01cb77eb5560cf0efb10ecbbf90b83c45120421c38fe74f1c409e0ccd1dd9146",
+      "sourceSha256": "01cb77eb5560cf0efb10ecbbf90b83c45120421c38fe74f1c409e0ccd1dd9146"
+    },
+    {
+      "key": "assets/dgr/v1/source-language-bindings.json",
+      "bytes": 3239,
+      "sha256": "8cecfb291a40b260a2555350a8426f799da6ed4c0e5916ca8488f40a932c4b1f",
+      "sourceSha256": "8cecfb291a40b260a2555350a8426f799da6ed4c0e5916ca8488f40a932c4b1f"
+    },
+    {
+      "key": "assets/dgr/validation-registry.json",
+      "bytes": 3011,
+      "sha256": "7bb0d053cf04e8d1ec120929fffb7b6d4c990993a5890dbc0cb74c4f665a0e92",
+      "sourceSha256": "7bb0d053cf04e8d1ec120929fffb7b6d4c990993a5890dbc0cb74c4f665a0e92"
+    },
+    {
+      "key": "assets/questions/source-language-glosses/a0d380000fc5cf9c4bc9b92de88470bb0b5c259614b1bf65be3b5dbc5a1150e8.json",
+      "bytes": 535181,
+      "sha256": "faa62ccc44057291eb3531639a219adcf202bd85f859d8a12a49e0328e91e17d",
+      "sourceSha256": "faa62ccc44057291eb3531639a219adcf202bd85f859d8a12a49e0328e91e17d"
+    },
+    {
+      "key": "assets/scripture-tree/character-trail-v3.json",
+      "bytes": 895470,
+      "sha256": "555f916e266e2d97f365283a7062f3ecd81f38064f5ce7f3c6a5420fa3335563",
+      "sourceSha256": "555f916e266e2d97f365283a7062f3ecd81f38064f5ce7f3c6a5420fa3335563"
+    },
+    {
+      "key": "assets/scripture-tree/compare-pivots-v3.json",
+      "bytes": 2403772,
+      "sha256": "b05903e66de434418dd0b5c7effc29c39e42b0359c076b1b67e512c4f3a4f777",
+      "sourceSha256": "b05903e66de434418dd0b5c7effc29c39e42b0359c076b1b67e512c4f3a4f777"
+    },
+    {
+      "key": "assets/scripture-tree/compare-v3.json",
+      "bytes": 7222410,
+      "sha256": "34afd2770a7803d3c5aa8c7ddccee9737ac3d6e16496c552b0495730ebf4f832",
+      "sourceSha256": "34afd2770a7803d3c5aa8c7ddccee9737ac3d6e16496c552b0495730ebf4f832"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_1ch.json",
+      "bytes": 558062,
+      "sha256": "d4f64b03eed907becb7e15ae002bf83a8bd3c5195d87fe4c87cc584d510300c2",
+      "sourceSha256": "d4f64b03eed907becb7e15ae002bf83a8bd3c5195d87fe4c87cc584d510300c2"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_1co.json",
+      "bytes": 311635,
+      "sha256": "9020659331bd810639e476b5ac3e94820ebac4300ee16a2a997d94aaeb130d54",
+      "sourceSha256": "9020659331bd810639e476b5ac3e94820ebac4300ee16a2a997d94aaeb130d54"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_1es.json",
+      "bytes": 250608,
+      "sha256": "528f4fc467a36938fbaef515de6c048c41bf51d5105f049f560d306f636329b8",
+      "sourceSha256": "528f4fc467a36938fbaef515de6c048c41bf51d5105f049f560d306f636329b8"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_1jn.json",
+      "bytes": 76735,
+      "sha256": "1d2ef0e66c2f0afa3804daab8a420f9ee34bfa710de4f78d7270ebe9f69bf0b6",
+      "sourceSha256": "1d2ef0e66c2f0afa3804daab8a420f9ee34bfa710de4f78d7270ebe9f69bf0b6"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_1ki.json",
+      "bytes": 515805,
+      "sha256": "e6768043b637a91286e8cfa8e5e0e27066d244b1d5b4b0fe154caf6d4c8254dd",
+      "sourceSha256": "e6768043b637a91286e8cfa8e5e0e27066d244b1d5b4b0fe154caf6d4c8254dd"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_1ma.json",
+      "bytes": 518357,
+      "sha256": "aa3af757a7632d3a7760e70b3c712f5772dbf3148916b5cc70c6542c42bc0f27",
+      "sourceSha256": "aa3af757a7632d3a7760e70b3c712f5772dbf3148916b5cc70c6542c42bc0f27"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_1pe.json",
+      "bytes": 83000,
+      "sha256": "4f40f367fb3d99b084978511e5c718bdbab419003e963ba89d2011cb3fb5f40e",
+      "sourceSha256": "4f40f367fb3d99b084978511e5c718bdbab419003e963ba89d2011cb3fb5f40e"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_1sa.json",
+      "bytes": 515463,
+      "sha256": "2e7fde0be2ca98d84b303cf557f3716fa8eaf6835e3ab8518157329dc955748c",
+      "sourceSha256": "2e7fde0be2ca98d84b303cf557f3716fa8eaf6835e3ab8518157329dc955748c"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_1th.json",
+      "bytes": 66599,
+      "sha256": "5c54cc63bf09df105ce52299d03038fb00989de9479a219628dd4008127518d2",
+      "sourceSha256": "5c54cc63bf09df105ce52299d03038fb00989de9479a219628dd4008127518d2"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_1ti.json",
+      "bytes": 82382,
+      "sha256": "2239aa030737cbc4f4a22e7124f64dd6e42adf451ada003da1c7b485dc4ea6b1",
+      "sourceSha256": "2239aa030737cbc4f4a22e7124f64dd6e42adf451ada003da1c7b485dc4ea6b1"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_2ch.json",
+      "bytes": 510980,
+      "sha256": "0822e3a02959f3baea2ea6f489a3ff882cac90cf8f3f271ffa7d6aa43dce7972",
+      "sourceSha256": "0822e3a02959f3baea2ea6f489a3ff882cac90cf8f3f271ffa7d6aa43dce7972"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_2co.json",
+      "bytes": 187022,
+      "sha256": "0e58500b31bf6c68b52d2f7b6da8675a7510abb519f5c9a070101d5fa68ad36c",
+      "sourceSha256": "0e58500b31bf6c68b52d2f7b6da8675a7510abb519f5c9a070101d5fa68ad36c"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_2es.json",
+      "bytes": 543763,
+      "sha256": "a207f88af4d242cbf08eed1cdeef2c366adbc71a95d6c0c2ef1a02e335121be4",
+      "sourceSha256": "a207f88af4d242cbf08eed1cdeef2c366adbc71a95d6c0c2ef1a02e335121be4"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_2jn.json",
+      "bytes": 8202,
+      "sha256": "2fe595a21ec13842b3f63d9149edf2d3011ceeca5369852639522962378cbd6c",
+      "sourceSha256": "2fe595a21ec13842b3f63d9149edf2d3011ceeca5369852639522962378cbd6c"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_2ki.json",
+      "bytes": 455914,
+      "sha256": "c7e89f38a47fb514343b38d9a5c472b1e509ba54299812edcaf2d31b225dbcae",
+      "sourceSha256": "c7e89f38a47fb514343b38d9a5c472b1e509ba54299812edcaf2d31b225dbcae"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_2ma.json",
+      "bytes": 318995,
+      "sha256": "3d6793b91b95fae5c895fb1d9efc7dd3d431c8b39317816bce6e781276802bea",
+      "sourceSha256": "3d6793b91b95fae5c895fb1d9efc7dd3d431c8b39317816bce6e781276802bea"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_2pe.json",
+      "bytes": 46498,
+      "sha256": "7e40e2d920022f74f007b428f00b794489dd95bec4eb760e8e43f2b9d3874bbb",
+      "sourceSha256": "7e40e2d920022f74f007b428f00b794489dd95bec4eb760e8e43f2b9d3874bbb"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_2sa.json",
+      "bytes": 442181,
+      "sha256": "df74f01d31af1fc115092dd170e72975cd3bcc9867e9ca5f551b492099a30f13",
+      "sourceSha256": "df74f01d31af1fc115092dd170e72975cd3bcc9867e9ca5f551b492099a30f13"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_2th.json",
+      "bytes": 36697,
+      "sha256": "50dd2efd661c8880d83b77bd2fbbdbbeeda420e08a80e3fd6d831c72fdd35a7e",
+      "sourceSha256": "50dd2efd661c8880d83b77bd2fbbdbbeeda420e08a80e3fd6d831c72fdd35a7e"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_2ti.json",
+      "bytes": 58240,
+      "sha256": "2e7896032e7720e947a3d53fc75e3c459a027328e773333f38284d82a07b43c6",
+      "sourceSha256": "2e7896032e7720e947a3d53fc75e3c459a027328e773333f38284d82a07b43c6"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_3jn.json",
+      "bytes": 8174,
+      "sha256": "01530bcd871b5f93e80408d7c9f44fe48ca6f0c88b77acba3c1ed6e8b091cdfb",
+      "sourceSha256": "01530bcd871b5f93e80408d7c9f44fe48ca6f0c88b77acba3c1ed6e8b091cdfb"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_3ma.json",
+      "bytes": 130569,
+      "sha256": "73d7b3d461ca7d36d580fc179bd3a0b6bd76b9aa43b46e7d51934167efb63977",
+      "sourceSha256": "73d7b3d461ca7d36d580fc179bd3a0b6bd76b9aa43b46e7d51934167efb63977"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_4ma.json",
+      "bytes": 285865,
+      "sha256": "614f86daca01896ab4faf113a682c9466b768063cad3aa7b45775dc98cbf970d",
+      "sourceSha256": "614f86daca01896ab4faf113a682c9466b768063cad3aa7b45775dc98cbf970d"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_act.json",
+      "bytes": 708727,
+      "sha256": "fd092b139ed42a25ef94821b67a8972671ece38516a7081925095a384172cb99",
+      "sourceSha256": "fd092b139ed42a25ef94821b67a8972671ece38516a7081925095a384172cb99"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_amo.json",
+      "bytes": 91753,
+      "sha256": "d97906c69c8d0d16095c96ab9f612dea83213fafd668ceb44bc5bb2dd79a8b76",
+      "sourceSha256": "d97906c69c8d0d16095c96ab9f612dea83213fafd668ceb44bc5bb2dd79a8b76"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_bar.json",
+      "bytes": 127475,
+      "sha256": "8a2f04d858a29e679c6d5540c33efe1ccda4caaed95ee0f93e5051cba4ca1368",
+      "sourceSha256": "8a2f04d858a29e679c6d5540c33efe1ccda4caaed95ee0f93e5051cba4ca1368"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_col.json",
+      "bytes": 68506,
+      "sha256": "d2671332b8fc8086b35bd8e9105037d06a070ddea7b5337591ece21fc1fe96d6",
+      "sourceSha256": "d2671332b8fc8086b35bd8e9105037d06a070ddea7b5337591ece21fc1fe96d6"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_dag.json",
+      "bytes": 316023,
+      "sha256": "c00873624f14afdba912e176d79a186ea10fb6114f3fe3ebb485d7f6d9621a77",
+      "sourceSha256": "c00873624f14afdba912e176d79a186ea10fb6114f3fe3ebb485d7f6d9621a77"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_dan.json",
+      "bytes": 225303,
+      "sha256": "2599ce757c4c66199d694e466206edf3981a990a07560ef1fa3e450a31b0677a",
+      "sourceSha256": "2599ce757c4c66199d694e466206edf3981a990a07560ef1fa3e450a31b0677a"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_deu.json",
+      "bytes": 610682,
+      "sha256": "af313c02e5c53294b0f3ce05c8880d9c84947a07e835dd1c5e808669ec5c828e",
+      "sourceSha256": "af313c02e5c53294b0f3ce05c8880d9c84947a07e835dd1c5e808669ec5c828e"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_ecc.json",
+      "bytes": 136073,
+      "sha256": "e82b9093f998bbcd229ada6b5b3fb794c41b8f2d4bb5bcdf096bc2eeb46784b2",
+      "sourceSha256": "e82b9093f998bbcd229ada6b5b3fb794c41b8f2d4bb5bcdf096bc2eeb46784b2"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_eph.json",
+      "bytes": 108772,
+      "sha256": "6bfa05fc6776865866137b2de6dcf3a3145df62c9ef9f0a02daaaf84253b75f7",
+      "sourceSha256": "6bfa05fc6776865866137b2de6dcf3a3145df62c9ef9f0a02daaaf84253b75f7"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_esg.json",
+      "bytes": 118782,
+      "sha256": "5f3655b6e907a2b9d9b69b44dbae0015d55fd046e715e9da30b9afe24c671e73",
+      "sourceSha256": "5f3655b6e907a2b9d9b69b44dbae0015d55fd046e715e9da30b9afe24c671e73"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_est.json",
+      "bytes": 95691,
+      "sha256": "dc674beaef8cd610e753f658faab78b63ff2d72ba35ca7f1ffa6752496a9cebd",
+      "sourceSha256": "dc674beaef8cd610e753f658faab78b63ff2d72ba35ca7f1ffa6752496a9cebd"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_exo.json",
+      "bytes": 828240,
+      "sha256": "77bfb2ce0092cf5177e236685d7b488096e78076284fcdcb8def26de7cc3df0d",
+      "sourceSha256": "77bfb2ce0092cf5177e236685d7b488096e78076284fcdcb8def26de7cc3df0d"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_ezk.json",
+      "bytes": 751024,
+      "sha256": "a1948378d51d386b924f0c845badcec665cb699c33b66f96ea2f075eb34903d1",
+      "sourceSha256": "a1948378d51d386b924f0c845badcec665cb699c33b66f96ea2f075eb34903d1"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_ezr.json",
+      "bytes": 162327,
+      "sha256": "6e77d9d30a6b999eab8ac11c7b6b5428cb4e9268c5e594b80c5eec0a816d7b46",
+      "sourceSha256": "6e77d9d30a6b999eab8ac11c7b6b5428cb4e9268c5e594b80c5eec0a816d7b46"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_gal.json",
+      "bytes": 111715,
+      "sha256": "34cb0d85b899ec9063b589e9ab942c239c33335a5394c40246df2f58c85c8a20",
+      "sourceSha256": "34cb0d85b899ec9063b589e9ab942c239c33335a5394c40246df2f58c85c8a20"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_gen.json",
+      "bytes": 1077140,
+      "sha256": "6cf06a86668a7cf36ba5b2ed611be1c87ef566d3d70c0e3b7ac2dd45fa9afaab",
+      "sourceSha256": "6cf06a86668a7cf36ba5b2ed611be1c87ef566d3d70c0e3b7ac2dd45fa9afaab"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_hab.json",
+      "bytes": 35948,
+      "sha256": "9a2d28b387eb45f899d79f363d004f7b4bb2837728aa2452e238529c2bde579a",
+      "sourceSha256": "9a2d28b387eb45f899d79f363d004f7b4bb2837728aa2452e238529c2bde579a"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_hag.json",
+      "bytes": 24233,
+      "sha256": "4dd8080f7a4f6f90da04912750d2cdd0c07bde99637b21127c68dd16cec07320",
+      "sourceSha256": "4dd8080f7a4f6f90da04912750d2cdd0c07bde99637b21127c68dd16cec07320"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_heb.json",
+      "bytes": 243289,
+      "sha256": "f44de2106da59a36dfaffa55214d98a44881847f27a73eb57fdb18abe9d708ed",
+      "sourceSha256": "f44de2106da59a36dfaffa55214d98a44881847f27a73eb57fdb18abe9d708ed"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_hos.json",
+      "bytes": 127765,
+      "sha256": "84b364c17f013b1672974ace7cc34911e427acf8bb836abb06750187e2c71918",
+      "sourceSha256": "84b364c17f013b1672974ace7cc34911e427acf8bb836abb06750187e2c71918"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_isa.json",
+      "bytes": 788816,
+      "sha256": "456934c5f74490a2355b0faad20d344bca0b7914521ac0bb7b042dc734a701b8",
+      "sourceSha256": "456934c5f74490a2355b0faad20d344bca0b7914521ac0bb7b042dc734a701b8"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_jas.json",
+      "bytes": 82278,
+      "sha256": "6f6f2b71ab9b69bca8cbbe7d6d55dd8a0d188bab98ba23744fccec80451cf7d6",
+      "sourceSha256": "6f6f2b71ab9b69bca8cbbe7d6d55dd8a0d188bab98ba23744fccec80451cf7d6"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_jdg.json",
+      "bytes": 358320,
+      "sha256": "917e5f1c5156d00c4e0c39adf940228525e15c3c66a81c5e75f4d286c3aa7d16",
+      "sourceSha256": "917e5f1c5156d00c4e0c39adf940228525e15c3c66a81c5e75f4d286c3aa7d16"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_jdt.json",
+      "bytes": 194125,
+      "sha256": "3d2c4215b7b43063c76e51243e05739074573211b51523d76cea85009b438d58",
+      "sourceSha256": "3d2c4215b7b43063c76e51243e05739074573211b51523d76cea85009b438d58"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_jer.json",
+      "bytes": 800381,
+      "sha256": "1e4f79cb1d8b85a2ace978a60219c017b44174e86d54decaf2f66e9bdbfaee6e",
+      "sourceSha256": "1e4f79cb1d8b85a2ace978a60219c017b44174e86d54decaf2f66e9bdbfaee6e"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_jhn.json",
+      "bytes": 604951,
+      "sha256": "f32884b9583083c4dba27a74228ec819883b947c9f0160b82ff2c2b2b6709fdb",
+      "sourceSha256": "f32884b9583083c4dba27a74228ec819883b947c9f0160b82ff2c2b2b6709fdb"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_job.json",
+      "bytes": 612073,
+      "sha256": "6d3a0e6b77272cb186091a08eab8c41094b8928d9cd493eb9f3ce3182aca3db2",
+      "sourceSha256": "6d3a0e6b77272cb186091a08eab8c41094b8928d9cd493eb9f3ce3182aca3db2"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_jol.json",
+      "bytes": 43182,
+      "sha256": "8204a7c63f8c71acc4270e418b304306dcab5408fb9739124968f7d837211b44",
+      "sourceSha256": "8204a7c63f8c71acc4270e418b304306dcab5408fb9739124968f7d837211b44"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_jon.json",
+      "bytes": 29861,
+      "sha256": "1997392f65c9726ecb3ea43d7e28748c4cf082ee15cf3c87f1797788a548ec3a",
+      "sourceSha256": "1997392f65c9726ecb3ea43d7e28748c4cf082ee15cf3c87f1797788a548ec3a"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_jos.json",
+      "bytes": 386841,
+      "sha256": "1595ba55d8450cc84292f3a4b9a8b388f6063af3782d982def0002b39639f42a",
+      "sourceSha256": "1595ba55d8450cc84292f3a4b9a8b388f6063af3782d982def0002b39639f42a"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_jud.json",
+      "bytes": 18018,
+      "sha256": "b1f47ae42f72c1b130633df3316c54bcb169fa8d5bc21058f7a6478986f2eb18",
+      "sourceSha256": "b1f47ae42f72c1b130633df3316c54bcb169fa8d5bc21058f7a6478986f2eb18"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_lam.json",
+      "bytes": 92679,
+      "sha256": "6edba1d02c842d7dd789946dd33c4dbc0689bf436e729fd4413678e48fe78171",
+      "sourceSha256": "6edba1d02c842d7dd789946dd33c4dbc0689bf436e729fd4413678e48fe78171"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_lev.json",
+      "bytes": 520410,
+      "sha256": "3c361878e5a7164153c8e816e9abd6f146e8b0b51b9dda123d065a20c985dbb4",
+      "sourceSha256": "3c361878e5a7164153c8e816e9abd6f146e8b0b51b9dda123d065a20c985dbb4"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_luk.json",
+      "bytes": 778729,
+      "sha256": "3f2ea377b2e30d06089cb7b38e1013b6d5ad812192a73343c9f22bb2deacdf8e",
+      "sourceSha256": "3f2ea377b2e30d06089cb7b38e1013b6d5ad812192a73343c9f22bb2deacdf8e"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_mal.json",
+      "bytes": 37292,
+      "sha256": "27c9db01dc2dd978c5de7fe995e759551080fb01901f6373aad2d0d3af346653",
+      "sourceSha256": "27c9db01dc2dd978c5de7fe995e759551080fb01901f6373aad2d0d3af346653"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_man.json",
+      "bytes": 10250,
+      "sha256": "b22f330a29bdb7ba49417cb590c6c8b76c37b52a4a026a92ec9ef4bee4e0bf2f",
+      "sourceSha256": "b22f330a29bdb7ba49417cb590c6c8b76c37b52a4a026a92ec9ef4bee4e0bf2f"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_mat.json",
+      "bytes": 778960,
+      "sha256": "ceb40c1230deeed190d3a1821cf8c192f1f2141a8a01852ffad49562d40444df",
+      "sourceSha256": "ceb40c1230deeed190d3a1821cf8c192f1f2141a8a01852ffad49562d40444df"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_mic.json",
+      "bytes": 67792,
+      "sha256": "65b59942d5086e9eb0ed3cf06ee41df3efa29d715983f708526d7c7a71d7662a",
+      "sourceSha256": "65b59942d5086e9eb0ed3cf06ee41df3efa29d715983f708526d7c7a71d7662a"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_mrk.json",
+      "bytes": 460020,
+      "sha256": "66aa9d2cbe7a8feb761ceba6c9e6587d925ab9ca9a6a38d931ea307195542c5c",
+      "sourceSha256": "66aa9d2cbe7a8feb761ceba6c9e6587d925ab9ca9a6a38d931ea307195542c5c"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_nam.json",
+      "bytes": 27167,
+      "sha256": "8d883ef3f285520016ed89bbefeb005d48614b8b2c1bab9f50bfd28384129771",
+      "sourceSha256": "8d883ef3f285520016ed89bbefeb005d48614b8b2c1bab9f50bfd28384129771"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_neh.json",
+      "bytes": 245892,
+      "sha256": "dcab32dcccebeec4505ff858ded1fe1ea5d4909204857a0d8364d6d47945c3e5",
+      "sourceSha256": "dcab32dcccebeec4505ff858ded1fe1ea5d4909204857a0d8364d6d47945c3e5"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_num.json",
+      "bytes": 784869,
+      "sha256": "db6abe4b82def22cd1ff9abddc8718128544771e3a6d777b94dea66a932afff8",
+      "sourceSha256": "db6abe4b82def22cd1ff9abddc8718128544771e3a6d777b94dea66a932afff8"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_oba.json",
+      "bytes": 12501,
+      "sha256": "caf3a15f63fc916bb297ad84b1b2bcc8296be5f55177532d0e9675705556d808",
+      "sourceSha256": "caf3a15f63fc916bb297ad84b1b2bcc8296be5f55177532d0e9675705556d808"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_phm.json",
+      "bytes": 16701,
+      "sha256": "5e514d342962abc195d966421f88b29acc4dff0cb2653fc9f08e83ee8eb3adb1",
+      "sourceSha256": "5e514d342962abc195d966421f88b29acc4dff0cb2653fc9f08e83ee8eb3adb1"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_php.json",
+      "bytes": 77042,
+      "sha256": "6f44324bdde9deb14c1e3ad8020eabe98966564908611b081898ea95db6b3d90",
+      "sourceSha256": "6f44324bdde9deb14c1e3ad8020eabe98966564908611b081898ea95db6b3d90"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_pro.json",
+      "bytes": 533374,
+      "sha256": "a16ca773f14b01e954af0132f3590bd3689328ac0b16e21bd16a26eaa0909c6a",
+      "sourceSha256": "a16ca773f14b01e954af0132f3590bd3689328ac0b16e21bd16a26eaa0909c6a"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_ps2.json",
+      "bytes": 234,
+      "sha256": "8fed562bd8123284f6113f4c99c87fd13c7b8790777482d56ef9975c940aaa0b",
+      "sourceSha256": "8fed562bd8123284f6113f4c99c87fd13c7b8790777482d56ef9975c940aaa0b"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_psa.json",
+      "bytes": 1529634,
+      "sha256": "4740dd8d91ed32ab74af661d6f6bd553f28be7fb2e406ab63fc1aa060dc01013",
+      "sourceSha256": "4740dd8d91ed32ab74af661d6f6bd553f28be7fb2e406ab63fc1aa060dc01013"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_rev.json",
+      "bytes": 326770,
+      "sha256": "c58ad5f68684f1f11fce1093a89983a4c5e8c12045b7893e36c9b48edc3f3717",
+      "sourceSha256": "c58ad5f68684f1f11fce1093a89983a4c5e8c12045b7893e36c9b48edc3f3717"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_rom.json",
+      "bytes": 322462,
+      "sha256": "eea16056ba7eb13fe1836b5b56fabc148658ca4611f8e5081900dae457919391",
+      "sourceSha256": "eea16056ba7eb13fe1836b5b56fabc148658ca4611f8e5081900dae457919391"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_rut.json",
+      "bytes": 47982,
+      "sha256": "160620ba763d52bf5e630e12b333c37ddc1a93665bbeb7ff48aa56efcbfaf8be",
+      "sourceSha256": "160620ba763d52bf5e630e12b333c37ddc1a93665bbeb7ff48aa56efcbfaf8be"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_sir.json",
+      "bytes": 800591,
+      "sha256": "0bd5301d4a0a235ba3ad1ec067c9dafc2410fe1d1dbaf1b45bd6fa06890bf337",
+      "sourceSha256": "0bd5301d4a0a235ba3ad1ec067c9dafc2410fe1d1dbaf1b45bd6fa06890bf337"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_sng.json",
+      "bytes": 71975,
+      "sha256": "35f047fe44f9bb8470eb52488337e395e750aded36ee79d074d3cfabc3930f6c",
+      "sourceSha256": "35f047fe44f9bb8470eb52488337e395e750aded36ee79d074d3cfabc3930f6c"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_tit.json",
+      "bytes": 35847,
+      "sha256": "9bf533be9a08f5e7d721b55225cbd522b3c68a8b679068cec325c32269091f52",
+      "sourceSha256": "9bf533be9a08f5e7d721b55225cbd522b3c68a8b679068cec325c32269091f52"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_tob.json",
+      "bytes": 156093,
+      "sha256": "253f94b1703270e32a540faf408525ecda00e15535894ce117e70c22e03b162a",
+      "sourceSha256": "253f94b1703270e32a540faf408525ecda00e15535894ce117e70c22e03b162a"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_wis.json",
+      "bytes": 262911,
+      "sha256": "7b18d78d2c32fb8878bfe8bddecc990bb19588073aad5cef23e8506b0aae8380",
+      "sourceSha256": "7b18d78d2c32fb8878bfe8bddecc990bb19588073aad5cef23e8506b0aae8380"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_zec.json",
+      "bytes": 139613,
+      "sha256": "4cfb5b84e04263833573c1ea3fbeecf48fff996a980e99dba906a87efc38d4a5",
+      "sourceSha256": "4cfb5b84e04263833573c1ea3fbeecf48fff996a980e99dba906a87efc38d4a5"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/book-engwebu_zep.json",
+      "bytes": 31362,
+      "sha256": "93067529c471ecdb5e67adc7a3e4114eed88ad82059dd6fc7505cd46b1ebcd48",
+      "sourceSha256": "93067529c471ecdb5e67adc7a3e4114eed88ad82059dd6fc7505cd46b1ebcd48"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/citation-metadata.json",
+      "bytes": 1167588,
+      "sha256": "a1d80d2a51454ae165e75a61f73f60d743bca142af3e802f4d31e1289e86520a",
+      "sourceSha256": "a1d80d2a51454ae165e75a61f73f60d743bca142af3e802f4d31e1289e86520a"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/dgr-channel-metadata.json",
+      "bytes": 320576,
+      "sha256": "9332d586e82552420bd5f7fcef9e854c7e51eed5dbba7f2d92c01d2e5febbf73",
+      "sourceSha256": "9332d586e82552420bd5f7fcef9e854c7e51eed5dbba7f2d92c01d2e5febbf73"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/manifest.json",
+      "bytes": 715615,
+      "sha256": "8c14d80c092a5a74bb632187e1c3ed64427d46e926b874b46bbd154e294e1d98",
+      "sourceSha256": "8c14d80c092a5a74bb632187e1c3ed64427d46e926b874b46bbd154e294e1d98"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-abraham.json",
+      "bytes": 1205324,
+      "sha256": "fca00bab6c7bad64fae73320d64cff524792db95acf028ea66d6f82b3b2c92c6",
+      "sourceSha256": "fca00bab6c7bad64fae73320d64cff524792db95acf028ea66d6f82b3b2c92c6"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-adam.json",
+      "bytes": 266952,
+      "sha256": "0abf498a68c37ca69015fd09da5d971927fca091aa8fd7f32f5bde8acbe17ae3",
+      "sourceSha256": "0abf498a68c37ca69015fd09da5d971927fca091aa8fd7f32f5bde8acbe17ae3"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-angels.json",
+      "bytes": 1217496,
+      "sha256": "5865cffd17db0d7de07a0068b68a79d6c09130b15e6656c9b4dcde6c474e1b75",
+      "sourceSha256": "5865cffd17db0d7de07a0068b68a79d6c09130b15e6656c9b4dcde6c474e1b75"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-baptism-of-jesus.json",
+      "bytes": 360452,
+      "sha256": "3f2bd44618175d58f90dd024848beba096696523e52a4d409734f2b0d31cb51f",
+      "sourceSha256": "3f2bd44618175d58f90dd024848beba096696523e52a4d409734f2b0d31cb51f"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-binding-of-isaac.json",
+      "bytes": 214038,
+      "sha256": "e619a292d14aebc14a957f0406b91f6bfc5876bb871e20771c6760285baa29da",
+      "sourceSha256": "e619a292d14aebc14a957f0406b91f6bfc5876bb871e20771c6760285baa29da"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-bridegroom-of-blood.json",
+      "bytes": 58388,
+      "sha256": "aec5833fdd24dbbd60916481f8ef782e49e6358a86d979da774b6bacfc6bbf10",
+      "sourceSha256": "aec5833fdd24dbbd60916481f8ef782e49e6358a86d979da774b6bacfc6bbf10"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-cleansing.json",
+      "bytes": 556596,
+      "sha256": "e7d9f58dc4edfb2478653f2078f248cdafa4ae4b879e9d29f54c3839a8ee108c",
+      "sourceSha256": "e7d9f58dc4edfb2478653f2078f248cdafa4ae4b879e9d29f54c3839a8ee108c"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-consequence.json",
+      "bytes": 760383,
+      "sha256": "bd0327b228146271699b836a36729768c43a477509226a3df7f3754491cb658b",
+      "sourceSha256": "bd0327b228146271699b836a36729768c43a477509226a3df7f3754491cb658b"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-covenant.json",
+      "bytes": 507227,
+      "sha256": "0660085406e347efce3886abfa20d609f64b590e3da9fb89769fe069fffec537",
+      "sourceSha256": "0660085406e347efce3886abfa20d609f64b590e3da9fb89769fe069fffec537"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-creation.json",
+      "bytes": 301459,
+      "sha256": "9c1ccdd69e71bf2d1a70742228117a2d679f35b7162fc5778df75a8d6f872f0f",
+      "sourceSha256": "9c1ccdd69e71bf2d1a70742228117a2d679f35b7162fc5778df75a8d6f872f0f"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-crucifixion.json",
+      "bytes": 585027,
+      "sha256": "ad18f0da797fb78365ea25b927103c3b49b47eb7a3b2273f4b6caed53555b781",
+      "sourceSha256": "ad18f0da797fb78365ea25b927103c3b49b47eb7a3b2273f4b6caed53555b781"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-david.json",
+      "bytes": 1226461,
+      "sha256": "c9d14e24f1db81573947d30d0024eb20046cad7d93856eaadf4e4b72f81623f3",
+      "sourceSha256": "c9d14e24f1db81573947d30d0024eb20046cad7d93856eaadf4e4b72f81623f3"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-demons.json",
+      "bytes": 336883,
+      "sha256": "479ab344ae3487ba97120f6e837e3ce0a005f0eb9444cbaf86a76368ab78e792",
+      "sourceSha256": "479ab344ae3487ba97120f6e837e3ce0a005f0eb9444cbaf86a76368ab78e792"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-eden-exile.json",
+      "bytes": 877605,
+      "sha256": "ef47f3c6378af8d216e56fe4a860440df62a3e61371b267b33c6a5fe609e5d54",
+      "sourceSha256": "ef47f3c6378af8d216e56fe4a860440df62a3e61371b267b33c6a5fe609e5d54"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-elijah.json",
+      "bytes": 346300,
+      "sha256": "6f2a5bf12d93432d61f3852446737a7868f7dc4f45483794a7f993c8a291482a",
+      "sourceSha256": "6f2a5bf12d93432d61f3852446737a7868f7dc4f45483794a7f993c8a291482a"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-exodus.json",
+      "bytes": 445207,
+      "sha256": "97832c62672cb116c8f3682ff9ff623cdc578ed8b78cd41b4fe9b60a71175da4",
+      "sourceSha256": "97832c62672cb116c8f3682ff9ff623cdc578ed8b78cd41b4fe9b60a71175da4"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-faith.json",
+      "bytes": 910737,
+      "sha256": "3600bf0f2ba93f1c7afd58111d5b58db8e121652e0e637875132863548396b8d",
+      "sourceSha256": "3600bf0f2ba93f1c7afd58111d5b58db8e121652e0e637875132863548396b8d"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-forgiveness.json",
+      "bytes": 661393,
+      "sha256": "112fece2ead9848005b0d7de9593b297293641e80dce26425c270281a9060d57",
+      "sourceSha256": "112fece2ead9848005b0d7de9593b297293641e80dce26425c270281a9060d57"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-god.json",
+      "bytes": 657471,
+      "sha256": "4ab362c88ee6946364e385511c4210083e8ff6619f4abb94aaebc8d48a522d6d",
+      "sourceSha256": "4ab362c88ee6946364e385511c4210083e8ff6619f4abb94aaebc8d48a522d6d"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-heavenly-assembly.json",
+      "bytes": 540259,
+      "sha256": "dc3e7117560e411a2246951b715e862b15e6fc1ffd2ca2ecf741ae236ab2b16e",
+      "sourceSha256": "dc3e7117560e411a2246951b715e862b15e6fc1ffd2ca2ecf741ae236ab2b16e"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-israel-collective.json",
+      "bytes": 950800,
+      "sha256": "8bbc33378da406cd82fb3b91d8c690714efb3f47e3313ca434901a8ad363c5ce",
+      "sourceSha256": "8bbc33378da406cd82fb3b91d8c690714efb3f47e3313ca434901a8ad363c5ce"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-jesus.json",
+      "bytes": 2477330,
+      "sha256": "022e4a5a1c08b4f7af36203a733b7adc9f4e9de1e90f5ac092d6719396295695",
+      "sourceSha256": "022e4a5a1c08b4f7af36203a733b7adc9f4e9de1e90f5ac092d6719396295695"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-john-the-baptist.json",
+      "bytes": 327238,
+      "sha256": "f285db2323080b54ab65b0f41c0fe153e87c8e07c5c3edcd41234551c0a6c1ad",
+      "sourceSha256": "f285db2323080b54ab65b0f41c0fe153e87c8e07c5c3edcd41234551c0a6c1ad"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-joseph.json",
+      "bytes": 430570,
+      "sha256": "1a6bff9971ee7b9018147826120a198d0d7232e2d7f9851a0ca094360c97d2bf",
+      "sourceSha256": "1a6bff9971ee7b9018147826120a198d0d7232e2d7f9851a0ca094360c97d2bf"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-kingdom.json",
+      "bytes": 659589,
+      "sha256": "16c14cf580416c1d601c6aa3f906dd51633223218688596531e19dae65ee8db8",
+      "sourceSha256": "16c14cf580416c1d601c6aa3f906dd51633223218688596531e19dae65ee8db8"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-last-supper.json",
+      "bytes": 467084,
+      "sha256": "662fdb212e9d76f02e75a529d226f95b7aa274af191aa2bd4598d56cead25a71",
+      "sourceSha256": "662fdb212e9d76f02e75a529d226f95b7aa274af191aa2bd4598d56cead25a71"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-melchizedek.json",
+      "bytes": 175896,
+      "sha256": "a3e5b8a0af10f8b5f4c3b65757a269d6ffa1bbeabb51e7749f88418a5027479a",
+      "sourceSha256": "a3e5b8a0af10f8b5f4c3b65757a269d6ffa1bbeabb51e7749f88418a5027479a"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-moses.json",
+      "bytes": 499023,
+      "sha256": "d117d0db24c91128ec8392e3075e0398c9b420e97c63edf40d55970644a1fb0f",
+      "sourceSha256": "d117d0db24c91128ec8392e3075e0398c9b420e97c63edf40d55970644a1fb0f"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-noah.json",
+      "bytes": 202101,
+      "sha256": "70d421f9de3c96b303d9724da7ec6e07bd88ac287beff8f5e299dff51e9072a1",
+      "sourceSha256": "70d421f9de3c96b303d9724da7ec6e07bd88ac287beff8f5e299dff51e9072a1"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-passover.json",
+      "bytes": 480915,
+      "sha256": "ae6177af76561e659e8f9b42de8633e43ae970542eecba93f7a6132a4904f1e6",
+      "sourceSha256": "ae6177af76561e659e8f9b42de8633e43ae970542eecba93f7a6132a4904f1e6"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-paul.json",
+      "bytes": 1939713,
+      "sha256": "5e5432a79e55990928c3450fa2f8372acd9fe24355a22c8d85809ecd78c5065e",
+      "sourceSha256": "5e5432a79e55990928c3450fa2f8372acd9fe24355a22c8d85809ecd78c5065e"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-pentecost.json",
+      "bytes": 428549,
+      "sha256": "38308900a6fc4d78aeeffff2b5fa261d33617282e1a8104216bf35fad9e8494d",
+      "sourceSha256": "38308900a6fc4d78aeeffff2b5fa261d33617282e1a8104216bf35fad9e8494d"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-peter.json",
+      "bytes": 449487,
+      "sha256": "7d464705fb3714da8b303741451f54aa4127401adbdbbdae7be25bc4b25c64ad",
+      "sourceSha256": "7d464705fb3714da8b303741451f54aa4127401adbdbbdae7be25bc4b25c64ad"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-prayer.json",
+      "bytes": 592027,
+      "sha256": "7afa0e3201ec5974a93172b7dbde83424e68ca67926296c7fff19cc6448157da",
+      "sourceSha256": "7afa0e3201ec5974a93172b7dbde83424e68ca67926296c7fff19cc6448157da"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-resurrection.json",
+      "bytes": 632247,
+      "sha256": "826b649830ad9b7463f136ccc500ca9af297a7870df467fb7ce4c77e7faab46d",
+      "sourceSha256": "826b649830ad9b7463f136ccc500ca9af297a7870df467fb7ce4c77e7faab46d"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-sacrifice.json",
+      "bytes": 924703,
+      "sha256": "33e5fbaa14b080d5a10bb59aa4333c39ba5b113b6fdcb4c554e347b680c67e96",
+      "sourceSha256": "33e5fbaa14b080d5a10bb59aa4333c39ba5b113b6fdcb4c554e347b680c67e96"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-satan.json",
+      "bytes": 563588,
+      "sha256": "08b217473e32ee879a79b634c3d6b89b0666bd5b1ee61b336b0258d82d513718",
+      "sourceSha256": "08b217473e32ee879a79b634c3d6b89b0666bd5b1ee61b336b0258d82d513718"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-saul-king.json",
+      "bytes": 392218,
+      "sha256": "58bacb66e6cf7976192b31e9271bf78075e51cc2d862a66192d672412ecf3287",
+      "sourceSha256": "58bacb66e6cf7976192b31e9271bf78075e51cc2d862a66192d672412ecf3287"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-sermon-on-the-mount.json",
+      "bytes": 367616,
+      "sha256": "4bb6e7d1ec09242fad5a62bb25133d948ab9c0ae784a54397743447e7c74a8e9",
+      "sourceSha256": "4bb6e7d1ec09242fad5a62bb25133d948ab9c0ae784a54397743447e7c74a8e9"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-sin.json",
+      "bytes": 588541,
+      "sha256": "2e0d670f9753a48d463e15441c617b1b50e4567a1bad8048dabbec97cd4e0586",
+      "sourceSha256": "2e0d670f9753a48d463e15441c617b1b50e4567a1bad8048dabbec97cd4e0586"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-sinai.json",
+      "bytes": 590773,
+      "sha256": "7872d2d3812f9444302a0a23ac63f360d5fd237973515a133fd166bd12005dc8",
+      "sourceSha256": "7872d2d3812f9444302a0a23ac63f360d5fd237973515a133fd166bd12005dc8"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-solomon.json",
+      "bytes": 637253,
+      "sha256": "88e0add0a2f62dc9a5c182ae605c199fb84f072995759e2d10ac2cf7e6a505e8",
+      "sourceSha256": "88e0add0a2f62dc9a5c182ae605c199fb84f072995759e2d10ac2cf7e6a505e8"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-spirit.json",
+      "bytes": 1942384,
+      "sha256": "956b4c1f4ae298510799c60125625efe25f8e174b4195547e336ce8e22a460ec",
+      "sourceSha256": "956b4c1f4ae298510799c60125625efe25f8e174b4195547e336ce8e22a460ec"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-temple.json",
+      "bytes": 1076414,
+      "sha256": "7e74bfeba10375b211319dbb0157058e0a828cd9a98bc04d05be3fb327925a23",
+      "sourceSha256": "7e74bfeba10375b211319dbb0157058e0a828cd9a98bc04d05be3fb327925a23"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-temptation-of-jesus.json",
+      "bytes": 253104,
+      "sha256": "508c89807e19bc12d400c3a97e4d8b2f049e85e460fbf031f68ce243ad8c82bb",
+      "sourceSha256": "508c89807e19bc12d400c3a97e4d8b2f049e85e460fbf031f68ce243ad8c82bb"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-transfiguration.json",
+      "bytes": 187146,
+      "sha256": "256454bfe5eaa5ac267f8f15888c3f5d3e867a3bb1b8a5002890479a749003ab",
+      "sourceSha256": "256454bfe5eaa5ac267f8f15888c3f5d3e867a3bb1b8a5002890479a749003ab"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-tree-of-life.json",
+      "bytes": 299200,
+      "sha256": "0a7800679dfec632cd019b6cb6d5ea76bfdd78eda83577b0e06b1bc07518ecc8",
+      "sourceSha256": "0a7800679dfec632cd019b6cb6d5ea76bfdd78eda83577b0e06b1bc07518ecc8"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-twelve-spies.json",
+      "bytes": 271956,
+      "sha256": "3a0eba99b076d5c1538e250ddf2491410cd7a02373236694a644f96676636fa0",
+      "sourceSha256": "3a0eba99b076d5c1538e250ddf2491410cd7a02373236694a644f96676636fa0"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-water.json",
+      "bytes": 60670,
+      "sha256": "68416aa6c531879b307bb341829c069674c0b81a9ca5c63c5b272c9f022163fc",
+      "sourceSha256": "68416aa6c531879b307bb341829c069674c0b81a9ca5c63c5b272c9f022163fc"
+    },
+    {
+      "key": "assets/scripture-tree/presenter-v3/subject-wilderness.json",
+      "bytes": 262402,
+      "sha256": "589f599ce2ebd80746ce135425dc77b4cfb5b81e78e4daa934efc8f58f84199e",
+      "sourceSha256": "589f599ce2ebd80746ce135425dc77b4cfb5b81e78e4daa934efc8f58f84199e"
+    },
+    {
+      "key": "assets/scripture-tree/reader-v3.json",
+      "bytes": 546449,
+      "sha256": "8c0161e91c34f2f212ab3fac80fb82d2443ee724b36f3bf0ebd902e918cb5912",
+      "sourceSha256": "8c0161e91c34f2f212ab3fac80fb82d2443ee724b36f3bf0ebd902e918cb5912"
+    },
+    {
+      "key": "src/data/canonical-promoted.generated.ts",
+      "bytes": 15234578,
+      "sha256": "d82caf93a4c5fbb923e426918f1744402e5e65474c6e3ee58f6002c6ccbb7535",
+      "sourceSha256": "c872ff853a967f728924629043c7d24fba54b64aa62d4e895cc9f734b5da1964"
+    },
+    {
+      "key": "src/data/discover-search-index.generated.ts",
+      "bytes": 4146035,
+      "sha256": "eab1fd614ce77ef05b18d65a46dc51a8f3be6e73d7abe0fd446c448e13ac0f73",
+      "sourceSha256": "7a7288521b7b8ef9d12aff6ff6f0875305af16fd05d34bea5c6abc3de87d85cc"
+    }
+  ],
+  "exactPayloadEquivalence": "PASS",
+  "nativeSourceMutated": false
+}

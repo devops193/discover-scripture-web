@@ -1,0 +1,72 @@
+{
+  "cacheDisabled": false,
+  "routingInterception": false,
+  "bodyBytes": 19934720,
+  "sha256": "dad7bb340c379a808256e2a4491520428070d195625dcfe7ad26ebe366f0c2b3",
+  "source": "Preserved 01A build staging; baseline export reproduced. This is a fetch/cache-policy reproduction, not a second historical application measurement.",
+  "records": [
+    {
+      "phase": "cold",
+      "requestId": "81177.3",
+      "status": 200,
+      "diskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "Cross-Origin-Opener-Policy": "same-origin",
+        "ETag": "W/\"1302e00-1a0f8dfe46b\"",
+        "Connection": "keep-alive",
+        "Cross-Origin-Embedder-Policy": "credentialless",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "19934720",
+        "Keep-Alive": "timeout=5",
+        "Date": "Thu, 01 Oct 2026 19:10:18 GMT",
+        "Last-Modified": "Thu, 01 Oct 2026 19:10:17 GMT",
+        "Content-Type": "application/gzip"
+      },
+      "transferredBytes": 19935101,
+      "decodedBodyBytes": 19934720
+    },
+    {
+      "phase": "warm-same-page",
+      "requestId": "81177.4",
+      "status": 200,
+      "diskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "Cross-Origin-Opener-Policy": "same-origin",
+        "ETag": "W/\"1302e00-1a0f8dfe46b\"",
+        "Connection": "keep-alive",
+        "Cross-Origin-Embedder-Policy": "credentialless",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "19934720",
+        "Keep-Alive": "timeout=5",
+        "Date": "Thu, 01 Oct 2026 19:10:18 GMT",
+        "Last-Modified": "Thu, 01 Oct 2026 19:10:17 GMT",
+        "Content-Type": "application/gzip"
+      },
+      "transferredBytes": 19935101,
+      "decodedBodyBytes": 19934720
+    },
+    {
+      "phase": "warm-after-reload",
+      "requestId": "81177.6",
+      "status": 200,
+      "diskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "Cross-Origin-Opener-Policy": "same-origin",
+        "ETag": "W/\"1302e00-1a0f8dfe46b\"",
+        "Connection": "keep-alive",
+        "Cross-Origin-Embedder-Policy": "credentialless",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "19934720",
+        "Keep-Alive": "timeout=5",
+        "Date": "Thu, 01 Oct 2026 19:10:18 GMT",
+        "Last-Modified": "Thu, 01 Oct 2026 19:10:17 GMT",
+        "Content-Type": "application/gzip"
+      },
+      "transferredBytes": 19935101,
+      "decodedBodyBytes": 19934720
+    }
+  ]
+}

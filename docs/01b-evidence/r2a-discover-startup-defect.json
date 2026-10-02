@@ -1,0 +1,20 @@
+{
+  "verdict": "SPECIFIC_INTEGRATION_DEFECT_REPRODUCED",
+  "defectId": "R2A-DISCOVER-STARTUP-PACK-METADATA",
+  "scope": "ACTUAL_DISCOVER_COMPONENT_REACT_RENDER_PROBE_NOT_BROWSER_ACCEPTANCE",
+  "revision": "35b33016d1f8b7d1a231091466e5bc3698973ad80afdccdd481a737e4fc96be4",
+  "sourceFile": "/Volumes/DevMode/ScriptureDiscovery/src/app/(tabs)/index.tsx",
+  "sourceSha256": "474bc65b90873406094595c9ac6a022a4ab9656f35730f2053b7f8636f1a4f47",
+  "line": 39,
+  "error": "SDW_TOPIC_ACQUISITION_REQUIRED:abraham",
+  "stack": "Error: SDW_TOPIC_ACQUISITION_REQUIRED:abraham\n    at getTopic (file:///Volumes/DevMode/DiscoverWebsite/product-runtime/progressiveGraphCatalog.mjs:15:32)\n    at Object.get [as abraham] (file:///Volumes/DevMode/DiscoverWebsite/product-runtime/progressiveGraphCatalog.mjs:19:102)\n    at /Volumes/DevMode/ScriptureDiscovery/src/app/(tabs)/index.tsx:36:28\n    at Array.flatMap (<anonymous>)\n    at /Volumes/DevMode/ScriptureDiscovery/src/app/(tabs)/index.tsx:35:68\n    at Object.useMemo (/Volumes/DevMode/DiscoverWebsite/node_modules/react-dom/cjs/react-dom-server-legacy.node.development.js:3966:20)\n    at process.env.NODE_ENV.exports.useMemo (/Volumes/DevMode/DiscoverWebsite/node_modules/react/cjs/react.development.js:1251:34)\n    at DiscoverScreen (/Volumes/DevMode/ScriptureDiscovery/src/app/(tabs)/index.tsx:35:56)\n    at Object.react_stack_bottom_frame (/Volumes/DevMode/DiscoverWebsite/node_modules/react-dom/cjs/react-dom-server-legacy.node.development.js:9808:18)\n    at renderWithHooks (/Volumes/DevMode/DiscoverWebsite/node_modules/react-dom/cjs/react-dom-server-legacy.node.development.js:5062:19)",
+  "subjectId": "abraham",
+  "cause": "DiscoverScreen contentPackDescriptors reads topics[card.id].pack through the body-only accessor before any topic acquisition. Its optional chaining cannot suppress the throwing property getter.",
+  "impact": "Discover initial render fails before the initial-route UI is produced.",
+  "availableMetadataMatchesLegacyPack": true,
+  "topicBodiesHydrated": 0,
+  "unexpectedFetches": 0,
+  "requiredRepair": "Bind startup pack/title/axis reads to verified startup metadata; retain explicit acquisition for consumers requiring full topics. Do not preload all topic bodies.",
+  "publicExportChanged": false,
+  "gitPush": false
+}

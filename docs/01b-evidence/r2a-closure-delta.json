@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "revision": "52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398",
+  "searchRows": 4775,
+  "searchRowAndOrderEquivalence": "PASS",
+  "searchSemanticResolverChanged": false,
+  "containingSceneIdentityAlgorithm": "EXACT_ORIGINAL",
+  "commanderCompareSelectionEquivalence": {
+    "scenes": 4640,
+    "compares": 1510,
+    "mismatches": 0
+  },
+  "sourceLanguageModuleChanged": false,
+  "reusedEvidence": [
+    "r2-progressive-scripture.json",
+    "r2-compare-owner-equivalence.json",
+    "r2a-contradiction-attachments.json",
+    "r2a-projected-world-kernel.json"
+  ]
+}

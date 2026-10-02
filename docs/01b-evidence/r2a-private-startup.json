@@ -1,0 +1,385 @@
+{
+  "status": "STARTUP_OBSERVED_NOT_FULL_ACCEPTANCE",
+  "revision": "9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43",
+  "cacheDisabled": false,
+  "errors": [],
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "visibleText": "menu\nDiscover Scripture\nLook again.\nFollow a person. Enter an event. Trace an idea through Scripture.\nsearch\nExplore Scripture…\nperson\n17 available\nCharacter\nWho moves through the story?\nFollow a person through changing relationships, places, decisions, pressure, failure, and memory.\ncrisis_alert\n15 available\nEvent\nWhat happened?\nEnter a moment in Scripture and inspect the people, actions, places, objects, tensions, and consequences inside it.\nhub\n18 available\nConcept\nWhat keeps appearing?\nTrace an idea, image, tension, or pattern as it moves through different people and moments in Scripture.\nAVAILABLE NOW\nLive discoveries\nperson\nCHARACTER DISCOVERY\nNEW\nAbraham\nCall · land · household · promise · testing · memory\nchevron_right\nperson\nCHARACTER DISCOVERY\nNEW\nAdam\nImage · ground · garden · family · death · Christ\nchevron_right\nhub\nCONCEPT DISCOVERY\nNEW\nAngels\nSent · speaking · guiding · judging · worshiping · contending\nchevron_right\ncrisis_alert\nEVENT DISCOVERY\nNEW\nBaptism of Jesus\nJordan · John · Spirit · voice · witness\nchevron_right\ncrisis_alert\nEVENT DISCOVERY\nNEW\nBinding of Isaac\nPromise · son · test · Moriah · halt · provision · memory\nchevron_right\ncrisis_alert\nEVENT DISCOVERY\nNEW\nBridegroom of blood\nExodus 4:24–26 · decisive action · unresolved referents\nchevron_right\nhub\nCONCEPT DISCOVERY\nNEW\nCleansing\nClean · unclean · washing · restoration · access\nchevron_right\nhub\nCONCEPT DISCOVERY\nNEW\nConsequence\nAction · outcome · delay · reversal · boundary\nchevron_right\nhub\nCONCEPT DISCOVERY\nNEW\nCovenant\nPromise · relationship · sign · blood · words · people · kingship · heart · peace · memory\nchevron_right\ncrisis_alert\nEVENT DISCOVERY\nNEW\nCreation\nGod · ordered world · humanity · image · garden · rest · rupture · memory · new creation\nchevron_right\ncrisis_alert\nEVENT DISCOVERY\nNEW\nCrucifixion\nPrediction · sentencing · cross · death · burial · witness · memory\nchevron_right\nperson\nCHARACTER DISCOVERY\nNEW\nDavid\nShepherd · fugitive · king · failure · exile · legacy\nchevron_right\nhub\nCONCEPT DISCOVERY\nNEW\nDemons\nAction · recognition · authority · accusation · worship · teaching\nchevron_right\nhub\nCONCEPT DISCOVERY\nNEW\nEden & Exile\nGarden · gift · expulsion · scattering · return · new creation\nchevron_right\nperson\nCHARACTER DISCOVERY\nNEW\nElijah\nDrought · provision · Carmel · Horeb · kings · mantle · memory · return\nchevron_right\ncrisis_alert\nEVENT DISCOVERY\nNEW\nExodus\nOppression · call · confrontation · departure · sea · song · memory\nchevron_right\nhub\nCONCEPT DISCOVERY\nNEW\nFaith\nTrust · belief · testimony · action · endurance\nchevron_right\nhub\nCONCEPT DISCOVERY\nNEW\nForgiveness\nWrong · request · pardon · consequence · restoration\nchevron_right\nperson\nCHARACTER DISCOVERY\nNEW\nGod\nCreator · covenant · presence · Father · final dwelling\nchevron_right\nhub\nCONCEPT DISCOVERY\nNEW\nHeavenly Assembly\nCouncil · throne · worship · judgment · access\nchevron_right\nperson\nCHARACTER DISCOVERY\nNEW\nIsrael\nName · people · tribes · kingdoms · exile · remnant\nchevron_right\nperson\nCHARACTER DISCOVERY\nNEW\nJesus\nPromise · Jesus Christ · disciples · signs · cross · resurrection · witness · return\nchevron_right\nperson\nCHARACTER DISCOVERY\nNEW\nJohn the Baptist\nPromise · wilderness · baptism · witness · prison · memory\nchevron_right\nperson\nCHARACTER DISCOVERY\nNEW\nJoseph\nFavored · sold · entrusted · raised · testing · reconciliation · famine · memory\nchevron_right\nhub\nCONCEPT DISCOVERY\nNEW\nKingdom\nRealm · rule · promise · proclamation · inheritance · reign\nchevron_right\ncrisis_alert\nEVENT DISCOVERY\nNEW\nLast Supper\nPassover · bread · cup · service · farewell · remembrance\nchevron_right\nperson\nCHARACTER DISCOVERY\nNEW\nMelchizedek\nKing · priest · blessing · tenth · oath · order\nchevron_right\nperson\nCHARACTER DISCOVERY\nNEW\nMoses\nRescued child · exile · reluctant messenger · deliverer · mediator · wilderness leader · final teacher · remembered servant\nchevron_right\nperson\nCHARACTER DISCOVERY\nNEW\nNoah\nFavor · flood · household · covenant · memory\nchevron_right\ncrisis_alert\nEVENT DISCOVERY\nNEW\nPassover\nNight · blood · departure · memory · feast · table · later witness\nchevron_right\nperson\nCHARACTER DISCOVERY\nNEW\nPaul\nSaul · encounter · mission · letters · suffering · witness · memory\nchevron_right\ncrisis_alert\nEVENT DISCOVERY\nNEW\nPentecost\nWeeks · waiting · languages · witness · widening gift\nchevron_right\nperson\nCHARACTER DISCOVERY\nNEW\nPeter\nCalled · impulsive · witness · denial · restoration · leadership\nchevron_right\nhub\nCONCEPT DISCOVERY\nNEW\nPrayer\nAddress · petition · intercession · silence · response\nchevron_right\ncrisis_alert\nEVENT DISCOVERY\nNEW\nResurrection\nHope · prediction · tomb · appearances · witness · raised life\nchevron_right\nhub\nCONCEPT DISCOVERY\nNEW\nSacrifice\nGift · altar · blood · meal · atonement · self-giving\nchevron_right\nperson\nCHARACTER DISCOVERY\nNEW\nSatan\nAdversary · tempter · accuser · deceiver · dragon · judgment\nchevron_right\nperson\nCHARACTER DISCOVERY\nNEW\nSaul\nFirst king · Spirit · command · fear · pursuit · house · memory\nchevron_right\ncrisis_alert\nEVENT DISCOVERY\nNEW\nSermon on the Mount\nBlessing · law · prayer · trust · judgment · doing\nchevron_right\nhub\nCONCEPT DISCOVERY\nNEW\nSin\nAct · guilt · offering · forgiveness · power · life\nchevron_right\ncrisis_alert\nEVENT DISCOVERY\nNEW\nSinai and the Ten Commandments\nMountain · voice · Ten Words · covenant · tablets · breach · renewal\nchevron_right\nperson\nCHARACTER DISCOVERY\nNEW\nSolomon\nWisdom · Temple · kingship · divided heart · memory\nchevron_right\nhub\nCONCEPT DISCOVERY\nNEW\nSpirit\nPresence · life · speech · gift · discernment · witness\nchevron_right\nhub\nCONCEPT DISCOVERY\nNEW\nTemple\nDwelling · holiness · service · loss · renewal · presence\nchevron_right\ncrisis_alert\nEVENT DISCOVERY\nNEW\nTemptation of Jesus\nSpirit · wilderness · Son · Scripture · worship · testing\nchevron_right\ncrisis_alert\nEVENT DISCOVERY\nNEW\nTransfiguration\nMountain · glory · Moses · Elijah · voice\nchevron_right\nhub\nCONCEPT DISCOVERY\nNEW\nTree of Life\nGarden · wisdom · water · fruit · healing · access\nchevron_right\ncrisis_alert\nEVENT DISCOVERY\nNEW\nTwelve Spies\nLand · report · refusal · pardon · rest\nchevron_right\nhub\nCONCEPT DISCOVERY\nNEW\nWater\nCreation · danger · boundary · provision · cleansing · life\nchevron_right\nhub\nCONCEPT DISCOVERY\nNEW\nWilderness\nJourney · need · encounter · refuge · memory · reversal\nchevron_right\nNew content packs added regularly.\n\n\nCommander\n\n\nDiscover\n\n\nTrails\n\n\nReading",
+  "topicText": "arrow_back\nAbraham\nperson\nCHARACTER DISCOVERY\nAbraham\nCall · land · household · covenant · sons · testing · burial · memory\nAbram becomes Abraham while country, land, altars, wealth, kin, kings, covenant, household conflict, sons, testing, grief, property, inheritance, death, and later memory gather around the same person.\nEnter the trail\nOpen Character World\nFIRST GLANCE\nA life in eight movements\nI\nOrigins and call\n3 scenes\nAbram enters through a family line, leaves Haran, crosses Canaan, builds altars, and goes down to Egypt under famine.\nII\nLand and neighbors\n4 scenes\nLand, wealth, kinship, conflict, separation, rescue, and encounters with kings gather around Abram.\nIII\nPromise and household\n5 scenes\nPromise is spoken beside childlessness, Hagar and Ishmael enter the household story, and Abram receives a new name and covenant sign.\nIV\nHospitality and intercession\n4 scenes\nAbraham receives visitors, hears renewed speech about Sarah, presses questions about Sodom, and moves through its aftermath and Gerar.\nV\nSons and testing\n5 scenes\nIsaac is born, Hagar and Ishmael depart, a treaty is made, and Abraham is tested with the son named in the promise.\nVI\nLoss and final years\n7 scenes\nSarah dies, Abraham obtains burial ground, Rebekah joins Isaac, inheritance is ordered, and Abraham dies and is buried.\nVII\nFamily and Israel remember\n18 scenes\nIsaac, Jacob, Torah, histories, prayer, poetry, prophets, and later Jewish writings remember Abraham through oath, ancestry, friendship, and promise.\nVIII\nGospel and apostolic memory\n25 scenes\nGenealogies, speeches, parables, disputes, and letters invoke Abraham in distinct arguments about ancestry, promise, faith, action, and hope.",
+  "worldText": "arrow_back\nAbraham World\nAbraham\nCharacter · 12 branches · Curated Discovery\nRevision: bundled-approved · fa83a71a6231\nWORLD BRANCHES\nScenes · 71\nEvents · 1\nConcepts · 7\nRelationships · 38\nTrail · 1\nQuestions · 153\nFindings · 277\nEvidence · 188\nRelated Scripture · 502\nCompare · 38\nScripture · 247\nActivities · 1\nActivities: partial governed coverage\nExhaustive occurrences: unavailable\nCHARACTER\nSelect a branch to explore this World.\nCONTEXT & ACTIONS\nSelect a branch to open its references.\nAbraham › World\nReturn to previous focus",
+  "sceneText": "arrow_back\nAbraham World\nAbraham\nCharacter · 12 branches · Curated Discovery\nRevision: bundled-approved · fa83a71a6231\nWORLD BRANCHES\nScenes · 71\nEvents · 1\nConcepts · 7\nRelationships · 38\nTrail · 1\nQuestions · 153\nFindings · 277\nEvidence · 188\nRelated Scripture · 502\nCompare · 38\nScripture · 247\nActivities · 1\nActivities: partial governed coverage\nExhaustive occurrences: unavailable\nBrowse Scenes · 71\nSCENE\n1 Maccabees 2:50–54\nTap citation to reveal source\nAbraham remembered as faithful in testing\nMattathias calls his sons to remember earlier generations and names Abraham among a sequence of tested ancestors.\n1 Maccabees 2:50–54\nTap to return\nWEBU\nedit_note\nNote\n50 Now, my children, be zealous for the law, and give your lives for the covenant of your fathers.\n51 Call to remembrance the deeds of our fathers which they did in their generations; and receive great glory and an everlasting name.\n52 Wasn’t Abraham found faithful in temptation, and it was reckoned to him for righteousness?\n53 Joseph in the time of his distress kept the commandment, and became lord of Egypt.\n54 Phinehas our father, because he was exceedingly zealous, obtained the covenant of an everlasting priesthood.\nBookmark\narticle\nREADING MODE\nshare\nShare\nTap to return\nCONTEXT & ACTIONS\nOpen 1 Maccabees 2:50–54\nOpen QUESTION · 1 Maccabees 2:50–52\nOpen RELATED SCRIPTURE · Sirach 44:19–23\nSCRIPTURE COORDINATES · 5\n1 Maccabees 2:50\narticle\nREADING MODE\n1 Maccabees 2:51\narticle\nREADING MODE\n1 Maccabees 2:52\narticle\nREADING MODE\n1 Maccabees 2:53\narticle\nREADING MODE\n1 Maccabees 2:54\narticle\nREADING MODE\nPrevious coordinates\nMore coordinates\nAbraham › Scenes › scene\nReturn to previous focus",
+  "evidenceText": "arrow_back\nAbraham World\nAbraham\nCharacter · 12 branches · Curated Discovery\nRevision: bundled-approved · fa83a71a6231\nWORLD BRANCHES\nScenes · 71\nEvents · 1\nConcepts · 7\nRelationships · 38\nTrail · 1\nQuestions · 153\nFindings · 277\nEvidence · 188\nRelated Scripture · 502\nCompare · 38\nScripture · 247\nActivities · 1\nActivities: partial governed coverage\nExhaustive occurrences: unavailable\nBrowse Scenes · 71\nEVIDENCE\n1 Maccabees 2:50–52\nTap citation to reveal source\n1 Maccabees 2:50–52\nNow, my children, be zealous for the law, and give your lives for the covenant of your fathers. Call to remembrance the deeds of our fathers which they did in their generations; and receive great glory and an everlasting name. Wasn’t Abraham found faithful in temptation, and it was reckoned to him for righteousness?\n1 Maccabees 2:50–52\nTap to return\nWEBU\nedit_note\nNote\n50 Now, my children, be zealous for the law, and give your lives for the covenant of your fathers.\n51 Call to remembrance the deeds of our fathers which they did in their generations; and receive great glory and an everlasting name.\n52 Wasn’t Abraham found faithful in temptation, and it was reckoned to him for righteousness?\nBookmark\narticle\nREADING MODE\nshare\nShare\nTap to return\nCONTEXT & ACTIONS\nOpen 1 Maccabees 2:50–52\nSCRIPTURE COORDINATES · 3\n1 Maccabees 2:50\narticle\nREADING MODE\n1 Maccabees 2:51\narticle\nREADING MODE\n1 Maccabees 2:52\narticle\nREADING MODE\nPrevious coordinates\nMore coordinates\nAbraham › Scenes › scene › question › finding › evidence\nReturn to previous focus",
+  "repeatedWorldSceneRequests": 0,
+  "startupRequestCount": 13,
+  "requests": [
+    {
+      "path": "/product-app/",
+      "bytes": 1485
+    },
+    {
+      "path": "/product-app/boot.js",
+      "bytes": 428
+    },
+    {
+      "path": "/product-app/_expo/static/js/web/entry-6077eb8fc5721759355879bd06ebd257.js",
+      "bytes": 1274377
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/d46c1fbeab50131f69f9f5b55c5722df44c6ef78ac15345256a9a492224dd108.json",
+      "bytes": 32855
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/2353b989e6de0bf1d93965e13577310ebe0c0a9fa9c8e45db0bf71ea50d7da73.json",
+      "bytes": 51640
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/0d5c77db8e85ab1b7c14a6c86a218f07d2f271d234a264d2f77766b6bb5fedfb.json",
+      "bytes": 515477
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/6b0143a6e04c805e151bc8d4144028fa0fd4f383f875b06eb6a9996742d4eee8.json",
+      "bytes": 396081
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/ea4dd5e399acedf8a4315e9fbfce4ae43e6d982e6c5a441e8deacb5737767079.json",
+      "bytes": 841944
+    },
+    {
+      "path": "/product-app/assets/__ScriptureDiscovery/node_modules/@expo-google-fonts/material-symbols/400Regular/MaterialSymbols_400Regular.44b1e9941a4397bd95165681e216120b.ttf",
+      "bytes": 962292
+    },
+    {
+      "path": "/product-app/assets/__ScriptureDiscovery/node_modules/@expo-google-fonts/source-serif-4/400Regular/SourceSerif4_400Regular.d73629837cb80aa0a18f9e4706efea3a.ttf",
+      "bytes": 329948
+    },
+    {
+      "path": "/product-app/assets/__ScriptureDiscovery/node_modules/@expo-google-fonts/source-serif-4/700Bold/SourceSerif4_700Bold.6fad708080f96c595afeafccef1c2d8d.ttf",
+      "bytes": 330208
+    },
+    {
+      "path": "/product-app/_expo/static/js/web/worker-15bcb55a1f86755fa1c6679f3cc59a4a.js",
+      "bytes": 33214
+    },
+    {
+      "path": "/product-app/assets/sqlite-web/wa-sqlite/wa-sqlite.7ca566fbbc2ec2a172c5aefa63a20f4b.wasm",
+      "bytes": 621492
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/05057cae313fe6b57510f9fced591026f7763e3e934bd327c57e20bd7adc5aac.json",
+      "bytes": 193770
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/6e2534caa81a516d053e5b24f10ce9c4961d210f06ff1147e4fc5931bfa9df19.json",
+      "bytes": 2248710
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/de8dc7fdc5a64cea2c0d772040dbce39722a87703db8338c73a8e5b8ff78db1c.json",
+      "bytes": 895679
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/20df21fb21075431612da7b50c40f7609e58ab8cd9ff94b8eaaba63cb88c5002.json",
+      "bytes": 644560
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/435c314e9534d91c07d6d9c1fd3e569934fb851a9e395757bb1ec4805b1884a2.json",
+      "bytes": 9623
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/78b0899b4c535e6672045d54f0cc382f200be708e08c98b93dba42c66f71026a.json",
+      "bytes": 859
+    },
+    {
+      "path": "/product-app/assets/__ScriptureDiscovery/node_modules/expo-router/assets/react-navigation/elements/back-icon.35ba0eaec5a4f5ed12ca16fabeae451d.png",
+      "bytes": 207
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/89e5dbff36a793188c144609b6f00d319213de49a07002a6ee2a39426b8b55fc.json",
+      "bytes": 5947
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/e3927e9cf1bd0e227d9503346c9f69627280737b424c18ff8d1d755d7ab66f13.json",
+      "bytes": 875225
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/b22f202cf7ce2783d8e0d821ca63f6bf0464a1851b4b4279a334a24e7dcc2871.json",
+      "bytes": 61818
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/e517376bacff48cc08ec626fdab7b611d34f104ed7251a616c8c5e17bf90697f.json",
+      "bytes": 79491
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/aa29ba9250f2f4b7d6a4d2b59555465ddac733acbe62df46f6fc918bc72cac5a.json",
+      "bytes": 963
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/9fff63f3783e4f820a0a93e8ea4bb40872cb66bedefdb4f1c34efd69e11c580e.json",
+      "bytes": 1002
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/8790aaa48e9f48a8d1a89b8471bd933335af30bf86dcc7e5ef1a36d17af90102.json",
+      "bytes": 964
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/efc0058b0c605fab5b69ae06c0ed8caf093f063d7ce4c44bacd7308dbc265837.json",
+      "bytes": 1010
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/4bb366a65b1f0d50d48bf63da4cb23683364e9488c304b446d99556a0f0a4f87.json",
+      "bytes": 950
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/f607720c2e0fd01357a31ac0852ed51ecd2194abe689b85a61432f4692eefc9a.json",
+      "bytes": 999
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/f901ed00f09dea05194bb3de789f0862c5fbd971fe168ea1a3d002e236b27fcc.json",
+      "bytes": 926
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/71c6d7463911213fa0d41bf873a6417e3992f2b49426038697c206d58923b50d.json",
+      "bytes": 984
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/0a383a655c3af818d6f940202271b5f58b34b3867b5c84c603d546cf36598692.json",
+      "bytes": 929
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/fdb38419bfba9e360d156f7ff69ac66f68b0e5265d14e96f4aa653b8fe1b116d.json",
+      "bytes": 997
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/787c6d55a573913e457d1210ef71d0a858a5032b1ffabf08a7541a6d9e4126fe.json",
+      "bytes": 1097
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/01b86157efbbad97daff588d7da727f9834ad796c799e78dea1ad763fca9e31d.json",
+      "bytes": 905
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/192a82ad4279d0c1646d65042f0581af2d62fa3174115b832fec2ef47a4bc5d4.json",
+      "bytes": 4755
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/af666b8baf24798709a51e5fa52c5b1996e11a6cf914824ac226266d6bdf3ee9.json",
+      "bytes": 33920
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/835662bdbf62ce1a7ebd2d4af2163f8f8e820c4be46e14d4bca8d9ba7b6fd36e.json",
+      "bytes": 20159
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/eb66e3a475a41ad80963751c43ea8e27364605bac769e11ed35931daa208f37a.json",
+      "bytes": 2383701
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/a6cbc3006c675322fdf79b51285f580e8fed76c620835a3de09c1196eff513e0.json",
+      "bytes": 1729
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/7efb40345507fc7d4aa51bb9c9bb7204ce2288d73ba57ca1a28ea34a1b4e740b.json",
+      "bytes": 892
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/6456e169434e621e51651258cfeb995d02e388bedb48ceb0dec501144b89cb7d.json",
+      "bytes": 1277
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/0afbe58960f7dc86a8374758a60bb3cb35dab8f9a3168b5f7c3473921d117cd7.json",
+      "bytes": 1430
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/88cf179ff84e8f4b5df71d5ac4d75b74d5bdd3224207225aad92458a56a3f152.json",
+      "bytes": 2140
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/0228878b8eae6c9817e5c9a52d8eae7517166344b3812155353f367fb2857c3c.json",
+      "bytes": 745
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/503591ca1ff87bf8305d103213b78494d5307195adaf136fce6c847d99df8797.json",
+      "bytes": 1071
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/46b4812f52a3742a58977830cd1502bdf81bf6ee771c7e534ae0e43490a520b0.json",
+      "bytes": 732
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/b6cd797b33000ce4fac749dab4060d38c29d256d5dbc13efd4035b0587e46633.json",
+      "bytes": 745
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/feec845eeb17c68117b4b94a154e53b2921ee39b096799e66d71ecb455f705ef.json",
+      "bytes": 1067
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/eeed8cf5b73062e2c7660a5b6a3fb0e550749fbe34f3b25bdcdd9bf87baed5fd.json",
+      "bytes": 1066
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/c5dff25836f917ecb9105c34f2f90b809b672a6b2a7a258e731660a7a76e6b97.json",
+      "bytes": 977
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/d7901b92c9c79825eb976f84d55b496683e89023d69c298b70dc10f5ee4975d5.json",
+      "bytes": 1062
+    },
+    {
+      "path": "/product-app/discovery/adam/dissect",
+      "bytes": 1485
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/a8c994d5a191c481337145818260df030801d74b6273e2576195e0a8bff84b53.json",
+      "bytes": 136108
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/373aa0a3cd421144601ef0171e4a38cfdfaa05384385feeba93747941578b21b.json",
+      "bytes": 100192
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/923b9255bf0cc6062c6f1bfa32f91b154a5788a8647dec86611e119e38a7a81a.json",
+      "bytes": 5649
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/a53deda4794f903833821a86a6fbdf8fb03bbb2a5fde0628035da7635813d719.json",
+      "bytes": 850
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/a297ec3ca610f7b447b0955e15bcc26e69bfd6c431bc9bb215a3b319836ff537.json",
+      "bytes": 40961
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/03c1f9a771b30500e20729b33e00cba1881e5056e9b9ecab11a66f2b9d0ec66e.json",
+      "bytes": 16205
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/9eba50e9ca3e5aad1e2d039c74d8fb947f4961f950f14d100a1d36e8d6b8c610.json",
+      "bytes": 7652
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/64d35c4d377dec955506a3811ebf2bdc382dad83c0457d78be1cb86c63c507cc.json",
+      "bytes": 1936
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/36a6232e3ce786bf5e27ece0ad55a072d6a26fa4a8b7e6197bf37ef7fff83f86.json",
+      "bytes": 847
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/714b0b7c27f9420301c4cef1031dd4d7470623c79815b28f64d9758d553bb537.json",
+      "bytes": 3367
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/1333f226d0cba547bac1a555d3599b2764ce1b2cb946da23714873231e61bd49.json",
+      "bytes": 639
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/75a9b0cc33861d79064a47dd976297fa8ff9f6167b7cdd32464fcd0372591c25.json",
+      "bytes": 2626
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/0877c2d35a42668d5402baae9fa7cf8cf1146521e776077e23ce85390ea5999b.json",
+      "bytes": 3338
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/93f00160f3fe43fa23a515cc65e76fd14d5d9c8497fbec429628ba30b44dee3e.json",
+      "bytes": 3389
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/e1b66bd45f4668a3f223b8036affb14309d912e976f928e72ef8c67b81ae563c.json",
+      "bytes": 3303
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/43266d476d007a33bb246738c243a22f01ada5860a47d0fe9b20fafd0b59d393.json",
+      "bytes": 3374
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/dc66d2e7e547194efcad234b3c62a80c54962e925d9dd5f778be7f807e41b766.json",
+      "bytes": 3519
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/ae19c707c6fc5a445473423fd4480b67d4e1df7c5a99a3d9a81339c8b9fbe085.json",
+      "bytes": 3897
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/65a72f3caa4eda15bf99c60334f63827c13a8e4d7dc5c7926bbdf0888df3944f.json",
+      "bytes": 3157
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/69335956acecfa40bbb941f71e49c9c430ec64ee94eaf5684a7c9e5d80765572.json",
+      "bytes": 1156
+    },
+    {
+      "path": "/sdw/9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43/61d4c9eab9b482bc66a42a16f7e4e16b27bf58ccdd4f601246caf6dcb7ce4205.json",
+      "bytes": 8926
+    },
+    {
+      "path": "/product-app/discovery/adam/compare",
+      "bytes": 1485
+    }
+  ],
+  "evidence": {
+    "runtime": {
+      "engineId": "a40dbf09-e3a9-47f8-b2fe-1bb2b8cd1430",
+      "counts": {
+        "canonicalBoot": 1,
+        "packetCache": 1,
+        "canonicalReader": 1,
+        "worldRoots": 1,
+        "root": 1,
+        "storage": 1,
+        "graph": 1,
+        "treePacketStore": 1,
+        "treeCache": 1,
+        "worldKernel": 1
+      }
+    },
+    "progressive": {
+      "ready": true,
+      "revision": "9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43",
+      "cache": {
+        "revision": "9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43",
+        "cacheHits": 0,
+        "networkMisses": 44,
+        "networkBytesDecoded": 9322873,
+        "integrityFailures": 0,
+        "inFlight": 0
+      },
+      "scripture": {
+        "revision": "9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43",
+        "hydratedChapters": [
+          "engwebu:1ma:2"
+        ],
+        "inFlight": 0,
+        "completedSearches": 0
+      },
+      "graph": {
+        "hydratedTopicIds": [
+          "abraham"
+        ],
+        "inFlight": 0
+      },
+      "dgr": {
+        "hydratedQuestionCount": 1,
+        "inFlight": 0
+      },
+      "contradictions": {
+        "indexAcquired": false,
+        "hydratedIds": []
+      },
+      "governedOwners": {
+        "metadataAcquired": false,
+        "hydrated": []
+      }
+    }
+  },
+  "contradictionBrowser": {
+    "attachmentListingHydrations": 0,
+    "selectedId": "adam-death-timing",
+    "selectedRecordRequests": 1,
+    "otherRecordRequests": 0,
+    "returnAndRefreshRecordRequests": 0
+  },
+  "publicActivation": false
+}

@@ -1,0 +1,1 @@
+{"schema":"SDW_WORLD_BRANCH_V1","revision":"52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398","rootRef":"character:abraham","branch":{"family":"Events","ownerRef":"character:abraham","refs":["event:binding-of-isaac"],"coverage":"CURATED_GOVERNED_DISCOVERY"}}

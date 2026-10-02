@@ -1,0 +1,3333 @@
+{
+  "artifact": "__common-2a2a83ac31582a00a5e4c9ba202668b0.js",
+  "decodedBytes": 121490327,
+  "gzipBytes": 19261088,
+  "brotliBytes": 14011034,
+  "method": "Source-map attribution of each Metro module line; wrapper/newline bytes included; groups are decoded bytes, not additive compression estimates",
+  "groups": {
+    "Code and other modules": 2324431,
+    "Tree data": 66406876,
+    "DGR data": 31608218,
+    "Other JSON data": 1623216,
+    "Generated canonical/search data": 19527586
+  },
+  "modules": [
+    {
+      "source": "/src/data/canonical-promoted.generated.ts",
+      "category": "Generated canonical/search data",
+      "bytes": 14961849,
+      "moduleId": "1293"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/compare-v3.json",
+      "category": "Tree data",
+      "bytes": 7089930,
+      "moduleId": "1432"
+    },
+    {
+      "source": "/src/data/discover-search-index.generated.ts",
+      "category": "Generated canonical/search data",
+      "bytes": 4565737,
+      "moduleId": "1424"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/v1/question-contracts.json",
+      "category": "DGR data",
+      "bytes": 3865187,
+      "moduleId": "1348"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/v1/canonical-scene-registry.json",
+      "category": "DGR data",
+      "bytes": 2678278,
+      "moduleId": "1357"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/v1/question-capabilities.json",
+      "category": "DGR data",
+      "bytes": 2552239,
+      "moduleId": "1347"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-jesus.json",
+      "category": "Tree data",
+      "bytes": 2404285,
+      "moduleId": "1073"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/compare-pivots-v3.json",
+      "category": "Tree data",
+      "bytes": 2380617,
+      "moduleId": "1433"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/angels/questions.json",
+      "category": "DGR data",
+      "bytes": 2235262,
+      "moduleId": "1203"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-spirit.json",
+      "category": "Tree data",
+      "bytes": 1906750,
+      "moduleId": "1094"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-paul.json",
+      "category": "Tree data",
+      "bytes": 1893238,
+      "moduleId": "1082"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/runtime-02/reading-investigation-binding.json",
+      "category": "DGR data",
+      "bytes": 1730534,
+      "moduleId": "1243"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/v1/generic-reader-scene-contexts.json",
+      "category": "DGR data",
+      "bytes": 1700082,
+      "moduleId": "1358"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_psa.json",
+      "category": "Tree data",
+      "bytes": 1462279,
+      "moduleId": "1172"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/runtime-02/production-runtime-bundle.json",
+      "category": "DGR data",
+      "bytes": 1338299,
+      "moduleId": "1235"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/angels/events.json",
+      "category": "DGR data",
+      "bytes": 1215802,
+      "moduleId": "1201"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-david.json",
+      "category": "Tree data",
+      "bytes": 1203661,
+      "moduleId": "1063"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-angels.json",
+      "category": "Tree data",
+      "bytes": 1184404,
+      "moduleId": "1054"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/faith/questions.json",
+      "category": "DGR data",
+      "bytes": 1175099,
+      "moduleId": "1231"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-abraham.json",
+      "category": "Tree data",
+      "bytes": 1164414,
+      "moduleId": "1052"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/citation-metadata.json",
+      "category": "Tree data",
+      "bytes": 1103078,
+      "moduleId": "1049"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-temple.json",
+      "category": "Tree data",
+      "bytes": 1047640,
+      "moduleId": "1095"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_gen.json",
+      "category": "Tree data",
+      "bytes": 1031350,
+      "moduleId": "1140"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/angels/graph.json",
+      "category": "DGR data",
+      "bytes": 1000074,
+      "moduleId": "1200"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-israel-collective.json",
+      "category": "Tree data",
+      "bytes": 931430,
+      "moduleId": "1072"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-sacrifice.json",
+      "category": "Tree data",
+      "bytes": 899174,
+      "moduleId": "1087"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-faith.json",
+      "category": "Tree data",
+      "bytes": 885623,
+      "moduleId": "1068"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/character-trail-v3.json",
+      "category": "Tree data",
+      "bytes": 868143,
+      "moduleId": "1420"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-eden-exile.json",
+      "category": "Tree data",
+      "bytes": 852483,
+      "moduleId": "1065"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/v1/scene-profile-projection-index.json",
+      "category": "DGR data",
+      "bytes": 801791,
+      "moduleId": "1359"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_exo.json",
+      "category": "Tree data",
+      "bytes": 792531,
+      "moduleId": "1136"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_jer.json",
+      "category": "Tree data",
+      "bytes": 765069,
+      "moduleId": "1149"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_sir.json",
+      "category": "Tree data",
+      "bytes": 764908,
+      "moduleId": "1176"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_isa.json",
+      "category": "Tree data",
+      "bytes": 754055,
+      "moduleId": "1145"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_num.json",
+      "category": "Tree data",
+      "bytes": 750565,
+      "moduleId": "1166"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_mat.json",
+      "category": "Tree data",
+      "bytes": 746279,
+      "moduleId": "1161"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_luk.json",
+      "category": "Tree data",
+      "bytes": 745320,
+      "moduleId": "1158"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-consequence.json",
+      "category": "Tree data",
+      "bytes": 745300,
+      "moduleId": "1059"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/manifest.json",
+      "category": "Tree data",
+      "bytes": 723125,
+      "moduleId": "946"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/runtime-02/runtime-question-lookup-manifest.json",
+      "category": "DGR data",
+      "bytes": 718728,
+      "moduleId": "1236"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_ezk.json",
+      "category": "Tree data",
+      "bytes": 717859,
+      "moduleId": "1137"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/faith/events.json",
+      "category": "DGR data",
+      "bytes": 708388,
+      "moduleId": "1229"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/abraham/questions.json",
+      "category": "DGR data",
+      "bytes": 680452,
+      "moduleId": "1196"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_act.json",
+      "category": "Tree data",
+      "bytes": 678513,
+      "moduleId": "1125"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-forgiveness.json",
+      "category": "Tree data",
+      "bytes": 647309,
+      "moduleId": "1069"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-kingdom.json",
+      "category": "Tree data",
+      "bytes": 641109,
+      "moduleId": "1076"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-god.json",
+      "category": "Tree data",
+      "bytes": 641088,
+      "moduleId": "1070"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-solomon.json",
+      "category": "Tree data",
+      "bytes": 622155,
+      "moduleId": "1093"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-resurrection.json",
+      "category": "Tree data",
+      "bytes": 614173,
+      "moduleId": "1086"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/exodus/questions.json",
+      "category": "DGR data",
+      "bytes": 598242,
+      "moduleId": "1224"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_job.json",
+      "category": "Tree data",
+      "bytes": 584523,
+      "moduleId": "1151"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_deu.json",
+      "category": "Tree data",
+      "bytes": 584456,
+      "moduleId": "1131"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_jhn.json",
+      "category": "Tree data",
+      "bytes": 579038,
+      "moduleId": "1150"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-prayer.json",
+      "category": "Tree data",
+      "bytes": 577404,
+      "moduleId": "1085"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-sinai.json",
+      "category": "Tree data",
+      "bytes": 573004,
+      "moduleId": "1092"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-sin.json",
+      "category": "Tree data",
+      "bytes": 571287,
+      "moduleId": "1091"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-crucifixion.json",
+      "category": "Tree data",
+      "bytes": 570685,
+      "moduleId": "1062"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-satan.json",
+      "category": "Tree data",
+      "bytes": 552421,
+      "moduleId": "1088"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/reader-v3.json",
+      "category": "Tree data",
+      "bytes": 546460,
+      "moduleId": "1242"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-cleansing.json",
+      "category": "Tree data",
+      "bytes": 542698,
+      "moduleId": "1058"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/crucifixion/questions.json",
+      "category": "DGR data",
+      "bytes": 536471,
+      "moduleId": "1210"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_1ch.json",
+      "category": "Tree data",
+      "bytes": 533803,
+      "moduleId": "1102"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-heavenly-assembly.json",
+      "category": "Tree data",
+      "bytes": 525613,
+      "moduleId": "1071"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_2es.json",
+      "category": "Tree data",
+      "bytes": 519806,
+      "moduleId": "1114"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/angels/traces.json",
+      "category": "DGR data",
+      "bytes": 517300,
+      "moduleId": "1205"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/faith/graph.json",
+      "category": "DGR data",
+      "bytes": 514968,
+      "moduleId": "1228"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_pro.json",
+      "category": "Tree data",
+      "bytes": 509838,
+      "moduleId": "1170"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_lev.json",
+      "category": "Tree data",
+      "bytes": 497715,
+      "moduleId": "1157"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_1ma.json",
+      "category": "Tree data",
+      "bytes": 495529,
+      "moduleId": "1107"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-covenant.json",
+      "category": "Tree data",
+      "bytes": 494910,
+      "moduleId": "1060"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_1ki.json",
+      "category": "Tree data",
+      "bytes": 493504,
+      "moduleId": "1106"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_1sa.json",
+      "category": "Tree data",
+      "bytes": 493252,
+      "moduleId": "1109"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_2ch.json",
+      "category": "Tree data",
+      "bytes": 488983,
+      "moduleId": "1112"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-moses.json",
+      "category": "Tree data",
+      "bytes": 486617,
+      "moduleId": "1079"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/questions/source-language-glosses/a0d380000fc5cf9c4bc9b92de88470bb0b5c259614b1bf65be3b5dbc5a1150e8.json",
+      "category": "Other JSON data",
+      "bytes": 475761,
+      "moduleId": "1240"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/angels/intents.json",
+      "category": "DGR data",
+      "bytes": 475709,
+      "moduleId": "1204"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-passover.json",
+      "category": "Tree data",
+      "bytes": 467128,
+      "moduleId": "1081"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/elijah/questions.json",
+      "category": "DGR data",
+      "bytes": 464593,
+      "moduleId": "1217"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-last-supper.json",
+      "category": "Tree data",
+      "bytes": 454314,
+      "moduleId": "1077"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_mrk.json",
+      "category": "Tree data",
+      "bytes": 440262,
+      "moduleId": "1163"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/coverage-02/question-contracts.json",
+      "category": "DGR data",
+      "bytes": 440186,
+      "moduleId": "1364"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-peter.json",
+      "category": "Tree data",
+      "bytes": 436463,
+      "moduleId": "1084"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_2ki.json",
+      "category": "Tree data",
+      "bytes": 436132,
+      "moduleId": "1116"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-exodus.json",
+      "category": "Tree data",
+      "bytes": 434567,
+      "moduleId": "1067"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_2sa.json",
+      "category": "Tree data",
+      "bytes": 423144,
+      "moduleId": "1119"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-joseph.json",
+      "category": "Tree data",
+      "bytes": 418975,
+      "moduleId": "1075"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-pentecost.json",
+      "category": "Tree data",
+      "bytes": 416556,
+      "moduleId": "1083"
+    },
+    {
+      "source": "/src/data/scripture/moses.generated.ts",
+      "category": "Code and other modules",
+      "bytes": 410498,
+      "moduleId": "1412"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-saul-king.json",
+      "category": "Tree data",
+      "bytes": 385527,
+      "moduleId": "1089"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/crucifixion/events.json",
+      "category": "DGR data",
+      "bytes": 383169,
+      "moduleId": "1208"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_jos.json",
+      "category": "Tree data",
+      "bytes": 369692,
+      "moduleId": "1154"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/exodus/events.json",
+      "category": "DGR data",
+      "bytes": 365520,
+      "moduleId": "1222"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-sermon-on-the-mount.json",
+      "category": "Tree data",
+      "bytes": 357527,
+      "moduleId": "1090"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-baptism-of-jesus.json",
+      "category": "Tree data",
+      "bytes": 352090,
+      "moduleId": "1055"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_jdg.json",
+      "category": "Tree data",
+      "bytes": 342412,
+      "moduleId": "1147"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-elijah.json",
+      "category": "Tree data",
+      "bytes": 336222,
+      "moduleId": "1066"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-demons.json",
+      "category": "Tree data",
+      "bytes": 326517,
+      "moduleId": "1064"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-john-the-baptist.json",
+      "category": "Tree data",
+      "bytes": 319493,
+      "moduleId": "1074"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_rev.json",
+      "category": "Tree data",
+      "bytes": 313335,
+      "moduleId": "1173"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_rom.json",
+      "category": "Tree data",
+      "bytes": 308947,
+      "moduleId": "1174"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_2ma.json",
+      "category": "Tree data",
+      "bytes": 305017,
+      "moduleId": "1117"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/angels/nql.json",
+      "category": "DGR data",
+      "bytes": 302527,
+      "moduleId": "1202"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_dag.json",
+      "category": "Tree data",
+      "bytes": 302429,
+      "moduleId": "1129"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/dgr-channel-metadata.json",
+      "category": "Tree data",
+      "bytes": 301678,
+      "moduleId": "1050"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_1co.json",
+      "category": "Tree data",
+      "bytes": 298688,
+      "moduleId": "1103"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/abraham/events.json",
+      "category": "DGR data",
+      "bytes": 298331,
+      "moduleId": "1194"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-creation.json",
+      "category": "Tree data",
+      "bytes": 293723,
+      "moduleId": "1061"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-tree-of-life.json",
+      "category": "Tree data",
+      "bytes": 289797,
+      "moduleId": "1098"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/crucifixion/graph.json",
+      "category": "DGR data",
+      "bytes": 289325,
+      "moduleId": "1207"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/exodus/graph.json",
+      "category": "DGR data",
+      "bytes": 288037,
+      "moduleId": "1221"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/faith/traces.json",
+      "category": "DGR data",
+      "bytes": 279823,
+      "moduleId": "1233"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_4ma.json",
+      "category": "Tree data",
+      "bytes": 273390,
+      "moduleId": "1124"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-twelve-spies.json",
+      "category": "Tree data",
+      "bytes": 265097,
+      "moduleId": "1099"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-adam.json",
+      "category": "Tree data",
+      "bytes": 260338,
+      "moduleId": "1053"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-wilderness.json",
+      "category": "Tree data",
+      "bytes": 253927,
+      "moduleId": "1101"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_wis.json",
+      "category": "Tree data",
+      "bytes": 251365,
+      "moduleId": "1180"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-temptation-of-jesus.json",
+      "category": "Tree data",
+      "bytes": 246067,
+      "moduleId": "1096"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/coverage-02/scene-eligible-question-index.json",
+      "category": "DGR data",
+      "bytes": 245790,
+      "moduleId": "1367"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/elijah/events.json",
+      "category": "DGR data",
+      "bytes": 245721,
+      "moduleId": "1215"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_1es.json",
+      "category": "Tree data",
+      "bytes": 239477,
+      "moduleId": "1104"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/faith/intents.json",
+      "category": "DGR data",
+      "bytes": 235565,
+      "moduleId": "1232"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_neh.json",
+      "category": "Tree data",
+      "bytes": 235173,
+      "moduleId": "1165"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_heb.json",
+      "category": "Tree data",
+      "bytes": 233196,
+      "moduleId": "1143"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/v1/reader-scene-contexts.json",
+      "category": "DGR data",
+      "bytes": 221787,
+      "moduleId": "1353"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_dan.json",
+      "category": "Tree data",
+      "bytes": 215480,
+      "moduleId": "1130"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/abraham/graph.json",
+      "category": "DGR data",
+      "bytes": 212533,
+      "moduleId": "1193"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-binding-of-isaac.json",
+      "category": "Tree data",
+      "bytes": 207353,
+      "moduleId": "1056"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-noah.json",
+      "category": "Tree data",
+      "bytes": 196948,
+      "moduleId": "1080"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/elijah/graph.json",
+      "category": "DGR data",
+      "bytes": 188764,
+      "moduleId": "1214"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_jdt.json",
+      "category": "Tree data",
+      "bytes": 185457,
+      "moduleId": "1148"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-transfiguration.json",
+      "category": "Tree data",
+      "bytes": 182786,
+      "moduleId": "1097"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/coverage-02/question-capabilities.json",
+      "category": "DGR data",
+      "bytes": 180345,
+      "moduleId": "1363"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_2co.json",
+      "category": "Tree data",
+      "bytes": 179272,
+      "moduleId": "1113"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-melchizedek.json",
+      "category": "Tree data",
+      "bytes": 171689,
+      "moduleId": "1078"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/faith/nql.json",
+      "category": "DGR data",
+      "bytes": 168925,
+      "moduleId": "1230"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/abraham/traces.json",
+      "category": "DGR data",
+      "bytes": 166553,
+      "moduleId": "1198"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/crucifixion/traces.json",
+      "category": "DGR data",
+      "bytes": 163230,
+      "moduleId": "1212"
+    },
+    {
+      "source": "/src/data/scripture/covenant.generated.ts",
+      "category": "Code and other modules",
+      "bytes": 157527,
+      "moduleId": "1410"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_ezr.json",
+      "category": "Tree data",
+      "bytes": 155069,
+      "moduleId": "1138"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_tob.json",
+      "category": "Tree data",
+      "bytes": 149273,
+      "moduleId": "1179"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/exodus/traces.json",
+      "category": "DGR data",
+      "bytes": 143068,
+      "moduleId": "1226"
+    },
+    {
+      "source": "/src/data/topics/moses.ts",
+      "category": "Code and other modules",
+      "bytes": 142111,
+      "moduleId": "1290"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/abraham/intents.json",
+      "category": "DGR data",
+      "bytes": 140397,
+      "moduleId": "1197"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_zec.json",
+      "category": "Tree data",
+      "bytes": 133642,
+      "moduleId": "1181"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_ecc.json",
+      "category": "Tree data",
+      "bytes": 130214,
+      "moduleId": "1132"
+    },
+    {
+      "source": "/src/data/topics/covenant.ts",
+      "category": "Code and other modules",
+      "bytes": 127454,
+      "moduleId": "1287"
+    },
+    {
+      "source": "/src/data/scripture/web/david/part3-second-samuel-late.ts",
+      "category": "Code and other modules",
+      "bytes": 125862,
+      "moduleId": "1417"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/exodus/intents.json",
+      "category": "DGR data",
+      "bytes": 125779,
+      "moduleId": "1225"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_3ma.json",
+      "category": "Tree data",
+      "bytes": 124862,
+      "moduleId": "1123"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_hos.json",
+      "category": "Tree data",
+      "bytes": 122205,
+      "moduleId": "1144"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_bar.json",
+      "category": "Tree data",
+      "bytes": 121879,
+      "moduleId": "1127"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/elijah/traces.json",
+      "category": "DGR data",
+      "bytes": 117858,
+      "moduleId": "1219"
+    },
+    {
+      "source": "/src/data/topics/david.ts",
+      "category": "Code and other modules",
+      "bytes": 117218,
+      "moduleId": "1289"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/jesus.json",
+      "category": "Other JSON data",
+      "bytes": 115901,
+      "moduleId": "1317"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_esg.json",
+      "category": "Tree data",
+      "bytes": 113621,
+      "moduleId": "1134"
+    },
+    {
+      "source": "/src/data/scripture/web/david/part1-first-samuel.ts",
+      "category": "Code and other modules",
+      "bytes": 110647,
+      "moduleId": "1415"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/v1/scene-lineage.json",
+      "category": "DGR data",
+      "bytes": 108629,
+      "moduleId": "1354"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_gal.json",
+      "category": "Tree data",
+      "bytes": 107077,
+      "moduleId": "1139"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/crucifixion/intents.json",
+      "category": "DGR data",
+      "bytes": 105050,
+      "moduleId": "1211"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_eph.json",
+      "category": "Tree data",
+      "bytes": 104230,
+      "moduleId": "1133"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/abraham/nql.json",
+      "category": "DGR data",
+      "bytes": 102115,
+      "moduleId": "1195"
+    },
+    {
+      "source": "/src/data/topics/creation.ts",
+      "category": "Code and other modules",
+      "bytes": 94815,
+      "moduleId": "1288"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/elijah/intents.json",
+      "category": "DGR data",
+      "bytes": 94025,
+      "moduleId": "1218"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/coverage-02/canonical-relation-overlay.json",
+      "category": "DGR data",
+      "bytes": 92964,
+      "moduleId": "1366"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_est.json",
+      "category": "Tree data",
+      "bytes": 91424,
+      "moduleId": "1135"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/crucifixion/nql.json",
+      "category": "DGR data",
+      "bytes": 89416,
+      "moduleId": "1209"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_lam.json",
+      "category": "Tree data",
+      "bytes": 88705,
+      "moduleId": "1156"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_amo.json",
+      "category": "Tree data",
+      "bytes": 87745,
+      "moduleId": "1126"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/spirit.json",
+      "category": "Other JSON data",
+      "bytes": 86976,
+      "moduleId": "1338"
+    },
+    {
+      "source": "/src/data/scripture/creation.generated.ts",
+      "category": "Code and other modules",
+      "bytes": 84729,
+      "moduleId": "1411"
+    },
+    {
+      "source": "/src/data/questions/runtime02-source-language.generated.ts",
+      "category": "Code and other modules",
+      "bytes": 81026,
+      "moduleId": "1238"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_1pe.json",
+      "category": "Tree data",
+      "bytes": 79581,
+      "moduleId": "1108"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_1ti.json",
+      "category": "Tree data",
+      "bytes": 78955,
+      "moduleId": "1111"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_jas.json",
+      "category": "Tree data",
+      "bytes": 78848,
+      "moduleId": "1146"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/paul.json",
+      "category": "Other JSON data",
+      "bytes": 78343,
+      "moduleId": "1326"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/exodus/nql.json",
+      "category": "DGR data",
+      "bytes": 78093,
+      "moduleId": "1223"
+    },
+    {
+      "source": "/src/data/scripture/web/david/part2-second-samuel-early.ts",
+      "category": "Code and other modules",
+      "bytes": 74531,
+      "moduleId": "1416"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_php.json",
+      "category": "Tree data",
+      "bytes": 73903,
+      "moduleId": "1169"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_1jn.json",
+      "category": "Tree data",
+      "bytes": 73517,
+      "moduleId": "1105"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_sng.json",
+      "category": "Tree data",
+      "bytes": 68914,
+      "moduleId": "1177"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/elijah/nql.json",
+      "category": "DGR data",
+      "bytes": 68092,
+      "moduleId": "1216"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/v1/canonical-reference-store.json",
+      "category": "DGR data",
+      "bytes": 67293,
+      "moduleId": "1349"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_col.json",
+      "category": "Tree data",
+      "bytes": 65670,
+      "moduleId": "1128"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_mic.json",
+      "category": "Tree data",
+      "bytes": 64870,
+      "moduleId": "1162"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_1th.json",
+      "category": "Tree data",
+      "bytes": 63892,
+      "moduleId": "1110"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-water.json",
+      "category": "Tree data",
+      "bytes": 58365,
+      "moduleId": "1100"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/subject-bridegroom-of-blood.json",
+      "category": "Tree data",
+      "bytes": 57046,
+      "moduleId": "1057"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_2ti.json",
+      "category": "Tree data",
+      "bytes": 55815,
+      "moduleId": "1121"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/angels.json",
+      "category": "Other JSON data",
+      "bytes": 47442,
+      "moduleId": "1298"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_rut.json",
+      "category": "Tree data",
+      "bytes": 45848,
+      "moduleId": "1175"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_2pe.json",
+      "category": "Tree data",
+      "bytes": 44611,
+      "moduleId": "1118"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/temple.json",
+      "category": "Other JSON data",
+      "bytes": 44157,
+      "moduleId": "1339"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_jol.json",
+      "category": "Tree data",
+      "bytes": 41291,
+      "moduleId": "1152"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/sacrifice.json",
+      "category": "Other JSON data",
+      "bytes": 35888,
+      "moduleId": "1331"
+    },
+    {
+      "source": "/src/digital-altar/commander/GraphNativeLiveWorkspace.tsx",
+      "category": "Code and other modules",
+      "bytes": 35759,
+      "moduleId": "1283"
+    },
+    {
+      "source": "/src/data/scripture/web/david/part4-kings-psalms.ts",
+      "category": "Code and other modules",
+      "bytes": 35724,
+      "moduleId": "1418"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_mal.json",
+      "category": "Tree data",
+      "bytes": 35721,
+      "moduleId": "1159"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/faith.json",
+      "category": "Other JSON data",
+      "bytes": 35539,
+      "moduleId": "1312"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/david.json",
+      "category": "Other JSON data",
+      "bytes": 35525,
+      "moduleId": "1307"
+    },
+    {
+      "source": "/src/digital-altar/media/MediaDirectorPanel.tsx",
+      "category": "Code and other modules",
+      "bytes": 35448,
+      "moduleId": "1371"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_2th.json",
+      "category": "Tree data",
+      "bytes": 35235,
+      "moduleId": "1120"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_hab.json",
+      "category": "Tree data",
+      "bytes": 34434,
+      "moduleId": "1141"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_tit.json",
+      "category": "Tree data",
+      "bytes": 34391,
+      "moduleId": "1178"
+    },
+    {
+      "source": "/src/data/scripture/web/david/part5-chronicles-nt.ts",
+      "category": "Code and other modules",
+      "bytes": 34042,
+      "moduleId": "1419"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/eden-exile.json",
+      "category": "Other JSON data",
+      "bytes": 33258,
+      "moduleId": "1309"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/israel-collective.json",
+      "category": "Other JSON data",
+      "bytes": 32124,
+      "moduleId": "1316"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/v1/canonical-relation-store.json",
+      "category": "DGR data",
+      "bytes": 30894,
+      "moduleId": "1350"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_zep.json",
+      "category": "Tree data",
+      "bytes": 30017,
+      "moduleId": "1182"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/kingdom.json",
+      "category": "Other JSON data",
+      "bytes": 29695,
+      "moduleId": "1320"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_jon.json",
+      "category": "Tree data",
+      "bytes": 28576,
+      "moduleId": "1153"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_nam.json",
+      "category": "Tree data",
+      "bytes": 25984,
+      "moduleId": "1164"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/consequence.json",
+      "category": "Other JSON data",
+      "bytes": 25503,
+      "moduleId": "1303"
+    },
+    {
+      "source": "/src/data/topics/bridegroom.ts",
+      "category": "Code and other modules",
+      "bytes": 25381,
+      "moduleId": "1286"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/v1/scene-eligible-question-index.json",
+      "category": "DGR data",
+      "bytes": 25091,
+      "moduleId": "1360"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/resurrection.json",
+      "category": "Other JSON data",
+      "bytes": 24014,
+      "moduleId": "1330"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/forgiveness.json",
+      "category": "Other JSON data",
+      "bytes": 23491,
+      "moduleId": "1313"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_hag.json",
+      "category": "Tree data",
+      "bytes": 23218,
+      "moduleId": "1142"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/god.json",
+      "category": "Other JSON data",
+      "bytes": 22430,
+      "moduleId": "1314"
+    },
+    {
+      "source": "/src/data/topics/water.ts",
+      "category": "Code and other modules",
+      "bytes": 22428,
+      "moduleId": "1291"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/prayer.json",
+      "category": "Other JSON data",
+      "bytes": 21990,
+      "moduleId": "1329"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/sinai.json",
+      "category": "Other JSON data",
+      "bytes": 21370,
+      "moduleId": "1336"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/sin.json",
+      "category": "Other JSON data",
+      "bytes": 21275,
+      "moduleId": "1335"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/solomon.json",
+      "category": "Other JSON data",
+      "bytes": 21077,
+      "moduleId": "1337"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@noble/ciphers/aes.js",
+      "category": "Code and other modules",
+      "bytes": 20885,
+      "moduleId": "1392"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/cleansing.json",
+      "category": "Other JSON data",
+      "bytes": 19530,
+      "moduleId": "1302"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/satan.json",
+      "category": "Other JSON data",
+      "bytes": 19516,
+      "moduleId": "1332"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/heavenly-assembly.json",
+      "category": "Other JSON data",
+      "bytes": 19190,
+      "moduleId": "1315"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/moses.json",
+      "category": "Other JSON data",
+      "bytes": 19180,
+      "moduleId": "1323"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/crucifixion.json",
+      "category": "Other JSON data",
+      "bytes": 18834,
+      "moduleId": "1306"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/joseph.json",
+      "category": "Other JSON data",
+      "bytes": 17690,
+      "moduleId": "1319"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_jud.json",
+      "category": "Tree data",
+      "bytes": 17291,
+      "moduleId": "1155"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/v1/runtime-question-bindings.json",
+      "category": "DGR data",
+      "bytes": 17273,
+      "moduleId": "1355"
+    },
+    {
+      "source": "/src/components/SourceRevealCard.tsx",
+      "category": "Code and other modules",
+      "bytes": 17195,
+      "moduleId": "1426"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/last-supper.json",
+      "category": "Other JSON data",
+      "bytes": 16481,
+      "moduleId": "1321"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/exodus.json",
+      "category": "Other JSON data",
+      "bytes": 16291,
+      "moduleId": "1311"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/abraham.json",
+      "category": "Other JSON data",
+      "bytes": 16208,
+      "moduleId": "1296"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/passover.json",
+      "category": "Other JSON data",
+      "bytes": 16044,
+      "moduleId": "1325"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_phm.json",
+      "category": "Tree data",
+      "bytes": 16028,
+      "moduleId": "1168"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/pentecost.json",
+      "category": "Other JSON data",
+      "bytes": 15961,
+      "moduleId": "1327"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/peter.json",
+      "category": "Other JSON data",
+      "bytes": 15920,
+      "moduleId": "1328"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/covenant.json",
+      "category": "Other JSON data",
+      "bytes": 15289,
+      "moduleId": "1304"
+    },
+    {
+      "source": "/src/c3/release/content.generated.ts",
+      "category": "Code and other modules",
+      "bytes": 15194,
+      "moduleId": "877"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/john-the-baptist.json",
+      "category": "Other JSON data",
+      "bytes": 14193,
+      "moduleId": "1318"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/saul-king.json",
+      "category": "Other JSON data",
+      "bytes": 14172,
+      "moduleId": "1333"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/sermon-on-the-mount.json",
+      "category": "Other JSON data",
+      "bytes": 13263,
+      "moduleId": "1334"
+    },
+    {
+      "source": "/src/digital-altar/security/securityCoordinator.ts",
+      "category": "Code and other modules",
+      "bytes": 12567,
+      "moduleId": "1385"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/baptism-of-jesus.json",
+      "category": "Other JSON data",
+      "bytes": 12282,
+      "moduleId": "1299"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/demons.json",
+      "category": "Other JSON data",
+      "bytes": 12155,
+      "moduleId": "1308"
+    },
+    {
+      "source": "/src/components/TrailCapsule.tsx",
+      "category": "Code and other modules",
+      "bytes": 11995,
+      "moduleId": "919"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_oba.json",
+      "category": "Tree data",
+      "bytes": 11990,
+      "moduleId": "1167"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/wilderness.json",
+      "category": "Other JSON data",
+      "bytes": 11445,
+      "moduleId": "1345"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/elijah.json",
+      "category": "Other JSON data",
+      "bytes": 11397,
+      "moduleId": "1310"
+    },
+    {
+      "source": "/src/digital-altar/media/liveMedia.ts",
+      "category": "Code and other modules",
+      "bytes": 11141,
+      "moduleId": "1398"
+    },
+    {
+      "source": "/src/lib/discovery.ts",
+      "category": "Code and other modules",
+      "bytes": 10189,
+      "moduleId": "808"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/tree-of-life.json",
+      "category": "Other JSON data",
+      "bytes": 10106,
+      "moduleId": "1342"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_man.json",
+      "category": "Tree data",
+      "bytes": 9865,
+      "moduleId": "1160"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/twelve-spies.json",
+      "category": "Other JSON data",
+      "bytes": 9525,
+      "moduleId": "1343"
+    },
+    {
+      "source": "/src/digital-altar/programs/localProgramStore.ts",
+      "category": "Code and other modules",
+      "bytes": 9494,
+      "moduleId": "1044"
+    },
+    {
+      "source": "/src/dgr-production/runtime.ts",
+      "category": "Code and other modules",
+      "bytes": 9477,
+      "moduleId": "930"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/creation.json",
+      "category": "Other JSON data",
+      "bytes": 9295,
+      "moduleId": "1305"
+    },
+    {
+      "source": "/src/scripture-tree/smartPresenterTreeRuntime.ts",
+      "category": "Code and other modules",
+      "bytes": 9114,
+      "moduleId": "945"
+    },
+    {
+      "source": "/src/digital-altar/operations/openOperationsStore.ts",
+      "category": "Code and other modules",
+      "bytes": 8933,
+      "moduleId": "907"
+    },
+    {
+      "source": "/src/digital-altar/security/policy.ts",
+      "category": "Code and other modules",
+      "bytes": 8914,
+      "moduleId": "900"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/temptation-of-jesus.json",
+      "category": "Other JSON data",
+      "bytes": 8879,
+      "moduleId": "1340"
+    },
+    {
+      "source": "/src/digital-altar/media/MediaConsoleVisuals.tsx",
+      "category": "Code and other modules",
+      "bytes": 8753,
+      "moduleId": "1400"
+    },
+    {
+      "source": "/src/components/ui.tsx",
+      "category": "Code and other modules",
+      "bytes": 8735,
+      "moduleId": "804"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@noble/hashes/sha2.js",
+      "category": "Code and other modules",
+      "bytes": 8485,
+      "moduleId": "1183"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/adam.json",
+      "category": "Other JSON data",
+      "bytes": 8234,
+      "moduleId": "1297"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_2jn.json",
+      "category": "Tree data",
+      "bytes": 7883,
+      "moduleId": "1115"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_3jn.json",
+      "category": "Tree data",
+      "bytes": 7849,
+      "moduleId": "1122"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-sqlite/web/SQLiteModule.ts",
+      "category": "Code and other modules",
+      "bytes": 7770
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/binding-of-isaac.json",
+      "category": "Other JSON data",
+      "bytes": 7565,
+      "moduleId": "1300"
+    },
+    {
+      "source": "/src/digital-altar/operations/protectedOperationsStore.ts",
+      "category": "Code and other modules",
+      "bytes": 7464,
+      "moduleId": "906"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@noble/ciphers/utils.js",
+      "category": "Code and other modules",
+      "bytes": 7234,
+      "moduleId": "1394"
+    },
+    {
+      "source": "/src/digital-altar/media/ConsoleControls.tsx",
+      "category": "Code and other modules",
+      "bytes": 7217,
+      "moduleId": "1399"
+    },
+    {
+      "source": "/src/digital-altar/presenter/treeGraphResolver.ts",
+      "category": "Code and other modules",
+      "bytes": 6987,
+      "moduleId": "910"
+    },
+    {
+      "source": "/src/scripture-tree/presenterRuntimeContracts.mjs",
+      "category": "Code and other modules",
+      "bytes": 6827,
+      "moduleId": "1187"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/noah.json",
+      "category": "Other JSON data",
+      "bytes": 6465,
+      "moduleId": "1324"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-sqlite/build/SQLiteStatement.js",
+      "category": "Code and other modules",
+      "bytes": 6244,
+      "moduleId": "992"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/exports.js",
+      "category": "Code and other modules",
+      "bytes": 6183,
+      "moduleId": "1009"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@noble/hashes/utils.js",
+      "category": "Code and other modules",
+      "bytes": 6096,
+      "moduleId": "1186"
+    },
+    {
+      "source": "/src/data/scripture/canonical.ts",
+      "category": "Code and other modules",
+      "bytes": 5980,
+      "moduleId": "816"
+    },
+    {
+      "source": "/src/components/QuestionUnitView.tsx",
+      "category": "Code and other modules",
+      "bytes": 5944,
+      "moduleId": "824"
+    },
+    {
+      "source": "/src/digital-altar/operations/OperationsProvider.tsx",
+      "category": "Code and other modules",
+      "bytes": 5898,
+      "moduleId": "862"
+    },
+    {
+      "source": "/src/digital-altar/presenter/platform.ts",
+      "category": "Code and other modules",
+      "bytes": 5791,
+      "moduleId": "1048"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/transfiguration.json",
+      "category": "Other JSON data",
+      "bytes": 5715,
+      "moduleId": "1341"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-sqlite/build/Storage.js",
+      "category": "Code and other modules",
+      "bytes": 5692,
+      "moduleId": "968"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-sqlite/build/SQLiteDatabase.js",
+      "category": "Code and other modules",
+      "bytes": 5580,
+      "moduleId": "970"
+    },
+    {
+      "source": "/src/data/seed.ts",
+      "category": "Code and other modules",
+      "bytes": 5544,
+      "moduleId": "1285"
+    },
+    {
+      "source": "/src/digital-altar/church/localChurchWorkspaceStore.ts",
+      "category": "Code and other modules",
+      "bytes": 5371,
+      "moduleId": "1040"
+    },
+    {
+      "source": "/src/discover-graph/activeProvider.ts",
+      "category": "Code and other modules",
+      "bytes": 5317,
+      "moduleId": "1368"
+    },
+    {
+      "source": "/src/discover-graph/revisions.ts",
+      "category": "Code and other modules",
+      "bytes": 5296,
+      "moduleId": "1369"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/melchizedek.json",
+      "category": "Other JSON data",
+      "bytes": 5203,
+      "moduleId": "1322"
+    },
+    {
+      "source": "/src/scripture-tree/presenterBundleLoaders.generated.ts",
+      "category": "Code and other modules",
+      "bytes": 4613,
+      "moduleId": "1051"
+    },
+    {
+      "source": "/src/lib/discoverSearch.ts",
+      "category": "Code and other modules",
+      "bytes": 4559,
+      "moduleId": "810"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@noble/hashes/legacy.js",
+      "category": "Code and other modules",
+      "bytes": 4541,
+      "moduleId": "1389"
+    },
+    {
+      "source": "/src/dgr-runtime-02/runtime.ts",
+      "category": "Code and other modules",
+      "bytes": 4301,
+      "moduleId": "1234"
+    },
+    {
+      "source": "/src/digital-altar/commander/smartProgramRegistry.ts",
+      "category": "Code and other modules",
+      "bytes": 4228,
+      "moduleId": "1279"
+    },
+    {
+      "source": "/src/digital-altar/commander/CommanderViewport.tsx",
+      "category": "Code and other modules",
+      "bytes": 4145,
+      "moduleId": "909"
+    },
+    {
+      "source": "/src/scripture-tree/discoverToolsTreeRuntime.ts",
+      "category": "Code and other modules",
+      "bytes": 4128,
+      "moduleId": "1284"
+    },
+    {
+      "source": "/src/digital-altar/presenter/runtime.ts",
+      "category": "Code and other modules",
+      "bytes": 4111,
+      "moduleId": "1047"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@expo/devtools/build/WebSocketWithReconnect.js",
+      "category": "Code and other modules",
+      "bytes": 4035,
+      "moduleId": "986"
+    },
+    {
+      "source": "/src/reading-investigation/runtime.ts",
+      "category": "Code and other modules",
+      "bytes": 3905,
+      "moduleId": "818"
+    },
+    {
+      "source": "/src/components/QuestionSurface.tsx",
+      "category": "Code and other modules",
+      "bytes": 3899,
+      "moduleId": "918"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@expo/devtools/build/DevToolsPluginClient.js",
+      "category": "Code and other modules",
+      "bytes": 3718,
+      "moduleId": "982"
+    },
+    {
+      "source": "/src/components/PassageCard.tsx",
+      "category": "Code and other modules",
+      "bytes": 3608,
+      "moduleId": "921"
+    },
+    {
+      "source": "/src/digital-altar/security/nativeCredentialAdapter.ts",
+      "category": "Code and other modules",
+      "bytes": 3486,
+      "moduleId": "1379"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/views/ErrorBoundary.js",
+      "category": "Code and other modules",
+      "bytes": 3476,
+      "moduleId": "1010"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@noble/ciphers/_polyval.js",
+      "category": "Code and other modules",
+      "bytes": 3472,
+      "moduleId": "1393"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/qrcode.js",
+      "category": "Code and other modules",
+      "bytes": 3465,
+      "moduleId": "1251"
+    },
+    {
+      "source": "/src/digital-altar/security/egressGateway.ts",
+      "category": "Code and other modules",
+      "bytes": 3462,
+      "moduleId": "902"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-sqlite/build/hooks.js",
+      "category": "Code and other modules",
+      "bytes": 3462,
+      "moduleId": "996"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-crypto/build/aes/ExpoCryptoAES.web.js",
+      "category": "Code and other modules",
+      "bytes": 3382,
+      "moduleId": "1375"
+    },
+    {
+      "source": "/src/c3/components/ReleaseDocumentScreen.tsx",
+      "category": "Code and other modules",
+      "bytes": 3317,
+      "moduleId": "867"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/v1/source-language-bindings.json",
+      "category": "DGR data",
+      "bytes": 3254,
+      "moduleId": "1351"
+    },
+    {
+      "source": "/src/digital-altar/media/developmentMedia.ts",
+      "category": "Code and other modules",
+      "bytes": 3208,
+      "moduleId": "1397"
+    },
+    {
+      "source": "/src/digital-altar/presenter/serviceReadiness.ts",
+      "category": "Code and other modules",
+      "bytes": 3200,
+      "moduleId": "965"
+    },
+    {
+      "source": "/src/theme/tokens.ts",
+      "category": "Code and other modules",
+      "bytes": 3168,
+      "moduleId": "792"
+    },
+    {
+      "source": "/src/digital-altar/commander/commanderShell.ts",
+      "category": "Code and other modules",
+      "bytes": 3147,
+      "moduleId": "911"
+    },
+    {
+      "source": "/src/lib/useSafeBack.tsx",
+      "category": "Code and other modules",
+      "bytes": 3119,
+      "moduleId": "821"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo/node_modules/expo-asset/build/Asset.js",
+      "category": "Code and other modules",
+      "bytes": 3086,
+      "moduleId": "998"
+    },
+    {
+      "source": "/src/scripture-tree/readerGraphAdapter.ts",
+      "category": "Code and other modules",
+      "bytes": 3007,
+      "moduleId": "1428"
+    },
+    {
+      "source": "/src/scripture-tree/ordinaryCompareRuntime.ts",
+      "category": "Code and other modules",
+      "bytes": 2951,
+      "moduleId": "914"
+    },
+    {
+      "source": "/src/discover-graph/phase0Trace.ts",
+      "category": "Code and other modules",
+      "bytes": 2925
+    },
+    {
+      "source": "/src/scripture-tree/questionsTreeReader.mjs",
+      "category": "Code and other modules",
+      "bytes": 2875,
+      "moduleId": "1244"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@expo/devtools/build/MessageFramePacker.js",
+      "category": "Code and other modules",
+      "bytes": 2837,
+      "moduleId": "983"
+    },
+    {
+      "source": "/src/c3/release/config.ts",
+      "category": "Code and other modules",
+      "bytes": 2814,
+      "moduleId": "820"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/segments.js",
+      "category": "Code and other modules",
+      "bytes": 2789,
+      "moduleId": "1268"
+    },
+    {
+      "source": "/src/digital-altar/account/localAccountStore.ts",
+      "category": "Code and other modules",
+      "bytes": 2779,
+      "moduleId": "1038"
+    },
+    {
+      "source": "/src/digital-altar/security/credentials.ts",
+      "category": "Code and other modules",
+      "bytes": 2771,
+      "moduleId": "1386"
+    },
+    {
+      "source": "/src/components/spatial/ResponsiveWorkspace.tsx",
+      "category": "Code and other modules",
+      "bytes": 2770,
+      "moduleId": "805"
+    },
+    {
+      "source": "/src/digital-altar/presenter/treeIntelligence.ts",
+      "category": "Code and other modules",
+      "bytes": 2719,
+      "moduleId": "1282"
+    },
+    {
+      "source": "/src/digital-altar/security/protectedVault.ts",
+      "category": "Code and other modules",
+      "bytes": 2718,
+      "moduleId": "1391"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@noble/hashes/_u64.js",
+      "category": "Code and other modules",
+      "bytes": 2673,
+      "moduleId": "1185"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/standard-navigation/index.js",
+      "category": "Code and other modules",
+      "bytes": 2672,
+      "moduleId": "1011"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-crypto/build/Crypto.js",
+      "category": "Code and other modules",
+      "bytes": 2655,
+      "moduleId": "898"
+    },
+    {
+      "source": "/src/dgr/runtime.ts",
+      "category": "Code and other modules",
+      "bytes": 2630,
+      "moduleId": "1188"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@noble/hashes/_md.js",
+      "category": "Code and other modules",
+      "bytes": 2592,
+      "moduleId": "1184"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/validation-registry.json",
+      "category": "DGR data",
+      "bytes": 2585,
+      "moduleId": "1189"
+    },
+    {
+      "source": "/src/components/DiscoveryEntryCard.tsx",
+      "category": "Code and other modules",
+      "bytes": 2540,
+      "moduleId": "803"
+    },
+    {
+      "source": "/src/digital-altar/ministry/planner.ts",
+      "category": "Code and other modules",
+      "bytes": 2524,
+      "moduleId": "1277"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/water.json",
+      "category": "Other JSON data",
+      "bytes": 2486,
+      "moduleId": "1344"
+    },
+    {
+      "source": "/src/digital-altar/presenter/PresenterCanvas.tsx",
+      "category": "Code and other modules",
+      "bytes": 2450,
+      "moduleId": "1248"
+    },
+    {
+      "source": "/src/components/AnalyticalDimension.tsx",
+      "category": "Code and other modules",
+      "bytes": 2414,
+      "moduleId": "916"
+    },
+    {
+      "source": "/src/digital-altar/operations/pilotDemo.ts",
+      "category": "Code and other modules",
+      "bytes": 2307,
+      "moduleId": "1396"
+    },
+    {
+      "source": "/src/digital-altar/operations/ministryProfileStore.ts",
+      "category": "Code and other modules",
+      "bytes": 2273,
+      "moduleId": "1395"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-secure-store/build/SecureStore.js",
+      "category": "Code and other modules",
+      "bytes": 2242,
+      "moduleId": "1383"
+    },
+    {
+      "source": "/src/digital-altar/commander/projection.ts",
+      "category": "Code and other modules",
+      "bytes": 2237,
+      "moduleId": "1278"
+    },
+    {
+      "source": "/src/digital-altar/presenter/resolver.ts",
+      "category": "Code and other modules",
+      "bytes": 2223,
+      "moduleId": "964"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-sqlite/web/SQLiteModule.node.ts",
+      "category": "Code and other modules",
+      "bytes": 2221,
+      "moduleId": "972"
+    },
+    {
+      "source": "/src/c3/core/persistence.ts",
+      "category": "Code and other modules",
+      "bytes": 2118,
+      "moduleId": "819"
+    },
+    {
+      "source": "/src/scripture-tree/questionsTreeRuntime.ts",
+      "category": "Code and other modules",
+      "bytes": 2111,
+      "moduleId": "830"
+    },
+    {
+      "source": "/src/components/PhaseRow.tsx",
+      "category": "Code and other modules",
+      "bytes": 2085,
+      "moduleId": "923"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/c3/scene-anchors/bridegroom-of-blood.json",
+      "category": "Other JSON data",
+      "bytes": 2024,
+      "moduleId": "1301"
+    },
+    {
+      "source": "/src/lib/savedQuestionMigration.ts",
+      "category": "Code and other modules",
+      "bytes": 2012,
+      "moduleId": "1430"
+    },
+    {
+      "source": "/src/scripture-tree/characterTrailTreeRuntime.ts",
+      "category": "Code and other modules",
+      "bytes": 2004,
+      "moduleId": "809"
+    },
+    {
+      "source": "/src/digital-altar/programs/ProgramProvider.tsx",
+      "category": "Code and other modules",
+      "bytes": 1995,
+      "moduleId": "1042"
+    },
+    {
+      "source": "/src/scripture-tree/characterTrailProjection.mjs",
+      "category": "Code and other modules",
+      "bytes": 1991,
+      "moduleId": "1422"
+    },
+    {
+      "source": "/src/digital-altar/presenter/liveSession.ts",
+      "category": "Code and other modules",
+      "bytes": 1990,
+      "moduleId": "1247"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-local-authentication/build/LocalAuthentication.js",
+      "category": "Code and other modules",
+      "bytes": 1982,
+      "moduleId": "1380"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/mask-pattern.js",
+      "category": "Code and other modules",
+      "bytes": 1980,
+      "moduleId": "1258"
+    },
+    {
+      "source": "/src/digital-altar/church/ChurchWorkspaceProvider.tsx",
+      "category": "Code and other modules",
+      "bytes": 1966,
+      "moduleId": "1035"
+    },
+    {
+      "source": "/src/c3/components/ReaderCollections.tsx",
+      "category": "Code and other modules",
+      "bytes": 1921,
+      "moduleId": "876"
+    },
+    {
+      "source": "/src/digital-altar/commander/index.ts",
+      "category": "Code and other modules",
+      "bytes": 1859,
+      "moduleId": "800"
+    },
+    {
+      "source": "/src/lib/discoverAwareness.ts",
+      "category": "Code and other modules",
+      "bytes": 1842,
+      "moduleId": "811"
+    },
+    {
+      "source": "/src/lib/scriptureBookmarks.ts",
+      "category": "Code and other modules",
+      "bytes": 1834,
+      "moduleId": "829"
+    },
+    {
+      "source": "/src/lib/discoverAwarenessCore.ts",
+      "category": "Code and other modules",
+      "bytes": 1834,
+      "moduleId": "1425"
+    },
+    {
+      "source": "/src/data/contradictions/index.ts",
+      "category": "Code and other modules",
+      "bytes": 1820,
+      "moduleId": "826"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@noble/hashes/pbkdf2.js",
+      "category": "Code and other modules",
+      "bytes": 1805,
+      "moduleId": "1388"
+    },
+    {
+      "source": "/src/c3/core/citationNotes.ts",
+      "category": "Code and other modules",
+      "bytes": 1781,
+      "moduleId": "875"
+    },
+    {
+      "source": "/src/components/PairedEvidenceCard.tsx",
+      "category": "Code and other modules",
+      "bytes": 1656,
+      "moduleId": "917"
+    },
+    {
+      "source": "/src/c3/anchors/sceneMetadata.ts",
+      "category": "Code and other modules",
+      "bytes": 1629,
+      "moduleId": "872"
+    },
+    {
+      "source": "/src/digital-altar/commander/liveGraph.ts",
+      "category": "Code and other modules",
+      "bytes": 1626,
+      "moduleId": "1280"
+    },
+    {
+      "source": "/src/c3/anchors/scene-metadata.generated.ts",
+      "category": "Code and other modules",
+      "bytes": 1623,
+      "moduleId": "1295"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-sqlite/build/SQLiteSession.js",
+      "category": "Code and other modules",
+      "bytes": 1616,
+      "moduleId": "991"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@noble/hashes/hmac.js",
+      "category": "Code and other modules",
+      "bytes": 1615,
+      "moduleId": "1387"
+    },
+    {
+      "source": "/src/components/AppIcon.tsx",
+      "category": "Code and other modules",
+      "bytes": 1607,
+      "moduleId": "793"
+    },
+    {
+      "source": "/src/digital-altar/account/AccountProvider.tsx",
+      "category": "Code and other modules",
+      "bytes": 1596,
+      "moduleId": "1036"
+    },
+    {
+      "source": "/src/digital-altar/security/governanceStore.ts",
+      "category": "Code and other modules",
+      "bytes": 1582,
+      "moduleId": "1390"
+    },
+    {
+      "source": "/src/components/SceneRow.tsx",
+      "category": "Code and other modules",
+      "bytes": 1575,
+      "moduleId": "931"
+    },
+    {
+      "source": "/src/digital-altar/presenter/LiveServiceProvider.tsx",
+      "category": "Code and other modules",
+      "bytes": 1569,
+      "moduleId": "1246"
+    },
+    {
+      "source": "/WorkerChannel.ts",
+      "category": "Code and other modules",
+      "bytes": 1568,
+      "moduleId": "962"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-crypto/build/aes/index.js",
+      "category": "Code and other modules",
+      "bytes": 1565,
+      "moduleId": "1374"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/await-lock/build/AwaitLock.js",
+      "category": "Code and other modules",
+      "bytes": 1560,
+      "moduleId": "969"
+    },
+    {
+      "source": "/src/digital-altar/presenter/treeIntelligenceRegistration.ts",
+      "category": "Code and other modules",
+      "bytes": 1555,
+      "moduleId": "1281"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/error-correction-code.js",
+      "category": "Code and other modules",
+      "bytes": 1490,
+      "moduleId": "1259"
+    },
+    {
+      "source": "/src/dgr/registry.generated.ts",
+      "category": "Code and other modules",
+      "bytes": 1462,
+      "moduleId": "1191"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/coverage-02/manifest.json",
+      "category": "DGR data",
+      "bytes": 1460,
+      "moduleId": "1362"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/renderer/utils.js",
+      "category": "Code and other modules",
+      "bytes": 1418,
+      "moduleId": "1275"
+    },
+    {
+      "source": "/src/scripture-tree/embeddedFindingsEvidenceIntegrity.mjs",
+      "category": "Code and other modules",
+      "bytes": 1341,
+      "moduleId": "1245"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@expo/devtools/build/DevToolsPluginClientImplApp.js",
+      "category": "Code and other modules",
+      "bytes": 1332,
+      "moduleId": "981"
+    },
+    {
+      "source": "/src/data/ontology.ts",
+      "category": "Code and other modules",
+      "bytes": 1305,
+      "moduleId": "806"
+    },
+    {
+      "source": "/src/scripture-tree/compareAccess.mjs",
+      "category": "Code and other modules",
+      "bytes": 1296,
+      "moduleId": "915"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/version.js",
+      "category": "Code and other modules",
+      "bytes": 1295,
+      "moduleId": "1263"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo/node_modules/expo-asset/build/AssetSources.js",
+      "category": "Code and other modules",
+      "bytes": 1272,
+      "moduleId": "999"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-sqlite/build/SQLiteTaggedQuery.js",
+      "category": "Code and other modules",
+      "bytes": 1263,
+      "moduleId": "994"
+    },
+    {
+      "source": "/src/components/ReadingModeAction.tsx",
+      "category": "Code and other modules",
+      "bytes": 1254,
+      "moduleId": "943"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/v1/manifest.json",
+      "category": "DGR data",
+      "bytes": 1209,
+      "moduleId": "1346"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-sqlite/build/paramUtils.js",
+      "category": "Code and other modules",
+      "bytes": 1188,
+      "moduleId": "993"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-crypto/build/ExpoCrypto.web.js",
+      "category": "Code and other modules",
+      "bytes": 1182,
+      "moduleId": "1373"
+    },
+    {
+      "source": "/src/lib/stack.ts",
+      "category": "Code and other modules",
+      "bytes": 1181,
+      "moduleId": "812"
+    },
+    {
+      "source": "/src/dgr-runtime-02/source-language.ts",
+      "category": "Code and other modules",
+      "bytes": 1147,
+      "moduleId": "1237"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/dijkstrajs/dijkstra.js",
+      "category": "Code and other modules",
+      "bytes": 1137,
+      "moduleId": "1273"
+    },
+    {
+      "source": "/src/digital-altar/presenter/index.ts",
+      "category": "Code and other modules",
+      "bytes": 1129,
+      "moduleId": "798"
+    },
+    {
+      "source": "/src/lib/readingMode.ts",
+      "category": "Code and other modules",
+      "bytes": 1126,
+      "moduleId": "817"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/v1/runtime-01b-manifest.json",
+      "category": "DGR data",
+      "bytes": 1124,
+      "moduleId": "1361"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/mode.js",
+      "category": "Code and other modules",
+      "bytes": 1122,
+      "moduleId": "1264"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/crucifixion/manifest.json",
+      "category": "DGR data",
+      "bytes": 1104,
+      "moduleId": "1206"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/abraham/manifest.json",
+      "category": "DGR data",
+      "bytes": 1100,
+      "moduleId": "1192"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/angels/manifest.json",
+      "category": "DGR data",
+      "bytes": 1099,
+      "moduleId": "1199"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/elijah/manifest.json",
+      "category": "DGR data",
+      "bytes": 1099,
+      "moduleId": "1213"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/exodus/manifest.json",
+      "category": "DGR data",
+      "bytes": 1099,
+      "moduleId": "1220"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/faith/manifest.json",
+      "category": "DGR data",
+      "bytes": 1098,
+      "moduleId": "1227"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo/node_modules/expo-asset/build/AssetSourceResolver.js",
+      "category": "Code and other modules",
+      "bytes": 1074,
+      "moduleId": "1000"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@expo/devtools/build/index.js",
+      "category": "Code and other modules",
+      "bytes": 1060,
+      "moduleId": "978"
+    },
+    {
+      "source": "/src/data/contradictions/records.ts",
+      "category": "Code and other modules",
+      "bytes": 1050,
+      "moduleId": "1429"
+    },
+    {
+      "source": "/src/digital-altar/media/MediaDirectorHost.tsx",
+      "category": "Code and other modules",
+      "bytes": 1046,
+      "moduleId": "863"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@expo/devtools/build/DevToolsPluginClientImplBrowser.js",
+      "category": "Code and other modules",
+      "bytes": 1038,
+      "moduleId": "988"
+    },
+    {
+      "source": "/src/digital-altar/network/DiscoverQrCode.tsx",
+      "category": "Code and other modules",
+      "bytes": 1036,
+      "moduleId": "899"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-sqlite/build/index.js",
+      "category": "Code and other modules",
+      "bytes": 1019,
+      "moduleId": "864"
+    },
+    {
+      "source": "/src/data/content-channel.ts",
+      "category": "Code and other modules",
+      "bytes": 1015,
+      "moduleId": "1292"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/layouts/TabsClient.js",
+      "category": "Code and other modules",
+      "bytes": 985,
+      "moduleId": "1020"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/color/index.js",
+      "category": "Code and other modules",
+      "bytes": 977,
+      "moduleId": "1028"
+    },
+    {
+      "source": "/src/digital-altar/programs/index.ts",
+      "category": "Code and other modules",
+      "bytes": 974,
+      "moduleId": "797"
+    },
+    {
+      "source": "/src/lib/trails.ts",
+      "category": "Code and other modules",
+      "bytes": 968,
+      "moduleId": "813"
+    },
+    {
+      "source": "/src/digital-altar/church/index.ts",
+      "category": "Code and other modules",
+      "bytes": 952,
+      "moduleId": "796"
+    },
+    {
+      "source": "/src/scripture-tree/portableRuntimeServices.mjs",
+      "category": "Code and other modules",
+      "bytes": 945,
+      "moduleId": "944"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/renderer/svg-tag.js",
+      "category": "Code and other modules",
+      "bytes": 944,
+      "moduleId": "1276"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-crypto/build/aes/web-utils.js",
+      "category": "Code and other modules",
+      "bytes": 937,
+      "moduleId": "1377"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/release/C3-01-release-config.json",
+      "category": "Other JSON data",
+      "bytes": 919,
+      "moduleId": "1423"
+    },
+    {
+      "source": "/src/digital-altar/featureFlags.ts",
+      "category": "Code and other modules",
+      "bytes": 915,
+      "moduleId": "791"
+    },
+    {
+      "source": "/src/digital-altar/programs/types.ts",
+      "category": "Code and other modules",
+      "bytes": 902,
+      "moduleId": "1045"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/link/index.js",
+      "category": "Code and other modules",
+      "bytes": 879,
+      "moduleId": "1026"
+    },
+    {
+      "source": "/src/digital-altar/presenter/types.ts",
+      "category": "Code and other modules",
+      "bytes": 866,
+      "moduleId": "1046"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@expo/devtools/build/DevToolsPluginClientFactory.js",
+      "category": "Code and other modules",
+      "bytes": 854,
+      "moduleId": "980"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/browser.js",
+      "category": "Code and other modules",
+      "bytes": 848,
+      "moduleId": "1249"
+    },
+    {
+      "source": "/src/digital-altar/security/ephemeralProtectedAdapter.ts",
+      "category": "Code and other modules",
+      "bytes": 838,
+      "moduleId": "1378"
+    },
+    {
+      "source": "/src/digital-altar/ministry/index.ts",
+      "category": "Code and other modules",
+      "bytes": 834,
+      "moduleId": "799"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-local-authentication/build/LocalAuthentication.types.js",
+      "category": "Code and other modules",
+      "bytes": 820,
+      "moduleId": "1382"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/v1/runtime-01a-manifest.json",
+      "category": "DGR data",
+      "bytes": 814,
+      "moduleId": "1356"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/renderer/canvas.js",
+      "category": "Code and other modules",
+      "bytes": 787,
+      "moduleId": "1274"
+    },
+    {
+      "source": "/src/digital-altar/media/sourceVerification.ts",
+      "category": "Code and other modules",
+      "bytes": 772,
+      "moduleId": "1405"
+    },
+    {
+      "source": "/src/website-runtime/LazyCommander.tsx",
+      "category": "Code and other modules",
+      "bytes": 758
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/regex.js",
+      "category": "Code and other modules",
+      "bytes": 756,
+      "moduleId": "1266"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/layouts/Tabs.js",
+      "category": "Code and other modules",
+      "bytes": 755,
+      "moduleId": "1019"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/utils.js",
+      "category": "Code and other modules",
+      "bytes": 736,
+      "moduleId": "1252"
+    },
+    {
+      "source": "/src/data/scripture/registry.ts",
+      "category": "Code and other modules",
+      "bytes": 716,
+      "moduleId": "1409"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/alphanumeric-data.js",
+      "category": "Code and other modules",
+      "bytes": 705,
+      "moduleId": "1270"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/runtime-02/production-question-authority.json",
+      "category": "DGR data",
+      "bytes": 685,
+      "moduleId": "947"
+    },
+    {
+      "source": "/src/lib/saved.ts",
+      "category": "Code and other modules",
+      "bytes": 681,
+      "moduleId": "828"
+    },
+    {
+      "source": "/src/discover-graph/productionGraph.ts",
+      "category": "Code and other modules",
+      "bytes": 679,
+      "moduleId": "827"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo/node_modules/expo-asset/build/resolveAssetSource.js",
+      "category": "Code and other modules",
+      "bytes": 661,
+      "moduleId": "1006"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo/node_modules/expo-asset/build/AssetUris.js",
+      "category": "Code and other modules",
+      "bytes": 634,
+      "moduleId": "1002"
+    },
+    {
+      "source": "/src/lib/scriptureSharing.ts",
+      "category": "Code and other modules",
+      "bytes": 629,
+      "moduleId": "822"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@expo/devtools/build/hooks.js",
+      "category": "Code and other modules",
+      "bytes": 623,
+      "moduleId": "979"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/index.js",
+      "category": "Code and other modules",
+      "bytes": 621,
+      "moduleId": "790"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/v1/beta-policy.json",
+      "category": "DGR data",
+      "bytes": 612,
+      "moduleId": "1352"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/kanji-data.js",
+      "category": "Code and other modules",
+      "bytes": 609,
+      "moduleId": "1272"
+    },
+    {
+      "source": "/src/digital-altar/commander/popoverPlacement.ts",
+      "category": "Code and other modules",
+      "bytes": 604,
+      "moduleId": "1370"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/numeric-data.js",
+      "category": "Code and other modules",
+      "bytes": 554,
+      "moduleId": "1269"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-sqlite/build/pathUtils.js",
+      "category": "Code and other modules",
+      "bytes": 544,
+      "moduleId": "976"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/polynomial.js",
+      "category": "Code and other modules",
+      "bytes": 538,
+      "moduleId": "1261"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo/node_modules/expo-asset/build/Asset.fx.js",
+      "category": "Code and other modules",
+      "bytes": 537,
+      "moduleId": "997"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/reed-solomon-encoder.js",
+      "category": "Code and other modules",
+      "bytes": 532,
+      "moduleId": "1260"
+    },
+    {
+      "source": "/src/components/spatial/geometry.ts",
+      "category": "Code and other modules",
+      "bytes": 529,
+      "moduleId": "1407"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/bit-matrix.js",
+      "category": "Code and other modules",
+      "bytes": 525,
+      "moduleId": "1255"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/error-correction-level.js",
+      "category": "Code and other modules",
+      "bytes": 523,
+      "moduleId": "1253"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/standard-navigation/useBuildHref.js",
+      "category": "Code and other modules",
+      "bytes": 522,
+      "moduleId": "1018"
+    },
+    {
+      "source": "/src/digital-altar/security/pilotDemoGate.ts",
+      "category": "Code and other modules",
+      "bytes": 509,
+      "moduleId": "908"
+    },
+    {
+      "source": "/src/components/SourceRevealWithReadingMode.tsx",
+      "category": "Code and other modules",
+      "bytes": 493,
+      "moduleId": "825"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo/node_modules/expo-asset/build/ImageAssets.js",
+      "category": "Code and other modules",
+      "bytes": 487,
+      "moduleId": "1004"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo/node_modules/expo-asset/build/index.js",
+      "category": "Code and other modules",
+      "bytes": 480,
+      "moduleId": "865"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-crypto/build/Crypto.types.js",
+      "category": "Code and other modules",
+      "bytes": 472,
+      "moduleId": "1372"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-sqlite/build/queryUtils.js",
+      "category": "Code and other modules",
+      "bytes": 463,
+      "moduleId": "995"
+    },
+    {
+      "source": "/src/scripture-tree/compareBinding.generated.ts",
+      "category": "Code and other modules",
+      "bytes": 463,
+      "moduleId": "1434"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/alignment-pattern.js",
+      "category": "Code and other modules",
+      "bytes": 458,
+      "moduleId": "1256"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/bit-buffer.js",
+      "category": "Code and other modules",
+      "bytes": 454,
+      "moduleId": "1254"
+    },
+    {
+      "source": "/src/digital-altar/church/types.ts",
+      "category": "Code and other modules",
+      "bytes": 448,
+      "moduleId": "1041"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/byte-data.js",
+      "category": "Code and other modules",
+      "bytes": 447,
+      "moduleId": "1271"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/standard-navigation/useStandardEmitter.js",
+      "category": "Code and other modules",
+      "bytes": 431,
+      "moduleId": "1016"
+    },
+    {
+      "source": "/src/digital-altar/account/index.ts",
+      "category": "Code and other modules",
+      "bytes": 427,
+      "moduleId": "861"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-sqlite/build/SQLiteDevToolsClient.js",
+      "category": "Code and other modules",
+      "bytes": 426,
+      "moduleId": "975"
+    },
+    {
+      "source": "/src/website-runtime/runtimeEvidence.ts",
+      "category": "Code and other modules",
+      "bytes": 425,
+      "moduleId": "859"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/layouts/Stack.web.js",
+      "category": "Code and other modules",
+      "bytes": 405,
+      "moduleId": "1022"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-sqlite/web/SyncSerializer.ts",
+      "category": "Code and other modules",
+      "bytes": 403,
+      "moduleId": "967"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/layouts/experimental-stack/index.web.js",
+      "category": "Code and other modules",
+      "bytes": 398,
+      "moduleId": "1021"
+    },
+    {
+      "source": "/src/data/scripture/web/david/index.ts",
+      "category": "Code and other modules",
+      "bytes": 395,
+      "moduleId": "1414"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-sqlite/build/NativeDatabase.js",
+      "category": "Code and other modules",
+      "bytes": 390,
+      "moduleId": "974"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@expo/devtools/build/getConnectionInfo.js",
+      "category": "Code and other modules",
+      "bytes": 388,
+      "moduleId": "989"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/standard-navigation/useStandardState.js",
+      "category": "Code and other modules",
+      "bytes": 387,
+      "moduleId": "1017"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-sqlite/web/Deferred.ts",
+      "category": "Code and other modules",
+      "bytes": 382,
+      "moduleId": "966"
+    },
+    {
+      "source": "/src/lib/scriptureSharingCore.ts",
+      "category": "Code and other modules",
+      "bytes": 381,
+      "moduleId": "1427"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@expo/devtools/build/utils/blobUtils.js",
+      "category": "Code and other modules",
+      "bytes": 376,
+      "moduleId": "984"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo/node_modules/expo-asset/build/PlatformUtils.web.js",
+      "category": "Code and other modules",
+      "bytes": 376,
+      "moduleId": "1001"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/galois-field.js",
+      "category": "Code and other modules",
+      "bytes": 366,
+      "moduleId": "1262"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/standard-navigation/useProjectedDescriptors.js",
+      "category": "Code and other modules",
+      "bytes": 354,
+      "moduleId": "1013"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-local-authentication/build/ExpoLocalAuthentication.web.js",
+      "category": "Code and other modules",
+      "bytes": 354,
+      "moduleId": "1381"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-sqlite/build/ExpoSQLite.web.js",
+      "category": "Code and other modules",
+      "bytes": 351,
+      "moduleId": "971"
+    },
+    {
+      "source": "/src/scripture-tree/characterTrailBinding.generated.ts",
+      "category": "Code and other modules",
+      "bytes": 344,
+      "moduleId": "1421"
+    },
+    {
+      "source": "/src/questions/source-language-glosses.ts",
+      "category": "Code and other modules",
+      "bytes": 326,
+      "moduleId": "1241"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@expo/devtools/build/logger.js",
+      "category": "Code and other modules",
+      "bytes": 325,
+      "moduleId": "987"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/standard-navigation/useStandardActions.js",
+      "category": "Code and other modules",
+      "bytes": 322,
+      "moduleId": "1015"
+    },
+    {
+      "source": "/src/digital-altar/church/storage.ts",
+      "category": "Code and other modules",
+      "bytes": 316,
+      "moduleId": "1039"
+    },
+    {
+      "source": "/src/c3/components/C3RouteGate.tsx",
+      "category": "Code and other modules",
+      "bytes": 311,
+      "moduleId": "866"
+    },
+    {
+      "source": "/src/discover-graph/useActiveGraph.ts",
+      "category": "Code and other modules",
+      "bytes": 301,
+      "moduleId": "807"
+    },
+    {
+      "source": "/src/digital-altar/account/storage.ts",
+      "category": "Code and other modules",
+      "bytes": 300,
+      "moduleId": "1037"
+    },
+    {
+      "source": "/src/digital-altar/programs/storage.ts",
+      "category": "Code and other modules",
+      "bytes": 300,
+      "moduleId": "1043"
+    },
+    {
+      "source": "/src/dgr/contracts.ts",
+      "category": "Code and other modules",
+      "bytes": 297,
+      "moduleId": "1190"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-crypto/build/aes/aes.types.js",
+      "category": "Code and other modules",
+      "bytes": 287,
+      "moduleId": "1376"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo/node_modules/expo-asset/build/AssetHooks.js",
+      "category": "Code and other modules",
+      "bytes": 283,
+      "moduleId": "1007"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/scripture-tree/presenter-v3/book-engwebu_ps2.json",
+      "category": "Tree data",
+      "bytes": 269,
+      "moduleId": "1171"
+    },
+    {
+      "source": "/src/lib/discoveryNavigation.ts",
+      "category": "Code and other modules",
+      "bytes": 262,
+      "moduleId": "1408"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/standard-navigation/getPreloadedRoutes.js",
+      "category": "Code and other modules",
+      "bytes": 257,
+      "moduleId": "1014"
+    },
+    {
+      "source": "/src/c3/core/ids.ts",
+      "category": "Code and other modules",
+      "bytes": 256,
+      "moduleId": "873"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@noble/ciphers/utils.js",
+      "category": "Code and other modules",
+      "bytes": 255
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@expo/devtools/build/WebSocketBackingStore.js",
+      "category": "Code and other modules",
+      "bytes": 250,
+      "moduleId": "985"
+    },
+    {
+      "source": "/src/c3/featureFlags.ts",
+      "category": "Code and other modules",
+      "bytes": 249,
+      "moduleId": "794"
+    },
+    {
+      "source": "/src/app/digital-altar/commander.tsx",
+      "category": "Code and other modules",
+      "bytes": 243,
+      "moduleId": "767"
+    },
+    {
+      "source": "unmapped generated value",
+      "category": "Code and other modules",
+      "bytes": 242,
+      "moduleId": "1404"
+    },
+    {
+      "source": "/src/questions/questionSectionState.ts",
+      "category": "Code and other modules",
+      "bytes": 242,
+      "moduleId": "1431"
+    },
+    {
+      "source": "/src/digital-altar/tools/runtime.ts",
+      "category": "Code and other modules",
+      "bytes": 236,
+      "moduleId": "922"
+    },
+    {
+      "source": "/src/data/questions/source-language-glosses.generated.ts",
+      "category": "Code and other modules",
+      "bytes": 229,
+      "moduleId": "1239"
+    },
+    {
+      "source": "unmapped generated value",
+      "category": "Code and other modules",
+      "bytes": 229,
+      "moduleId": "1401"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/layouts/_web-modal.js",
+      "category": "Code and other modules",
+      "bytes": 228,
+      "moduleId": "1023"
+    },
+    {
+      "source": "unmapped generated value",
+      "category": "Code and other modules",
+      "bytes": 228,
+      "moduleId": "1403"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/layouts/BaseStack.js",
+      "category": "Code and other modules",
+      "bytes": 227,
+      "moduleId": "1024"
+    },
+    {
+      "source": "unmapped generated value",
+      "category": "Code and other modules",
+      "bytes": 227,
+      "moduleId": "1402"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/format-info.js",
+      "category": "Code and other modules",
+      "bytes": 225,
+      "moduleId": "1267"
+    },
+    {
+      "source": "/src/data/scripture/web/david.ts",
+      "category": "Code and other modules",
+      "bytes": 219,
+      "moduleId": "1413"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/stack/index.js",
+      "category": "Code and other modules",
+      "bytes": 214,
+      "moduleId": "1025"
+    },
+    {
+      "source": "/../../ScriptureDiscovery/assets/dgr/coverage-02/canonical-reference-overlay.json",
+      "category": "DGR data",
+      "bytes": 210,
+      "moduleId": "1365"
+    },
+    {
+      "source": "/src/data/staging.generated.ts",
+      "category": "Code and other modules",
+      "bytes": 205,
+      "moduleId": "1294"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/standard-navigation/lib/src/index.js",
+      "category": "Code and other modules",
+      "bytes": 203,
+      "moduleId": "1012"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/@expo/devtools/build/ProtocolVersion.js",
+      "category": "Code and other modules",
+      "bytes": 195,
+      "moduleId": "990"
+    },
+    {
+      "source": "/src/digital-altar/church/visibility.ts",
+      "category": "Code and other modules",
+      "bytes": 192,
+      "moduleId": "795"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/color/materialColor.js",
+      "category": "Code and other modules",
+      "bytes": 192,
+      "moduleId": "1029"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-secure-store/build/ExpoSecureStore.web.js",
+      "category": "Code and other modules",
+      "bytes": 186,
+      "moduleId": "1384"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/link/zoom/usePreventZoomTransitionDismissal.js",
+      "category": "Code and other modules",
+      "bytes": 151,
+      "moduleId": "1027"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo/node_modules/expo-asset/build/ExpoAsset.web.js",
+      "category": "Code and other modules",
+      "bytes": 149,
+      "moduleId": "1003"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo/node_modules/expo-asset/build/LocalAssets.web.js",
+      "category": "Code and other modules",
+      "bytes": 147,
+      "moduleId": "1005"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/finder-pattern.js",
+      "category": "Code and other modules",
+      "bytes": 144,
+      "moduleId": "1257"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/can-promise.js",
+      "category": "Code and other modules",
+      "bytes": 137,
+      "moduleId": "1250"
+    },
+    {
+      "source": "unmapped",
+      "category": "Code and other modules",
+      "bytes": 103
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/global.js",
+      "category": "Code and other modules",
+      "bytes": 101,
+      "moduleId": "1008"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/color/android.color.types.js",
+      "category": "Code and other modules",
+      "bytes": 101,
+      "moduleId": "1030"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/color/android.attr.types.js",
+      "category": "Code and other modules",
+      "bytes": 101,
+      "moduleId": "1031"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/color/android.dynamic.types.js",
+      "category": "Code and other modules",
+      "bytes": 101,
+      "moduleId": "1032"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/color/android.material.types.js",
+      "category": "Code and other modules",
+      "bytes": 101,
+      "moduleId": "1033"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-router/build/color/ios.types.js",
+      "category": "Code and other modules",
+      "bytes": 101,
+      "moduleId": "1034"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/qrcode/lib/core/version-check.js",
+      "category": "Code and other modules",
+      "bytes": 91,
+      "moduleId": "1265"
+    },
+    {
+      "source": "unmapped",
+      "category": "Code and other modules",
+      "bytes": 72
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo-sqlite/kv-store.js",
+      "category": "Code and other modules",
+      "bytes": 59,
+      "moduleId": "860"
+    },
+    {
+      "source": "/ScriptureDiscovery/node_modules/expo/devtools.js",
+      "category": "Code and other modules",
+      "bytes": 59,
+      "moduleId": "977"
+    },
+    {
+      "source": "unmapped",
+      "category": "Code and other modules",
+      "bytes": 48
+    }
+  ]
+}

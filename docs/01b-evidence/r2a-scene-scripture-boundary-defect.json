@@ -1,0 +1,34 @@
+{
+  "verdict": "SPECIFIC_INTEGRATION_DEFECT_REPRODUCED",
+  "defectId": "R2A-SCENE-SCRIPTURE-ACQUISITION-BOUNDARY",
+  "scope": "ACTUAL_PRIMARY_SCENE_CARD_AND_NATIVE_SOURCE_RESOLVER_NOT_FULL_ROUTE_BROWSER_ACCEPTANCE",
+  "revision": "3fd5238fd98c3b22d08db4c3d8eb9dca4231d9bd0a47b89745525d9ea8df44b3",
+  "subjectId": "abraham",
+  "sceneId": "abraham-gen-11-26-32",
+  "reference": "Genesis 11:26–32",
+  "error": "SDW_SCRIPTURE_ACQUISITION_REQUIRED",
+  "stack": "Error: SDW_SCRIPTURE_ACQUISITION_REQUIRED\n    at Object.readVerses (file:///Volumes/DevMode/DiscoverWebsite/product-runtime/progressiveScripture.mjs:102:55)\n    at readScripture (evalmachine.<anonymous>:245:28)\n    at evalmachine.<anonymous>:222:95\n    at phase0Measure (file:///Volumes/DevMode/DiscoverWebsite/scripts/reproduce-r2a-scene-scripture-boundary.mjs:27:48)\n    at getScripture (evalmachine.<anonymous>:222:44)\n    at getScriptureSource (evalmachine.<anonymous>:231:52)\n    at PassageCard (evalmachine.<anonymous>:19:76)\n    at Object.react_stack_bottom_frame (/Volumes/DevMode/DiscoverWebsite/node_modules/react-dom/cjs/react-dom-server-legacy.node.development.js:9808:18)\n    at renderWithHooks (/Volumes/DevMode/DiscoverWebsite/node_modules/react-dom/cjs/react-dom-server-legacy.node.development.js:5062:19)\n    at renderElement (/Volumes/DevMode/DiscoverWebsite/node_modules/react-dom/cjs/react-dom-server-legacy.node.development.js:5497:23)",
+  "sources": {
+    "data/scripture/canonical.ts": "1168c5dfc57ca47586ec7c3c4e4150b122dede4ce97ad85b4d83b8781483d205",
+    "lib/discovery.ts": "27ee00ba6a1d1514e3ad24b5d3ab489c76dba2d0e8e382533e1843fa2084b515",
+    "components/PrimarySceneCard.tsx": "6e8f3107cacf5b845d3d68149ed1a9b9c64056e8db6d5da66eb7b5fa12dc5cda",
+    "components/PassageCard.tsx": "23ba575a2736536bbfd72f6a9f0e5c15b7dab1cc4ebd6538c2ba8ee1aeee46a1"
+  },
+  "topicPacketAcquisitionsBeforeScene": 1,
+  "scripturePacketAcquisitionsBeforeScene": 0,
+  "legacyFallbackReads": 0,
+  "cause": "Acquiring the topic does not acquire its selected Scene Scripture. PassageCard calls getScriptureSource synchronously before the Scene route has awaited the chapter dependency.",
+  "diagnosticSelectedChapterAcquisition": {
+    "packets": 1,
+    "hydratedChapters": [
+      "engwebu:gen:11"
+    ],
+    "unchangedCardRender": "PASS"
+  },
+  "repairInstalled": false,
+  "requiredRepair": "Await only the selected Scene Scripture dependencies at the Scene acquisition boundary before mounting body-dependent cards; preserve canonical throw semantics, Source Reveal, and subsequent DGR/Tree dependency gates.",
+  "publicExportChanged": false,
+  "nativeSourceMutated": false,
+  "gitPush": false,
+  "release": "STOP_BEFORE_PUSH"
+}

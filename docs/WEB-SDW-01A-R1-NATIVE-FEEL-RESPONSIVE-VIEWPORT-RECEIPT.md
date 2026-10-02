@@ -1,5 +1,9 @@
 # WEB-SDW-01A / R1 — website integration receipt
 
+> R2 placement amendment: [Pricing Strip Placement — PASS](./WEB-SDW-01A-R2-PRICING-STRIP-RECEIPT.md). The compact ownership strip is immediately below the viewport; no numeric price was added.
+
+> Amended 2026-10-01: the shared-engine composition correction now passes its bounded runtime verification. See [the current amendment](./WEB-SDW-01A-SHARED-RUNTIME-AMENDMENT.md). The original checkpoint below is preserved as historical evidence; its dual-instance/storage findings are superseded by that amendment, not silently erased.
+
 ## Verdict
 
 `WEB_SDW_01A_R1 = FAIL` — implementation checkpoint, **not production-ready**.

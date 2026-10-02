@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "revision": "9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43",
+  "scope": "NATIVE_RESOLVER_ALGORITHMS_ON_ACQUIRED_RECORDS_NOT_FULL_UI",
+  "presenterComparisons": 40306,
+  "startupPacketRequests": 5,
+  "startupTreePacketRequests": 0,
+  "knownUnacquiredTreeThrows": true,
+  "recordCount": 64188,
+  "dgrChannelAndQuestionPresentationTested": false,
+  "publicActivation": false
+}

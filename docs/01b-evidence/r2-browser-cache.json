@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "scope": "BROWSER_PACKET_CACHE_AND_READER_ADAPTER_NOT_PRODUCT_RUNTIME_ACCEPTANCE",
+  "cacheDisabled": false,
+  "revision": "3fd5238fd98c3b22d08db4c3d8eb9dca4231d9bd0a47b89745525d9ea8df44b3",
+  "results": [
+    {
+      "phase": "cold-selected-packets",
+      "networkRequests": 2,
+      "decodedResponseBytes": 13511
+    },
+    {
+      "phase": "warm-after-document-reload",
+      "networkRequests": 0,
+      "transferredPacketBytes": 0
+    },
+    {
+      "phase": "new-territory",
+      "networkRequests": 1,
+      "decodedResponseBytes": 6429
+    },
+    {
+      "phase": "offline-cached-reads",
+      "networkRequests": 0,
+      "result": "PASS"
+    },
+    {
+      "phase": "reader-adapter-reload-and-offline",
+      "canonicalRowsEqual": true,
+      "hydratedChapters": [
+        "engwebu:gen:22"
+      ],
+      "warmNetworkRequests": 0,
+      "searchPacketsRequested": 0,
+      "wholeCanonRequested": false
+    }
+  ],
+  "diagnostics": {
+    "revision": "3fd5238fd98c3b22d08db4c3d8eb9dca4231d9bd0a47b89745525d9ea8df44b3",
+    "cacheHits": 3,
+    "networkMisses": 0,
+    "networkBytesDecoded": 0,
+    "integrityFailures": 0,
+    "inFlight": 0
+  },
+  "requests": [
+    {
+      "pathname": "/sdw/3fd5238fd98c3b22d08db4c3d8eb9dca4231d9bd0a47b89745525d9ea8df44b3/45078ba1e709b9b266f8e74fa5cb81d1fba4ca1201cc38b99f1223eb975e32c6.json",
+      "bytes": 7564
+    },
+    {
+      "pathname": "/sdw/3fd5238fd98c3b22d08db4c3d8eb9dca4231d9bd0a47b89745525d9ea8df44b3/bdedd424b25abf08b61b09fb38358a4731d37593e03bf99b29900c70d5857598.json",
+      "bytes": 5947
+    },
+    {
+      "pathname": "/sdw/3fd5238fd98c3b22d08db4c3d8eb9dca4231d9bd0a47b89745525d9ea8df44b3/4e2b5176429d35bc2464b85eb5d074b6257733f8a56996c1480a1eab4bf7d51e.json",
+      "bytes": 6429
+    },
+    {
+      "pathname": "/sdw/3fd5238fd98c3b22d08db4c3d8eb9dca4231d9bd0a47b89745525d9ea8df44b3/fafa6e7af01a8bbaf3acba02333dfcf94d2f21bdef4c6bb08b339e0d09cfd1d7.json",
+      "bytes": 51640
+    },
+    {
+      "pathname": "/sdw/3fd5238fd98c3b22d08db4c3d8eb9dca4231d9bd0a47b89745525d9ea8df44b3/03312835f76e004f24fad52808a7a8b66895cf9093cbd46886bbbda27e0d0087.json",
+      "bytes": 485570
+    }
+  ],
+  "wholeWorldRequested": false
+}

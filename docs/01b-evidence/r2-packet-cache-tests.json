@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "scope": "DETERMINISTIC_ADAPTER_TEST_NOT_BROWSER_OR_APP_ACCEPTANCE",
+  "parallelRequests": 20,
+  "initialNetworkRequests": 1,
+  "newInstanceWarmNetworkRequests": 0,
+  "crossRevisionIsolation": "PASS",
+  "corruptCacheRejectedWithoutNetworkFallback": "PASS",
+  "corruptDownloadNotPersisted": "PASS",
+  "authority": "NO_SEMANTIC_AUTHORITY"
+}

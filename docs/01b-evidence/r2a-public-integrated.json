@@ -1,0 +1,819 @@
+{
+  "status": "FAIL",
+  "failure": "TimeoutError: locator.waitFor: Timeout 90000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#product-panel [role=status]') to be hidden\u001b[22m\n\u001b[2m    183 × locator resolved to visible <div role=\"status\" class=\"productViewport-module__RhHpSa__status\">…</div>\u001b[22m\n",
+  "errors": [],
+  "steps": [
+    {
+      "name": "freshLanding",
+      "requests": [
+        "D7490B5FFE1DC053AB639843DE47967F",
+        "20218.2",
+        "20218.3",
+        "20218.4",
+        "20218.5",
+        "20218.6",
+        "20218.7",
+        "20218.8",
+        "20218.9",
+        "20218.10",
+        "20218.11",
+        "20218.12",
+        "20218.13",
+        "20218.14",
+        "D4242CCBBD439A6E2967B6CE98D812D9",
+        "D4242CCBBD439A6E2967B6CE98D812D9",
+        "20218.40",
+        "20218.41",
+        "20218.44",
+        "20218.45",
+        "20218.46",
+        "20218.47",
+        "20218.48",
+        "B9920DE0FC9B57BD3AB4791127698144",
+        "20218.49",
+        "20218.51",
+        "20218.54",
+        "20218.4",
+        "20218.58"
+      ],
+      "wireBytes": 2201220
+    },
+    {
+      "name": "freshGenesis22",
+      "requests": [
+        "20218.59",
+        "20218.60",
+        "20218.61",
+        "20218.62",
+        "20218.63",
+        "20218.64",
+        "20218.65"
+      ],
+      "wireBytes": 652512
+    },
+    {
+      "name": "freshGenesis23",
+      "requests": [
+        "20218.66",
+        "20218.67",
+        "20218.68",
+        "20218.69"
+      ],
+      "wireBytes": 9644
+    },
+    {
+      "name": "commanderFirstSwitch",
+      "requests": [],
+      "wireBytes": 0
+    },
+    {
+      "name": "repeatedSwitch",
+      "requests": [],
+      "wireBytes": 0
+    }
+  ],
+  "matrix": [
+    {
+      "width": 360,
+      "height": 800,
+      "mode": "discover",
+      "outerOverflow": false,
+      "innerOverflow": false,
+      "criticalControlVisible": true
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "mode": "commander",
+      "outerOverflow": false,
+      "innerOverflow": false,
+      "criticalControlVisible": true
+    },
+    {
+      "width": 430,
+      "height": 930,
+      "mode": "discover",
+      "outerOverflow": false,
+      "innerOverflow": false,
+      "criticalControlVisible": true
+    },
+    {
+      "width": 430,
+      "height": 930,
+      "mode": "commander",
+      "outerOverflow": false,
+      "innerOverflow": false,
+      "criticalControlVisible": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "mode": "discover",
+      "outerOverflow": false,
+      "innerOverflow": false,
+      "criticalControlVisible": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "mode": "commander",
+      "outerOverflow": false,
+      "innerOverflow": false,
+      "criticalControlVisible": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "mode": "discover",
+      "outerOverflow": false,
+      "innerOverflow": false,
+      "criticalControlVisible": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "mode": "commander",
+      "outerOverflow": false,
+      "innerOverflow": false,
+      "criticalControlVisible": true
+    },
+    {
+      "width": 1024,
+      "height": 1366,
+      "mode": "discover",
+      "outerOverflow": false,
+      "innerOverflow": false,
+      "criticalControlVisible": true
+    },
+    {
+      "width": 1024,
+      "height": 1366,
+      "mode": "commander",
+      "outerOverflow": false,
+      "innerOverflow": false,
+      "criticalControlVisible": true
+    },
+    {
+      "width": 1366,
+      "height": 1024,
+      "mode": "discover",
+      "outerOverflow": false,
+      "innerOverflow": false,
+      "criticalControlVisible": true
+    },
+    {
+      "width": 1366,
+      "height": 1024,
+      "mode": "commander",
+      "outerOverflow": false,
+      "innerOverflow": false,
+      "criticalControlVisible": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "mode": "discover",
+      "outerOverflow": false,
+      "innerOverflow": false,
+      "criticalControlVisible": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "mode": "commander",
+      "outerOverflow": false,
+      "innerOverflow": false,
+      "criticalControlVisible": true
+    }
+  ],
+  "ledger": [
+    {
+      "id": "D7490B5FFE1DC053AB639843DE47967F",
+      "url": "http://127.0.0.1:3096/",
+      "status": 200,
+      "cacheControl": "s-maxage=31536000",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "text/html",
+      "wireBytes": 8391
+    },
+    {
+      "id": "20218.2",
+      "url": "http://127.0.0.1:3096/platform/commander-tablet.jpg",
+      "status": 200,
+      "cacheControl": "public, max-age=0",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "image/jpeg",
+      "wireBytes": 115338
+    },
+    {
+      "id": "20218.3",
+      "url": "http://127.0.0.1:3096/Dscrip_web_logo.png",
+      "status": 200,
+      "cacheControl": "public, max-age=0",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "image/png",
+      "wireBytes": 38194
+    },
+    {
+      "id": "20218.4",
+      "url": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83"
+    },
+    {
+      "id": "20218.5",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/09ag5rimz03ha.css",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "text/css",
+      "wireBytes": 5432
+    },
+    {
+      "id": "20218.6",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/162gkajiif7ko.css",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "text/css",
+      "wireBytes": 1634
+    },
+    {
+      "id": "20218.7",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/310vm2bl3xxpt.js",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 2453
+    },
+    {
+      "id": "20218.8",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/19mx3mg6lkumu.js",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 8098
+    },
+    {
+      "id": "20218.9",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/1rj7ns8rte9vc.js",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 72155
+    },
+    {
+      "id": "20218.10",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/2z-e6jheq0ftu.js",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 45694
+    },
+    {
+      "id": "20218.11",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/turbopack-1vijxpa2bdysr.js",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 4332
+    },
+    {
+      "id": "20218.12",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/3fntmmi971322.js",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 4144
+    },
+    {
+      "id": "20218.13",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/1rmvzixp35fv0.js",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 133888
+    },
+    {
+      "id": "20218.14",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/3gtiv3d7grtef.js",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 6091
+    },
+    {
+      "id": "D4242CCBBD439A6E2967B6CE98D812D9",
+      "url": "http://127.0.0.1:3096/product-app/"
+    },
+    {
+      "id": "D4242CCBBD439A6E2967B6CE98D812D9",
+      "url": "http://127.0.0.1:3096/product-app",
+      "status": 200,
+      "cacheControl": "public, max-age=0",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "text/html",
+      "wireBytes": 1192
+    },
+    {
+      "id": "20218.40",
+      "url": "http://127.0.0.1:3096/product-app/boot.js",
+      "status": 200,
+      "cacheControl": "no-cache",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 835
+    },
+    {
+      "id": "20218.41",
+      "url": "http://127.0.0.1:3096/product-app/_expo/static/js/web/entry-c081f4b232995b54f4367cf7cd739d2d.js",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 690492
+    },
+    {
+      "id": "20218.44",
+      "url": "http://127.0.0.1:3096/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/0b17fdbca8b25942062e9d79f3ed2bd57311c3ba6a719650416f44314d0acb8f.json",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/json",
+      "wireBytes": 5940
+    },
+    {
+      "id": "20218.45",
+      "url": "http://127.0.0.1:3096/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/227e54d09a60e431dfa801b598fa09da8d9c13e8a0293c0418f4aba1f6ebbb93.json",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/json",
+      "wireBytes": 7322
+    },
+    {
+      "id": "20218.46",
+      "url": "http://127.0.0.1:3096/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/2124154dcbef5b7a92586c0ca6991c208d507c125cee3e46a539e08de1274629.json",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/json",
+      "wireBytes": 77724
+    },
+    {
+      "id": "20218.47",
+      "url": "http://127.0.0.1:3096/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/10c8a5495935ba9181fe26b7b6efb4ab3760c17d85418efaa067571d26495227.json",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/json",
+      "wireBytes": 73883
+    },
+    {
+      "id": "20218.48",
+      "url": "http://127.0.0.1:3096/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/1efe95c4cf366662a41e915b7636b412243e381a9743df9a2ca1a58e0f57abe8.json",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/json",
+      "wireBytes": 239363
+    },
+    {
+      "id": "B9920DE0FC9B57BD3AB4791127698144",
+      "url": "blob:http://127.0.0.1:3096/f7a03cc1-d157-4364-b13b-09bc6b2e1353"
+    },
+    {
+      "id": "20218.49",
+      "url": "http://127.0.0.1:3096/product-app/assets/__ScriptureDiscovery/node_modules/@expo-google-fonts/material-symbols/400Regular/MaterialSymbols_400Regular.44b1e9941a4397bd95165681e216120b.ttf",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "font/ttf",
+      "wireBytes": 433949
+    },
+    {
+      "id": "20218.51",
+      "url": "http://127.0.0.1:3096/product-app/assets/__ScriptureDiscovery/node_modules/@expo-google-fonts/source-serif-4/400Regular/SourceSerif4_400Regular.d73629837cb80aa0a18f9e4706efea3a.ttf",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "font/ttf",
+      "wireBytes": 102772
+    },
+    {
+      "id": "20218.54",
+      "url": "http://127.0.0.1:3096/product-app/assets/__ScriptureDiscovery/node_modules/@expo-google-fonts/source-serif-4/700Bold/SourceSerif4_700Bold.6fad708080f96c595afeafccef1c2d8d.ttf",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "font/ttf",
+      "wireBytes": 109998
+    },
+    {
+      "id": "20218.4",
+      "url": "https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/en-us?size=250x83",
+      "status": 200,
+      "cacheControl": "public, max-age=604800",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "image/svg+xml",
+      "wireBytes": 11526
+    },
+    {
+      "id": "20218.58",
+      "url": "http://127.0.0.1:3096/favicon.ico",
+      "status": 404,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "text/plain",
+      "wireBytes": 380
+    },
+    {
+      "id": "20218.59",
+      "url": "http://127.0.0.1:3096/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/5640b468ba48bd2929574a6fd7720ec810b2f7114d37f85f347849598f9e0499.json",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/json",
+      "wireBytes": 2484
+    },
+    {
+      "id": "20218.60",
+      "url": "http://127.0.0.1:3096/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/75bd8bc7e719a467fbed0db3394e33240e3da1acd24180f242cea1d1bc73e6e2.json",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/json",
+      "wireBytes": 639095
+    },
+    {
+      "id": "20218.61",
+      "url": "http://127.0.0.1:3096/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/dae3d61f08be37a61e6e319cac4bcbcb08dbd13151066859b2c119cc30213078.json",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/json",
+      "wireBytes": 1435
+    },
+    {
+      "id": "20218.62",
+      "url": "http://127.0.0.1:3096/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/526b8ecd6144006d0b6cdc64295e8e7b03acb2796c3fcddf5101c56eb2dfba90.json",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/json",
+      "wireBytes": 2917
+    },
+    {
+      "id": "20218.63",
+      "url": "http://127.0.0.1:3096/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/ffdcaa528a7ac0626faa4a42b0b29b4d693cf9a0a7e0e4c7317c8916256e3753.json",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/json",
+      "wireBytes": 2200
+    },
+    {
+      "id": "20218.64",
+      "url": "http://127.0.0.1:3096/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/590f2a0096b27fbd042b1b84021273adec730452f22af6820f5ccd5600922624.json",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/json",
+      "wireBytes": 2923
+    },
+    {
+      "id": "20218.65",
+      "url": "http://127.0.0.1:3096/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/bea6e51e1bb7708681a4ed5baacc2a730ac8b0ae9f309055b6b49756f8810029.json",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/json",
+      "wireBytes": 1458
+    },
+    {
+      "id": "20218.66",
+      "url": "http://127.0.0.1:3096/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/0e61aab72e28c4e970f471d0ed820918d6ff774e404d6ea02ee7b3a9d157ae29.json",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/json",
+      "wireBytes": 2164
+    },
+    {
+      "id": "20218.67",
+      "url": "http://127.0.0.1:3096/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/183f3a794be635735134231b8491d1dbe506020b6d029860ffcf7bab7803e5af.json",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/json",
+      "wireBytes": 2587
+    },
+    {
+      "id": "20218.68",
+      "url": "http://127.0.0.1:3096/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/1e984844de276ecf0556dbf936091173e6e576b1b0248904a212861e40874308.json",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/json",
+      "wireBytes": 2552
+    },
+    {
+      "id": "20218.69",
+      "url": "http://127.0.0.1:3096/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/d32d75c3f3d14c6682a080609b78d726cbe1093201c310d7ad4a56d99abb0f6f.json",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/json",
+      "wireBytes": 2341
+    },
+    {
+      "id": "20218.70",
+      "url": "http://127.0.0.1:3096/product-app/assets/__ScriptureDiscovery/node_modules/expo-router/assets/react-navigation/elements/back-icon.35ba0eaec5a4f5ed12ca16fabeae451d.png",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "image/png",
+      "wireBytes": 589
+    },
+    {
+      "id": "20218.81",
+      "url": "http://127.0.0.1:3096/product-app/assets/__ScriptureDiscovery/node_modules/expo-router/assets/react-navigation/elements/back-icon.35ba0eaec5a4f5ed12ca16fabeae451d.png",
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": true,
+      "serviceWorker": false,
+      "mime": "image/png",
+      "wireBytes": 0
+    },
+    {
+      "id": "988210923A974FFDFAA1185D0DBFA6C0",
+      "url": "http://127.0.0.1:3096/?product=commander",
+      "status": 200,
+      "cacheControl": "s-maxage=31536000",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "text/html",
+      "wireBytes": 8391
+    },
+    {
+      "id": "20218.84",
+      "url": "http://127.0.0.1:3096/platform/commander-tablet.jpg",
+      "status": 304,
+      "cacheControl": "public, max-age=0",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "image/jpeg",
+      "wireBytes": 331
+    },
+    {
+      "id": "20218.85",
+      "url": "http://127.0.0.1:3096/Dscrip_web_logo.png",
+      "status": 304,
+      "cacheControl": "public, max-age=0",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "image/png",
+      "wireBytes": 330
+    },
+    {
+      "id": "20218.86",
+      "url": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83"
+    },
+    {
+      "id": "20218.87",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/09ag5rimz03ha.css",
+      "cache": true,
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "text/css",
+      "wireBytes": 0
+    },
+    {
+      "id": "20218.88",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/162gkajiif7ko.css",
+      "cache": true,
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "text/css",
+      "wireBytes": 0
+    },
+    {
+      "id": "20218.89",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/310vm2bl3xxpt.js",
+      "cache": true,
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 0
+    },
+    {
+      "id": "20218.90",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/19mx3mg6lkumu.js",
+      "cache": true,
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 0
+    },
+    {
+      "id": "20218.91",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/1rj7ns8rte9vc.js",
+      "cache": true,
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 0
+    },
+    {
+      "id": "20218.92",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/2z-e6jheq0ftu.js",
+      "cache": true,
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 0
+    },
+    {
+      "id": "20218.93",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/turbopack-1vijxpa2bdysr.js",
+      "cache": true,
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 0
+    },
+    {
+      "id": "20218.94",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/3fntmmi971322.js",
+      "cache": true,
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 0
+    },
+    {
+      "id": "20218.95",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/1rmvzixp35fv0.js",
+      "cache": true,
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 0
+    },
+    {
+      "id": "20218.96",
+      "url": "http://127.0.0.1:3096/_next/static/chunks/3gtiv3d7grtef.js",
+      "cache": true,
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 0
+    },
+    {
+      "id": "0EC38518411B6D1F57068CE2E94109F7",
+      "url": "http://127.0.0.1:3096/product-app/"
+    },
+    {
+      "id": "0EC38518411B6D1F57068CE2E94109F7",
+      "url": "http://127.0.0.1:3096/product-app",
+      "status": 200,
+      "cacheControl": "public, max-age=0",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "text/html",
+      "wireBytes": 329
+    },
+    {
+      "id": "20218.123",
+      "url": "http://127.0.0.1:3096/product-app/boot.js",
+      "status": 304,
+      "cacheControl": "no-cache",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 320
+    },
+    {
+      "id": "20218.124",
+      "url": "http://127.0.0.1:3096/product-app/_expo/static/js/web/entry-c081f4b232995b54f4367cf7cd739d2d.js",
+      "cache": true,
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "application/javascript",
+      "wireBytes": 0
+    },
+    {
+      "id": "7D234F89EAF6704183AEAF9E403212C1",
+      "url": "blob:http://127.0.0.1:3096/29fcdaf1-f1c9-4166-959b-73443c2105ef"
+    },
+    {
+      "id": "20218.127",
+      "url": "http://127.0.0.1:3096/product-app/assets/__ScriptureDiscovery/node_modules/@expo-google-fonts/material-symbols/400Regular/MaterialSymbols_400Regular.44b1e9941a4397bd95165681e216120b.ttf",
+      "cache": true,
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "font/ttf",
+      "wireBytes": 0
+    },
+    {
+      "id": "20218.129",
+      "url": "http://127.0.0.1:3096/product-app/assets/__ScriptureDiscovery/node_modules/@expo-google-fonts/source-serif-4/400Regular/SourceSerif4_400Regular.d73629837cb80aa0a18f9e4706efea3a.ttf",
+      "cache": true,
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "font/ttf",
+      "wireBytes": 0
+    },
+    {
+      "id": "20218.132",
+      "url": "http://127.0.0.1:3096/product-app/assets/__ScriptureDiscovery/node_modules/@expo-google-fonts/source-serif-4/700Bold/SourceSerif4_700Bold.6fad708080f96c595afeafccef1c2d8d.ttf",
+      "cache": true,
+      "status": 200,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "font/ttf",
+      "wireBytes": 0
+    },
+    {
+      "id": "20218.86",
+      "url": "https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/en-us?size=250x83",
+      "status": 200,
+      "cacheControl": "public, max-age=604800",
+      "diskCache": false,
+      "serviceWorker": false,
+      "mime": "image/svg+xml",
+      "wireBytes": 11525
+    }
+  ]
+}

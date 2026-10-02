@@ -1,0 +1,115 @@
+{
+  "status": "COMMANDER_PROBE",
+  "text": "LIVE ▾\nService ▾\nR2A LOCAL TEST WORKSPACE\nR2A Test Service\n02 / 2 · SCRIPTURE\nEND OF SERVICE\nBroadcast Queue · 1\nBROADCAST ACTIVE\nGenesis 23:1\nVERSE FOCUS\n‹ Back\nReturn to Service\nMedia\nPresenter ▾\nGenesis 23:1\nGenesis 23:1 · WEBU\n1 Sarah lived one hundred twenty-seven years. This was the length of Sarah’s life.\n‹ Previous\nPRESENTER · 1 / 1\nNext ›\nShare\nNotes\nAdd to Queue\nSaved\nAssignment\nGenesis 23:1\n⋯\nAdded to Broadcast Queue.\n‹ 01 · R2A Test Welcome\nBROADCAST\nPUBLIC\nEnd of Service ›\nSMART PRESENTER\n×\nVERSE FOCUS\n›\nPASSAGE READING\n›\nREADING MODE\n›\nSCRIPTURE TREE NAVIGATOR\nGenesis 23:1\n×\nBOOK\nGenesis ◀\nExodus\nLeviticus\nNumbers\nDeuteronomy\nJoshua\nJudges\nRuth\n1 Samuel\n2 Samuel\n1 Kings\n2 Kings\n1 Chronicles\n2 Chronicles\nEzra\nNehemiah\nEsther\nJob\nPsalms\nProverbs\nEcclesiastes\nSong of Solomon\nIsaiah\nJeremiah\nLamentations\nEzekiel\nDaniel\nHosea\nJoel\nAmos\nObadiah\nJonah\nMicah\nNahum\nHabakkuk\nZephaniah\nHaggai\nZechariah\nMalachi\nTobit\nJudith\nEsther (Greek)\nWisdom\nSirach\nBaruch\n1 Maccabees\n2 Maccabees\n1 Esdras\nPrayer of Manasses\nPsalm 151\n3 Maccabees\n2 Esdras\n4 Maccabees\nDaniel (Greek)\nMatthew\nMark\nLuke\nJohn\nActs\nRomans\n1 Corinthians\n2 Corinthians\nGalatians\nEphesians\nPhilippians\nColossians\n1 Thessalonians\n2 Thessalonians\n1 Timothy\n2 Timothy\nTitus\nPhilemon\nHebrews\nJames\n1 Peter\n2 Peter\n1 John\n2 John\n3 John\nJude\nRevelation\nCHAPTER\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23 ◀\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\nVERSE",
+  "errors": [],
+  "requests": [
+    {
+      "path": "/product-app/digital-altar/commander",
+      "bytes": 1485
+    },
+    {
+      "path": "/product-app/boot.js",
+      "bytes": 428
+    },
+    {
+      "path": "/product-app/_expo/static/js/web/entry-f9093c51eeaaec39e1a101a792458469.js",
+      "bytes": 689923
+    },
+    {
+      "path": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/0b17fdbca8b25942062e9d79f3ed2bd57311c3ba6a719650416f44314d0acb8f.json",
+      "bytes": 32855
+    },
+    {
+      "path": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/227e54d09a60e431dfa801b598fa09da8d9c13e8a0293c0418f4aba1f6ebbb93.json",
+      "bytes": 51640
+    },
+    {
+      "path": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/2124154dcbef5b7a92586c0ca6991c208d507c125cee3e46a539e08de1274629.json",
+      "bytes": 515477
+    },
+    {
+      "path": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/10c8a5495935ba9181fe26b7b6efb4ab3760c17d85418efaa067571d26495227.json",
+      "bytes": 396081
+    },
+    {
+      "path": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/1efe95c4cf366662a41e915b7636b412243e381a9743df9a2ca1a58e0f57abe8.json",
+      "bytes": 841944
+    },
+    {
+      "path": "/product-app/assets/__ScriptureDiscovery/node_modules/@expo-google-fonts/material-symbols/400Regular/MaterialSymbols_400Regular.44b1e9941a4397bd95165681e216120b.ttf",
+      "bytes": 962292
+    },
+    {
+      "path": "/product-app/assets/__ScriptureDiscovery/node_modules/@expo-google-fonts/source-serif-4/400Regular/SourceSerif4_400Regular.d73629837cb80aa0a18f9e4706efea3a.ttf",
+      "bytes": 329948
+    },
+    {
+      "path": "/product-app/assets/__ScriptureDiscovery/node_modules/@expo-google-fonts/source-serif-4/700Bold/SourceSerif4_700Bold.6fad708080f96c595afeafccef1c2d8d.ttf",
+      "bytes": 330208
+    },
+    {
+      "path": "/product-app/_expo/static/js/web/worker-9d0b1363ecb4bb92c00647a2499ec080.js",
+      "bytes": 33214
+    },
+    {
+      "path": "/product-app/assets/sqlite-web/wa-sqlite/wa-sqlite.7ca566fbbc2ec2a172c5aefa63a20f4b.wasm",
+      "bytes": 621492
+    },
+    {
+      "path": "/product-app/assets/__ScriptureDiscovery/node_modules/expo-router/assets/react-navigation/elements/back-icon.35ba0eaec5a4f5ed12ca16fabeae451d.png",
+      "bytes": 207
+    },
+    {
+      "path": "/product-app/digital-altar/church",
+      "bytes": 1485
+    },
+    {
+      "path": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/d8981154dcaa38cbd225bad6b734f07dadcf0078883d73dbcbdb4a786b368be3.json",
+      "bytes": 67447
+    },
+    {
+      "path": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/47f1ba2345a9f921502c6f7c7b1f623feb709c80fc34cd2e8d14869b3b8e2c03.json",
+      "bytes": 4146156
+    },
+    {
+      "path": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/5640b468ba48bd2929574a6fd7720ec810b2f7114d37f85f347849598f9e0499.json",
+      "bytes": 7564
+    },
+    {
+      "path": "/product-app/digital-altar/commander",
+      "bytes": 1485
+    },
+    {
+      "path": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/3ca7f1ef5c9a1662df295179509dc851020c9ac9a70ad2112c830069b4dac901.json",
+      "bytes": 2248710
+    },
+    {
+      "path": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/75bd8bc7e719a467fbed0db3394e33240e3da1acd24180f242cea1d1bc73e6e2.json",
+      "bytes": 2383701
+    },
+    {
+      "path": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/d9ff22fb8f378cd1439a16fce9d6998e2255c4032dff2be2f9732bfcfdfd8999.json",
+      "bytes": 952548
+    },
+    {
+      "path": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/fe5a9eaff524be6e74adf48bc8f15c9c3244588dc9c890578b74f504750acbe4.json",
+      "bytes": 4954
+    },
+    {
+      "path": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/c906a51fdeb61450e6aa0c95c630151ec671e40a9f07eba95774dcb9ff43fb84.json",
+      "bytes": 890
+    },
+    {
+      "path": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/0e61aab72e28c4e970f471d0ed820918d6ff774e404d6ea02ee7b3a9d157ae29.json",
+      "bytes": 6429
+    },
+    {
+      "path": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/c0238fe5b5aad1bb6dd62aca457e63bec1342f529ae80df1f0e938431eeca0f8.json",
+      "bytes": 896
+    },
+    {
+      "path": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/89d5f07aec139e898f2f022f0b00674d872620e9539f3c4c98618aa734bc51a0.json",
+      "bytes": 890
+    }
+  ]
+}

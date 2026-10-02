@@ -1,0 +1,68 @@
+{
+  "status": "TRANSPORT_ARTIFACT_EQUIVALENCE_PASS_RUNTIME_BINDING_PENDING",
+  "productionActive": false,
+  "output": "/Volumes/DevMode/DiscoverWebsite/.product-build-transport",
+  "manifest": {
+    "file": "ce11f54b54c8eee2635c16eda8fd38b847ab7a31d010f1ce3315b648afc3323c.json",
+    "sha256": "ce11f54b54c8eee2635c16eda8fd38b847ab7a31d010f1ce3315b648afc3323c",
+    "bytes": 94309,
+    "brotliBytes": 24198
+  },
+  "canonicalDatabaseSha256": "f9dfbce6dd2edfe4bb3b4690acd6622f392035be2b0349df98f3607f0a05f6c2",
+  "bookCount": 81,
+  "chapterCount": 1402,
+  "verseCount": 38058,
+  "exactVerseValueAndOrderEquivalence": "PASS",
+  "graphPackageCount": 258,
+  "graphExactByteEquivalence": "PASS",
+  "subjectCount": 50,
+  "subjectValueAndOrderEquivalence": "PASS",
+  "searchRecordCount": 4775,
+  "searchIndex": {
+    "file": "e4304865d4ebd11f354a08944a6c95299a3c0a9a57f501475d9afbc1a96d5875.json",
+    "sha256": "e4304865d4ebd11f354a08944a6c95299a3c0a9a57f501475d9afbc1a96d5875",
+    "bytes": 4146004,
+    "brotliBytes": 562475
+  },
+  "deduplicatedAssetCount": 1794,
+  "rootBytes": 67325,
+  "rootBrotliBytes": 9672,
+  "genesis12": {
+    "root": {
+      "file": "749fd778f7aedb8b991a99ac3338feb6348d4b0fb65e0b195b4e4201fc0a529c.json",
+      "sha256": "749fd778f7aedb8b991a99ac3338feb6348d4b0fb65e0b195b4e4201fc0a529c",
+      "bytes": 67325,
+      "brotliBytes": 9672
+    },
+    "book": {
+      "book": {
+        "id": "engwebu:gen",
+        "translation_id": "engwebu",
+        "usfm_code": "GEN",
+        "osis_code": "Gen",
+        "name": "Genesis",
+        "short_name": "Gen",
+        "long_name": "The First Book of Moses, Commonly Called Genesis",
+        "canonical_order": 1,
+        "source_order": 2,
+        "section": "old_testament"
+      },
+      "chapterCount": 50,
+      "file": "10420942a693ca0ab055c8e5fdb5ab0523ee402c2e32d79deff9d7cec0ac58a0.json",
+      "sha256": "10420942a693ca0ab055c8e5fdb5ab0523ee402c2e32d79deff9d7cec0ac58a0",
+      "bytes": 11596,
+      "brotliBytes": 2869
+    },
+    "chapter": {
+      "chapter": 12,
+      "verseRecordCount": 20,
+      "file": "1a08aa5a358649d328303f9a75cf3bb36928e4263be9088ade06f157e4b3e928.json",
+      "sha256": "1a08aa5a358649d328303f9a75cf3bb36928e4263be9088ade06f157e4b3e928",
+      "bytes": 6271,
+      "brotliBytes": 1595
+    }
+  },
+  "coldRootBookChapterBrotliBytes": 14136,
+  "networkMeasurements": "NOT_RUNTIME_MEASUREMENTS",
+  "nativeSourceMutated": false
+}

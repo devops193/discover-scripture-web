@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "transport adapter tests; NOT production runtime/network acceptance",
+  "chapter": "Genesis 12",
+  "firstReadRequests": 3,
+  "repeatReadAdditionalRequests": 0,
+  "concurrentReadIdentity": "PASS",
+  "unknownAddressAdditionalRequests": 0,
+  "corruptionRejected": true,
+  "wrongAuthorityRejected": true,
+  "wholeCanonAssetRequested": false,
+  "requests": [
+    "https://transport.invalid/data/749fd778f7aedb8b991a99ac3338feb6348d4b0fb65e0b195b4e4201fc0a529c.json",
+    "https://transport.invalid/data/10420942a693ca0ab055c8e5fdb5ab0523ee402c2e32d79deff9d7cec0ac58a0.json",
+    "https://transport.invalid/data/1a08aa5a358649d328303f9a75cf3bb36928e4263be9088ade06f157e4b3e928.json"
+  ],
+  "diagnostics": {
+    "requests": 3,
+    "decodedBytes": 85192,
+    "chapterLoads": 21,
+    "cachedResources": 3
+  }
+}

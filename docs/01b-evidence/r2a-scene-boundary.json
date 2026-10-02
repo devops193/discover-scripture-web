@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "CHROME_REAL_SCENE_BOUNDARY_PRIMARY_CARD_CANONICAL_RUNTIME_WITH_NATIVE_HOST_ADAPTERS_NOT_FULL_APP",
+  "revision": "9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43",
+  "startupTopicAndChapterHydrations": 0,
+  "firstScene": "abraham-gen-11-26-32",
+  "firstSceneHydratedChapters": [
+    "engwebu:gen:11"
+  ],
+  "firstSceneQuestionBodies": 1,
+  "repeatedScenePacketRequests": 0,
+  "warmReloadOfflinePacketRequests": 0,
+  "pendingRouteNeverRendersPreviousScene": true,
+  "invalidOwnerFailsClosed": true,
+  "sharedReader": true,
+  "publicExportActivated": false
+}

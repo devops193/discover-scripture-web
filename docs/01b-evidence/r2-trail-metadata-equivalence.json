@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "revision": "9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43",
+  "scope": "NATIVE_TRAIL_RESOLVER_WITH_VERIFIED_IDENTITY_METADATA_NOT_FULL_UI",
+  "records": 17,
+  "sceneAndPositionComparisons": 1846,
+  "sceneBodyHydrations": 0,
+  "exactOriginalTrailHash": "d89222300322448fef5ff378c595cdcfbe90b4f33e20d007973a7b871646c973",
+  "publicActivation": false
+}

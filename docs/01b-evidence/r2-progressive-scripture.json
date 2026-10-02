@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "CANONICAL_READER_ADAPTER_NOT_PRODUCT_ACCEPTANCE",
+  "revision": "9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43",
+  "books": 81,
+  "chapters": 1402,
+  "verseRecords": 38058,
+  "actualCanonicalResolverExecuted": true,
+  "canonicalSourceEquivalence": "PASS",
+  "referenceCases": 37,
+  "omittedAndBridgedRecords": "PASS",
+  "coldGenesis22ChapterRequests": 1,
+  "chapter22OnlyAtFirstRead": true,
+  "concurrentAcquisitionSingleFlight": "PASS",
+  "missingReadDoesNotPoisonSourceCache": "PASS",
+  "wrongAddressRejected": true,
+  "exactSearchEquivalence": "PASS",
+  "searchCases": 102,
+  "searchUsesExistingCanonicalOrderAndAsciiFold": true,
+  "asyncConsumerBoundaries": "PENDING_PUBLIC_CUTOVER_BLOCKER",
+  "productionActive": false
+}

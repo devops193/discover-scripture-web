@@ -12,6 +12,7 @@ import {
 import { releaseContent } from './releaseContent.generated';
 import { OwnershipPromise, SiteShell } from './site';
 import { ProductViewport } from './productViewport';
+import { PricingStrip } from './pricingStrip';
 
 const principles = [
   ['Follow', 'People across changing places, relationships, decisions, pressure, failure, and memory.'],
@@ -29,6 +30,7 @@ export default function Home() {
     <SiteShell>
       <main>
         <ProductViewport />
+        <PricingStrip />
         <div id="website-content" />
         <MinistryHero />
         <MinistryFlowSection />

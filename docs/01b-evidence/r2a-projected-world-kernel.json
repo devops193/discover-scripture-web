@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "revision": "34911043036ecc5072afb2fad64857efece5a948814ead13ef4b2ff2a6e69f91",
+  "scope": "ORIGINAL_KERNEL_WITH_VERIFIED_ROOT_INPUT_NOT_WORLD_UI",
+  "compactRootEntryBytes": 5947,
+  "aggregateRootHydration": false,
+  "rootEntryDescendantDescriptors": 0,
+  "selectedDescriptors": 2,
+  "exactBranchAndCuratedOrder": true,
+  "beginAndSceneTraversalEquivalent": true,
+  "exactReturnIdentity": true,
+  "forgedStateRejected": true,
+  "forgedProofRejected": true,
+  "originalTargetHashCheckPreserved": true,
+  "repeatedPacketRequests": 0,
+  "scripturePacketsRequested": 0,
+  "publicActivation": false
+}

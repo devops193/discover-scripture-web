@@ -1,0 +1,24 @@
+{
+  "verdict": "PASS",
+  "scope": "ACTUAL_STAGED_LANDING_AND_CARD_REACT_RENDER_NOT_FULL_BROWSER_ACCEPTANCE",
+  "revision": "52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398",
+  "subjectCount": 50,
+  "cardCount": 55,
+  "cardOrderLabelsCapabilitiesReferences": "EXACT_BUILD_PROJECTION",
+  "continuationLabelsVerified": 4640,
+  "initialRender": {
+    "topicBodyHydrations": 0,
+    "topicPacketAcquisitions": 0,
+    "bodyAccessorTouches": 0
+  },
+  "mutationControl": "PASS",
+  "selectedAbraham": {
+    "topicBodyHydrations": 1,
+    "topicPacketAcquisitions": 1,
+    "exactBody": true,
+    "existingNavigationDispatched": true
+  },
+  "otherUnhydratedBodiesStillThrow": true,
+  "publicExportChanged": false,
+  "productionAcceptance": false
+}

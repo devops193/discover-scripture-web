@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "revision": "9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43",
+  "canonicalAuthorityHash": "5b2934af26d17fa78a64bd1b12aec688051c09c2b7cafcb13289b39ec11ec481",
+  "recordComparisons": 69,
+  "attachmentComparisons": 5865,
+  "indexBytes": 40961,
+  "metadataOnlyDiscovery": true,
+  "listingRecordHydrations": 0,
+  "selectedRecordRequests": 1,
+  "concurrentSelectedRecordRequests": 1,
+  "repeatedRecordRequests": 0,
+  "warmCachedRecordRequests": 0,
+  "exactRecordAndViewModelEquivalence": true,
+  "originalAttachmentPredicatePreserved": true,
+  "sourceAuthorityMismatchRejected": true,
+  "corruptBytesRejected": true,
+  "ordinaryCompareAuthorityUsed": false,
+  "fullRegistryPreload": false,
+  "scope": "TRANSPORT_AND_NATIVE_RESOLVER_NOT_FULL_UI",
+  "publicActivation": false
+}

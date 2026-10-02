@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "revision": "9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43",
+  "scope": "EXACT_ORIGINAL_OWNER_LOADERS_AND_NQL_SELECTION_NOT_FULL_PRODUCT",
+  "ownerComparisons": 113,
+  "nqlSceneComparisons": 2558,
+  "startupOwnerMetadataRequests": 0,
+  "startupOwnerBodyRequests": 0,
+  "selectedConcurrentOwnerRequests": 1,
+  "repeatedOwnerRequests": 0,
+  "knownUnacquiredOwnerThrows": true,
+  "nativeSemanticResolversChanged": false
+}

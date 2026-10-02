@@ -1,0 +1,79 @@
+{
+  "results": [
+    {
+      "scenario": "truncated",
+      "result": "PASS",
+      "evidence": {
+        "installs": 0,
+        "packageRequests": 1,
+        "localReads": 0,
+        "payloadBytesRead": 0,
+        "activeRevision": "",
+        "status": "FAILED",
+        "persistentStorageGranted": false,
+        "lastUpdateError": "Error: Incomplete world download",
+        "elapsedMs": 0
+      }
+    },
+    {
+      "scenario": "wrong-hash",
+      "result": "PASS",
+      "evidence": {
+        "installs": 0,
+        "packageRequests": 1,
+        "localReads": 0,
+        "payloadBytesRead": 0,
+        "activeRevision": "",
+        "status": "FAILED",
+        "persistentStorageGranted": false,
+        "lastUpdateError": "Error: World hash mismatch",
+        "elapsedMs": 0
+      }
+    },
+    {
+      "scenario": "interrupted",
+      "result": "PASS",
+      "evidence": {
+        "installs": 0,
+        "packageRequests": 1,
+        "localReads": 0,
+        "payloadBytesRead": 0,
+        "activeRevision": "",
+        "status": "FAILED",
+        "persistentStorageGranted": false,
+        "lastUpdateError": "TypeError: Failed to fetch",
+        "elapsedMs": 0
+      }
+    },
+    {
+      "scenario": "previous-revision-survives-corrupt-update",
+      "result": "PASS",
+      "evidence": {
+        "installs": 0,
+        "packageRequests": 1,
+        "localReads": 35,
+        "payloadBytesRead": 45911914,
+        "activeRevision": "ae10b5a20cd564d5b6e00ecad2ba8cc6dd4ec20acf74e498bd3c3e01e7e4b2fd",
+        "status": "READY",
+        "persistentStorageGranted": false,
+        "lastUpdateError": "Error: World hash mismatch",
+        "elapsedMs": 3049.295000076294
+      }
+    },
+    {
+      "scenario": "same-revision-no-package-request",
+      "result": "PASS",
+      "evidence": {
+        "installs": 0,
+        "packageRequests": 0,
+        "localReads": 35,
+        "payloadBytesRead": 45911914,
+        "activeRevision": "ae10b5a20cd564d5b6e00ecad2ba8cc6dd4ec20acf74e498bd3c3e01e7e4b2fd",
+        "status": "READY",
+        "persistentStorageGranted": false,
+        "lastUpdateError": "",
+        "elapsedMs": 3024.9900000095367
+      }
+    }
+  ]
+}

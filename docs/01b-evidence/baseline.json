@@ -1,0 +1,535 @@
+{
+  "origin": "http://localhost:3096",
+  "method": "Chromium CDP Network; same-origin frame included; fresh context cold then same-context reload; no network throttling; bytes include response headers; blob/data excluded",
+  "phases": [
+    {
+      "phase": "cold",
+      "readyMs": 2504,
+      "requestCount": 30,
+      "transferredBytes": 32151391,
+      "cachedRequests": 0,
+      "engine": {
+        "engineId": "13e85fcb-be62-4615-aa5e-7ecc0dd2cfff",
+        "counts": {
+          "treeCache": 1,
+          "root": 1,
+          "storage": 1,
+          "graph": 1,
+          "canonicalBoot": 1,
+          "canonicalDatabase": 1,
+          "canonicalReader": 1
+        }
+      },
+      "entries": [
+        {
+          "url": "http://localhost:3096/",
+          "type": "Document",
+          "transferredBytes": 8068,
+          "status": 200,
+          "diskCache": false,
+          "mime": "text/html"
+        },
+        {
+          "url": "http://localhost:3096/platform/commander-tablet.jpg",
+          "type": "Image",
+          "transferredBytes": 115338,
+          "status": 200,
+          "diskCache": false,
+          "mime": "image/jpeg"
+        },
+        {
+          "url": "http://localhost:3096/Dscrip_web_logo.png",
+          "type": "Image",
+          "transferredBytes": 38194,
+          "status": 200,
+          "diskCache": false,
+          "mime": "image/png"
+        },
+        {
+          "url": "https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/en-us?size=250x83",
+          "type": "Image",
+          "transferredBytes": 11526,
+          "status": 200,
+          "diskCache": false,
+          "mime": "image/svg+xml"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/02y0y45~x80-k.css",
+          "type": "Stylesheet",
+          "transferredBytes": 5432,
+          "status": 200,
+          "diskCache": false,
+          "mime": "text/css"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/0qpdpwu6-vlhv.css",
+          "type": "Stylesheet",
+          "transferredBytes": 0,
+          "status": 500,
+          "diskCache": false,
+          "mime": "text/plain"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/15xrurgzs99gv.js",
+          "type": "Script",
+          "transferredBytes": 6582,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/0dgq26a5_oy.a.js",
+          "type": "Script",
+          "transferredBytes": 11043,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/07lhk_q6pmm3r.js",
+          "type": "Script",
+          "transferredBytes": 71539,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/02g3221oh~3le.js",
+          "type": "Script",
+          "transferredBytes": 40950,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/turbopack-05poq_ye6dti6.js",
+          "type": "Script",
+          "transferredBytes": 4635,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/01xlw8hd842-c.js",
+          "type": "Script",
+          "transferredBytes": 1934,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/0k6kr~ze-.qya.js",
+          "type": "Script",
+          "transferredBytes": 133888,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/0d3shmwh5_nmn.js",
+          "type": "Script",
+          "transferredBytes": 13359,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/0v7g3xo~-qbwn.js",
+          "type": "Script",
+          "transferredBytes": 4928,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/product-app/index.html",
+          "type": "Document",
+          "transferredBytes": 1129,
+          "status": 200,
+          "diskCache": false,
+          "mime": "text/html"
+        },
+        {
+          "url": "http://localhost:3096/platform/church-edition-verse-focus.jpg",
+          "type": "Image",
+          "transferredBytes": 112123,
+          "status": 200,
+          "diskCache": false,
+          "mime": "image/jpeg"
+        },
+        {
+          "url": "http://localhost:3096/product-app/boot.js",
+          "type": "Script",
+          "transferredBytes": 1053,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/product-app/_expo/static/js/web/entry-5674fc5d6b5beefe1c6a7be82f2ea493.js.gz",
+          "type": "Fetch",
+          "transferredBytes": 19935062,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/gzip"
+        },
+        {
+          "url": "http://localhost:3096/church-edition?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "transferredBytes": 785,
+          "status": 200,
+          "diskCache": false,
+          "mime": "text/x-component"
+        },
+        {
+          "url": "http://localhost:3096/platform/scripture-discovery-iphone.jpg",
+          "type": "Image",
+          "transferredBytes": 111099,
+          "status": 200,
+          "diskCache": false,
+          "mime": "image/jpeg"
+        },
+        {
+          "url": "http://localhost:3096/platform/commander-ministry-platform.jpg",
+          "type": "Image",
+          "transferredBytes": 111091,
+          "status": 200,
+          "diskCache": false,
+          "mime": "image/jpeg"
+        },
+        {
+          "url": "http://localhost:3096/favicon.ico",
+          "type": "Other",
+          "transferredBytes": 2694,
+          "status": 404,
+          "diskCache": false,
+          "mime": "text/html"
+        },
+        {
+          "url": "http://localhost:3096/product-app/assets/__ScriptureDiscovery/node_modules/@expo-google-fonts/material-symbols/400Regular/MaterialSymbols_400Regular.44b1e9941a4397bd95165681e216120b.ttf",
+          "type": "Font",
+          "transferredBytes": 433931,
+          "status": 200,
+          "diskCache": false,
+          "mime": "font/ttf"
+        },
+        {
+          "url": "http://localhost:3096/product-app/assets/__ScriptureDiscovery/node_modules/@expo-google-fonts/source-serif-4/400Regular/SourceSerif4_400Regular.d73629837cb80aa0a18f9e4706efea3a.ttf",
+          "type": "Font",
+          "transferredBytes": 102754,
+          "status": 200,
+          "diskCache": false,
+          "mime": "font/ttf"
+        },
+        {
+          "url": "http://localhost:3096/product-app/assets/__ScriptureDiscovery/node_modules/@expo-google-fonts/source-serif-4/700Bold/SourceSerif4_700Bold.6fad708080f96c595afeafccef1c2d8d.ttf",
+          "type": "Font",
+          "transferredBytes": 109980,
+          "status": 200,
+          "diskCache": false,
+          "mime": "font/ttf"
+        },
+        {
+          "url": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83",
+          "status": 301,
+          "type": "image",
+          "transferredBytes": 315,
+          "measurement": "Playwright request sizes for requests absent from page CDP"
+        },
+        {
+          "url": "http://localhost:3096/product-app/_expo/static/js/web/worker-113c17a9fa1b41b5f6b74063d73e8952.js",
+          "status": 200,
+          "type": "other",
+          "transferredBytes": 35915,
+          "measurement": "Playwright request sizes for requests absent from page CDP"
+        },
+        {
+          "url": "http://localhost:3096/product-app/assets/sqlite-web/wa-sqlite/wa-sqlite.7ca566fbbc2ec2a172c5aefa63a20f4b.wasm",
+          "status": 200,
+          "type": "fetch",
+          "transferredBytes": 305432,
+          "measurement": "Playwright request sizes for requests absent from page CDP"
+        },
+        {
+          "url": "http://localhost:3096/product-app/assets/__ScriptureDiscovery/assets/scripture/engwebu.6be6af75fe0f1bc38f46982858aa01bf.db",
+          "status": 200,
+          "type": "fetch",
+          "transferredBytes": 10420612,
+          "measurement": "Playwright request sizes for requests absent from page CDP"
+        }
+      ]
+    },
+    {
+      "phase": "warm",
+      "readyMs": 1473,
+      "requestCount": 28,
+      "transferredBytes": 19952114,
+      "cachedRequests": 10,
+      "engine": {
+        "engineId": "35adcc5d-6bd3-4ca1-b866-eefe615b0abd",
+        "counts": {
+          "treeCache": 1,
+          "root": 1,
+          "storage": 1,
+          "graph": 1,
+          "canonicalBoot": 1,
+          "canonicalDatabase": 1,
+          "canonicalReader": 1
+        }
+      },
+      "entries": [
+        {
+          "url": "http://localhost:3096/",
+          "type": "Document",
+          "transferredBytes": 460,
+          "status": 200,
+          "diskCache": false,
+          "mime": "text/html"
+        },
+        {
+          "url": "http://localhost:3096/platform/commander-tablet.jpg",
+          "type": "Image",
+          "transferredBytes": 331,
+          "status": 304,
+          "diskCache": false,
+          "mime": "image/jpeg"
+        },
+        {
+          "url": "http://localhost:3096/Dscrip_web_logo.png",
+          "type": "Image",
+          "transferredBytes": 330,
+          "status": 304,
+          "diskCache": false,
+          "mime": "image/png"
+        },
+        {
+          "url": "https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/en-us?size=250x83",
+          "type": "Image",
+          "transferredBytes": 11525,
+          "status": 200,
+          "diskCache": false,
+          "mime": "image/svg+xml"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/02y0y45~x80-k.css",
+          "type": "Stylesheet",
+          "transferredBytes": 0,
+          "cache": true,
+          "status": 200,
+          "diskCache": false,
+          "mime": "text/css"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/0qpdpwu6-vlhv.css",
+          "type": "Stylesheet",
+          "transferredBytes": 0,
+          "status": 500,
+          "diskCache": false,
+          "mime": "text/plain"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/15xrurgzs99gv.js",
+          "type": "Script",
+          "transferredBytes": 0,
+          "cache": true,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/0dgq26a5_oy.a.js",
+          "type": "Script",
+          "transferredBytes": 0,
+          "cache": true,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/07lhk_q6pmm3r.js",
+          "type": "Script",
+          "transferredBytes": 0,
+          "cache": true,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/02g3221oh~3le.js",
+          "type": "Script",
+          "transferredBytes": 0,
+          "cache": true,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/turbopack-05poq_ye6dti6.js",
+          "type": "Script",
+          "transferredBytes": 0,
+          "cache": true,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/01xlw8hd842-c.js",
+          "type": "Script",
+          "transferredBytes": 0,
+          "cache": true,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/0k6kr~ze-.qya.js",
+          "type": "Script",
+          "transferredBytes": 0,
+          "cache": true,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/0d3shmwh5_nmn.js",
+          "type": "Script",
+          "transferredBytes": 0,
+          "cache": true,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/_next/static/chunks/0v7g3xo~-qbwn.js",
+          "type": "Script",
+          "transferredBytes": 0,
+          "cache": true,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/product-app/index.html",
+          "type": "Document",
+          "transferredBytes": 329,
+          "status": 200,
+          "diskCache": false,
+          "mime": "text/html"
+        },
+        {
+          "url": "http://localhost:3096/platform/church-edition-verse-focus.jpg",
+          "type": "Image",
+          "transferredBytes": 331,
+          "status": 304,
+          "diskCache": false,
+          "mime": "image/jpeg"
+        },
+        {
+          "url": "http://localhost:3096/platform/commander-ministry-platform.jpg",
+          "type": "Image",
+          "transferredBytes": 331,
+          "status": 304,
+          "diskCache": false,
+          "mime": "image/jpeg"
+        },
+        {
+          "url": "http://localhost:3096/product-app/boot.js",
+          "type": "Script",
+          "transferredBytes": 329,
+          "status": 304,
+          "diskCache": false,
+          "mime": "application/javascript"
+        },
+        {
+          "url": "http://localhost:3096/church-edition?_rsc=5CB68i4pnAekjehf",
+          "type": "Fetch",
+          "transferredBytes": 785,
+          "status": 200,
+          "diskCache": false,
+          "mime": "text/x-component"
+        },
+        {
+          "url": "http://localhost:3096/product-app/_expo/static/js/web/entry-5674fc5d6b5beefe1c6a7be82f2ea493.js.gz",
+          "type": "Fetch",
+          "transferredBytes": 19935062,
+          "status": 200,
+          "diskCache": false,
+          "mime": "application/gzip"
+        },
+        {
+          "url": "http://localhost:3096/platform/scripture-discovery-iphone.jpg",
+          "type": "Image",
+          "transferredBytes": 331,
+          "status": 200,
+          "diskCache": false,
+          "mime": "image/jpeg"
+        },
+        {
+          "url": "http://localhost:3096/product-app/assets/__ScriptureDiscovery/node_modules/@expo-google-fonts/material-symbols/400Regular/MaterialSymbols_400Regular.44b1e9941a4397bd95165681e216120b.ttf",
+          "type": "Font",
+          "transferredBytes": 331,
+          "status": 304,
+          "diskCache": false,
+          "mime": "font/ttf"
+        },
+        {
+          "url": "http://localhost:3096/product-app/assets/__ScriptureDiscovery/node_modules/@expo-google-fonts/source-serif-4/400Regular/SourceSerif4_400Regular.d73629837cb80aa0a18f9e4706efea3a.ttf",
+          "type": "Font",
+          "transferredBytes": 331,
+          "status": 304,
+          "diskCache": false,
+          "mime": "font/ttf"
+        },
+        {
+          "url": "http://localhost:3096/product-app/assets/__ScriptureDiscovery/node_modules/@expo-google-fonts/source-serif-4/700Bold/SourceSerif4_700Bold.6fad708080f96c595afeafccef1c2d8d.ttf",
+          "type": "Font",
+          "transferredBytes": 331,
+          "status": 304,
+          "diskCache": false,
+          "mime": "font/ttf"
+        },
+        {
+          "url": "https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83",
+          "status": 301,
+          "type": "image",
+          "transferredBytes": 315,
+          "measurement": "Playwright request sizes for requests absent from page CDP"
+        },
+        {
+          "url": "http://localhost:3096/product-app/_expo/static/js/web/worker-113c17a9fa1b41b5f6b74063d73e8952.js",
+          "status": 200,
+          "type": "other",
+          "transferredBytes": 331,
+          "measurement": "Playwright request sizes for requests absent from page CDP"
+        },
+        {
+          "url": "http://localhost:3096/product-app/assets/sqlite-web/wa-sqlite/wa-sqlite.7ca566fbbc2ec2a172c5aefa63a20f4b.wasm",
+          "status": 200,
+          "type": "fetch",
+          "transferredBytes": 331,
+          "measurement": "Playwright request sizes for requests absent from page CDP"
+        }
+      ]
+    },
+    {
+      "phase": "commander-switch",
+      "readyMs": 127,
+      "requestCount": 0,
+      "transferredBytes": 0,
+      "cachedRequests": 0,
+      "engine": {
+        "engineId": "35adcc5d-6bd3-4ca1-b866-eefe615b0abd",
+        "counts": {
+          "treeCache": 1,
+          "root": 1,
+          "storage": 1,
+          "graph": 1,
+          "canonicalBoot": 1,
+          "canonicalDatabase": 1,
+          "canonicalReader": 1
+        }
+      },
+      "entries": []
+    }
+  ]
+}

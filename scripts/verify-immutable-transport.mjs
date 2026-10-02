@@ -1,0 +1,28 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+import { createImmutableTransport } from '../product-runtime/immutableTransport.mjs';
+const candidate=JSON.parse(fs.readFileSync('docs/01b-evidence/transport-candidate.json'));
+const requests=[];
+const create=(fetchResource)=>createImmutableTransport({root:candidate.genesis12.root,authoritySha256:candidate.canonicalDatabaseSha256,baseUrl:'https://transport.invalid/data/',fetchResource});
+const transport=create(async url=> {
+  requests.push(url);
+  return new Response(fs.readFileSync(path.join(candidate.output,new URL(url).pathname.split('/').pop())));
+});
+const first=await transport.getChapter('engwebu:gen',12);
+assert.equal(requests.length,3);
+assert.equal(first.verses.length,20);
+const again=await Promise.all(Array.from({length:20},()=>transport.getChapter('engwebu:gen',12)));
+assert(again.every(value=>value===first));
+assert.equal(requests.length,3);
+await assert.rejects(()=>transport.getChapter('engwebu:unknown',12),/unknown Book/);
+await assert.rejects(()=>transport.getChapter('engwebu:gen',-1),/invalid Chapter/);
+assert.equal(requests.length,3);
+const corrupt=create(async()=>new Response(' '.repeat(candidate.genesis12.root.bytes)));
+await assert.rejects(()=>corrupt.getRoot(),/hash mismatch/);
+assert.equal(corrupt.diagnostics().cachedResources,0);
+const wrongAuthority=createImmutableTransport({root:candidate.genesis12.root,authoritySha256:'0'.repeat(64),baseUrl:'https://transport.invalid/data/',fetchResource:async url=>new Response(fs.readFileSync(path.join(candidate.output,new URL(url).pathname.split('/').pop())))});
+await assert.rejects(()=>wrongAuthority.getRoot(),/authority mismatch/);
+const report={status:'PASS',scope:'transport adapter tests; NOT production runtime/network acceptance',chapter:'Genesis 12',firstReadRequests:3,repeatReadAdditionalRequests:0,concurrentReadIdentity:'PASS',unknownAddressAdditionalRequests:0,corruptionRejected:true,wrongAuthorityRejected:true,wholeCanonAssetRequested:false,requests,diagnostics:transport.diagnostics()};
+fs.writeFileSync('docs/01b-evidence/transport-adapter-tests.json',JSON.stringify(report,null,2)+'\n');
+console.log(JSON.stringify(report,null,2));

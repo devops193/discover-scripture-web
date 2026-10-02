@@ -1,0 +1,7 @@
+{
+  "result": "PASS",
+  "sha256": "ae10b5a20cd564d5b6e00ecad2ba8cc6dd4ec20acf74e498bd3c3e01e7e4b2fd",
+  "sourcePayloads": 260,
+  "exactPayloadEquivalence": "PASS",
+  "nativeSourceMutated": false
+}

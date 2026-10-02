@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "revision": "9f390c7443e590a6fa4b5e873d37b9592f167b51dcd592401d3dff1abe95ee43",
+  "scope": "NATIVE_COMPARE_RESOLVER_ON_VERIFIED_OWNER_PACKETS_NOT_FULL_UI",
+  "ordinaryCompareCount": 1510,
+  "compareSceneBindings": 2936,
+  "exactRecordNavigationCapsuleAndPivotEquivalence": true,
+  "originalRowRouteHashChecksPreserved": true,
+  "originalAggregatePinsValidatedAtBuild": true,
+  "ownerPacketsContentHashVerifiedAtRuntime": true,
+  "startupComparePacketRequests": 0,
+  "contradictionRuntimeChanged": false,
+  "publicActivation": false
+}

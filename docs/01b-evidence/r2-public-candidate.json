@@ -1,0 +1,9 @@
+{
+  "status": "LOCAL_CANDIDATE_NOT_RELEASED",
+  "revision": "52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398",
+  "packetCount": 72808,
+  "privateBuild": "/Volumes/DevMode/DiscoverWebsite/.product-build-r2-export-OrKKxw",
+  "backup": "/Volumes/DevMode/DiscoverWebsite/.product-build-public-backup-PIXpDc",
+  "publicR1FullPackageBootstrap": false,
+  "pushed": false
+}

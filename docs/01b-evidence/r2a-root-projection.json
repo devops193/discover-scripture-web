@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "ROOT_PROJECTION_INTEGRITY_NOT_WORLD_UI_ACCEPTANCE",
+  "revision": "3fd5238fd98c3b22d08db4c3d8eb9dca4231d9bd0a47b89745525d9ea8df44b3",
+  "rootEntryBytes": 5947,
+  "projectionManifestBytes": 813488,
+  "coldRootMetadataPackets": 2,
+  "descendantBodiesHydratedAtEntry": 0,
+  "chapterPacketsRequested": 0,
+  "selectedDescriptorRequests": 1,
+  "repeatedDescriptorRequests": 0,
+  "acceptedEnrichedRootBinding": "PASS",
+  "mismatchedRootIndexRejected": true,
+  "tamperedProjectionRejected": true,
+  "nativeWorldKernelIntegrated": false
+}

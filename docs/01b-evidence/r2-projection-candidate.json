@@ -1,0 +1,76 @@
+{
+  "status": "SPINE_AND_EXISTING_WORLD_PROJECTION_PASS_INTEGRATION_PENDING",
+  "productionActive": false,
+  "output": "/Volumes/DevMode/DiscoverWebsite/.product-build-r2-packets",
+  "revision": "52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398",
+  "manifest": {
+    "revision": "52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398",
+    "sha256": "0b17fdbca8b25942062e9d79f3ed2bd57311c3ba6a719650416f44314d0acb8f",
+    "bytes": 32855,
+    "url": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/0b17fdbca8b25942062e9d79f3ed2bd57311c3ba6a719650416f44314d0acb8f.json"
+  },
+  "scriptureCatalog": {
+    "revision": "52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398",
+    "sha256": "227e54d09a60e431dfa801b598fa09da8d9c13e8a0293c0418f4aba1f6ebbb93",
+    "bytes": 51640,
+    "url": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/227e54d09a60e431dfa801b598fa09da8d9c13e8a0293c0418f4aba1f6ebbb93.json"
+  },
+  "locator": {
+    "revision": "52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398",
+    "sha256": "2124154dcbef5b7a92586c0ca6991c208d507c125cee3e46a539e08de1274629",
+    "bytes": 515477,
+    "url": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/2124154dcbef5b7a92586c0ca6991c208d507c125cee3e46a539e08de1274629.json"
+  },
+  "books": 81,
+  "chapters": 1402,
+  "verses": 38058,
+  "characterRoots": 1,
+  "rootProjectionProof": [
+    {
+      "ref": "character:abraham",
+      "references": 1524,
+      "exactDescriptorAndLinkEquivalence": "PASS",
+      "exactBranchOrderEquivalence": "PASS",
+      "rootBytes": 5947,
+      "referenceLocatorBytes": 544336,
+      "acceptedEnrichedRootEquivalence": "PASS",
+      "acceptedRootSemanticHash": "fa83a71a6231075608872f82423f1557716c3e976dec39333753c4a7003088a9",
+      "acceptedRootIndexHash": "0a8462b7bdba4ffc4394f8fe734e452923c9b0ff66c0fa455a273f437192d28c",
+      "projectionManifest": {
+        "revision": "52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398",
+        "sha256": "5ecc76fa0c03f2b914801cedeb91f5cbe1b5dc1347b6b640710a27ef508c1885",
+        "bytes": 875225,
+        "url": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/5ecc76fa0c03f2b914801cedeb91f5cbe1b5dc1347b6b640710a27ef508c1885.json"
+      },
+      "acceptedDependencies": 1525
+    }
+  ],
+  "genesis22": {
+    "revision": "52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398",
+    "sha256": "5640b468ba48bd2929574a6fd7720ec810b2f7114d37f85f347849598f9e0499",
+    "bytes": 7564,
+    "url": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/5640b468ba48bd2929574a6fd7720ec810b2f7114d37f85f347849598f9e0499.json"
+  },
+  "genesis23": {
+    "revision": "52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398",
+    "sha256": "0e61aab72e28c4e970f471d0ed820918d6ff774e404d6ea02ee7b3a9d157ae29",
+    "bytes": 6429,
+    "url": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/0e61aab72e28c4e970f471d0ed820918d6ff774e404d6ea02ee7b3a9d157ae29.json"
+  },
+  "abraham": {
+    "revision": "52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398",
+    "sha256": "f69fb4c2b89208f24bfae59a3d80a1e002eb47cfead374e2f93432ee85f8a2ef",
+    "bytes": 5947,
+    "url": "/sdw/52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398/f69fb4c2b89208f24bfae59a3d80a1e002eb47cfead374e2f93432ee85f8a2ef.json"
+  },
+  "canonicalSourceHash": "f9dfbce6dd2edfe4bb3b4690acd6622f392035be2b0349df98f3607f0a05f6c2",
+  "governedWorldHash": "305c2ff48de5a3eacda4903c60dc0f341cc255c981421409329cc6e170df2a5a",
+  "exactCanonicalRecordEquivalence": "PASS",
+  "missingFamilies": [
+    "Scene owner packets",
+    "Question/Finding/Evidence locators",
+    "remaining Tree governed object projections"
+  ],
+  "runtimeBound": false,
+  "nativeSourceMutated": false
+}
