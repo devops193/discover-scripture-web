@@ -1,16 +1,17 @@
 @import 'tailwindcss';
 
 :root {
-  --background: #f5f5f2;
-  --surface: #fffefa;
-  --source: #f3e9da;
-  --text: #191713;
-  --secondary: #6d685f;
-  --bronze: #68471e;
-  --bronze-soft: #e9d8bc;
-  --line: #beb5a7;
-  --dark: #211d18;
-  --cream: #fff8ed;
+  color-scheme: dark;
+  --background: #13110e;
+  --surface: #231f1a;
+  --source: #2b2319;
+  --text: #f4eee5;
+  --secondary: #b9afa2;
+  --bronze: #ddb472;
+  --bronze-soft: #3b2d1c;
+  --line: #5b5042;
+  --dark: #0e0c0a;
+  --cream: #f4eee5;
 }
 
 * { box-sizing: border-box; }
@@ -35,7 +36,7 @@ h1 { margin-top: 18px; font-size: clamp(49px, 7.2vw, 88px); max-width: 850px; }
 h2 { font-size: clamp(34px, 4.2vw, 54px); }
 h3 { font-size: 27px; }
 .hero-lead, .document-intro { color: var(--secondary); font-size: clamp(19px, 2vw, 23px); line-height: 1.6; max-width: 690px; }
-.instrument-card, .ownership-card { background: var(--surface); border: 1px solid var(--line); border-radius: 28px; padding: clamp(28px, 4vw, 44px); box-shadow: 0 18px 44px rgba(23,18,13,.13); }
+.instrument-card, .ownership-card { background: var(--surface); border: 1px solid var(--line); border-radius: 28px; padding: clamp(28px, 4vw, 44px); box-shadow: 0 18px 44px rgba(0,0,0,.3); }
 .instrument-card blockquote { margin: 30px 0 42px; font-family: Georgia, serif; font-size: 29px; line-height: 1.35; }
 .source-line { display: flex; justify-content: space-between; gap: 22px; padding: 15px 0; border-top: 1px solid #d8cfc1; font-size: 14px; }
 .source-line span { color: var(--secondary); }
@@ -327,7 +328,7 @@ button.button { border: 0; cursor: pointer; font: inherit; font-weight: 750; }
 .gtm-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; margin-top: 28px; }
 .gtm-quiet-link, .gtm-text-link { display: inline-flex; min-height: 44px; align-items: center; color: var(--bronze); font-weight: 750; text-underline-offset: 5px; }
 
-.gtm-visual { margin: 0; min-width: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 24px; background: var(--surface); box-shadow: 0 20px 54px rgba(23,18,13,.13); }
+.gtm-visual { margin: 0; min-width: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 24px; background: var(--surface); box-shadow: 0 20px 54px rgba(0,0,0,.32); }
 .gtm-visual img { display: block; width: 100%; height: auto; }
 .gtm-hero-phone { width: min(100%, 330px); max-height: 560px; justify-self: center; border-radius: 34px; }
 .gtm-hero-phone img { height: 560px; object-fit: cover; object-position: top; }

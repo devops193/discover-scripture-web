@@ -103,7 +103,7 @@
     "src/components/SourceRevealWithReadingMode.tsx": "0eb451d9dcefb88609790df305ce217a12b05c7cfcc314472498d4607a850583",
     "src/components/TabIcon.tsx": "69e0bce230b0c5659f1e10b91fb09c59a517bd3c39201240a352b2ca4a4fbbd6",
     "src/components/TrailCapsule.tsx": "ef0630e520ea3ca090c05a430321e4f914cc015b420190228a705a1ef3d73129",
-    "src/components/spatial/ResponsiveWorkspace.tsx": "4de351451e87d19ecd269d77ae4d2bde31a2102bde23c585e6e5138df0ab62e6",
+    "src/components/spatial/ResponsiveWorkspace.tsx": "4f2414649644f38dbcafc83ed6ed07e9d63829b9f1319126fe6f5e658407f89a",
     "src/components/spatial/geometry.ts": "d19af2b57aed0d026afe89c81d83f4df26c76ebed655943f458a543ce7124297",
     "src/components/ui.tsx": "34aac619c17f9c3aa80b3c960f94f671724bd3a1514a666474dee312cefe8569",
     "src/data/canonical-promoted.generated.ts": "c872ff853a967f728924629043c7d24fba54b64aa62d4e895cc9f734b5da1964",
@@ -174,7 +174,7 @@
     "src/digital-altar/church/types.ts": "14f67401ff51836621d07ade66ee17e7558e9e43b5b3a29313d87d5350e99c24",
     "src/digital-altar/church/visibility.ts": "0ae95f584df28d62ad6e8afda4d1e2be2e10740fbb1a5bd9ce17f1f56b3be9dd",
     "src/digital-altar/commander/CommanderViewport.tsx": "65dd61e1d0dfc3756647104d39c73a1cec42db75309e65a61d80b7ba39fd3b12",
-    "src/digital-altar/commander/GraphNativeLiveWorkspace.tsx": "1229d5a61d87925030170cf3e319a1f0041552918e805969cc074de53c4d7f1a",
+    "src/digital-altar/commander/GraphNativeLiveWorkspace.tsx": "2048d700cab2c7b28fa023db865885f990fc8711553ad7dd09fe48a9969a977f",
     "src/digital-altar/commander/commanderShell.ts": "2a93a94072754a1d35fa8de7a936fa3f9cc8a852b41bdac6ffda2f71cd72f17a",
     "src/digital-altar/commander/discoverIntelligence.ts": "c64437b198c2e57173f343e65793d1d40ad1aa2f21288a5b74e792f90c65aab2",
     "src/digital-altar/commander/graphResolver.ts": "24b546b299b5119c7c61de207d048979ac0a9469127eec5bcfe86d1e0d90f4d9",
@@ -319,7 +319,10 @@
     "src/semantic-parallels/contracts.ts": "840f214bf27d2507d411a5d4336a7e0f647fb0018c9aa34bb2ea3f33012ceae8",
     "src/test-fixtures/sacrifice-naturalness-regression.json": "a0c90c3cf9b9032e010bc8287caae5b4722e08b0ade1b8ec3be38efca5ee296c",
     "src/test-fixtures/spirit-regression.json": "b702aef536aba1ff83a142ae4ed07b0dd8f2b776e41e64436c416c7fcf846d07",
-    "src/theme/tokens.ts": "ddb4e4831422e35584bed383f78d942b2063da9ebe25753c46b55a4bea41ca59",
+    "src/theme/appearancePolicy.native.ts": "1dd04732da9070562c853837aabcee5679d92edd47d62d7e859084bbd341faa7",
+    "src/theme/appearancePolicy.ts": "fde28e2a15625e8de5a2cffd874feb7fa539aa17d0c178c41355965c0e82d1ec",
+    "src/theme/appearancePolicy.web.ts": "fde28e2a15625e8de5a2cffd874feb7fa539aa17d0c178c41355965c0e82d1ec",
+    "src/theme/tokens.ts": "d3320236b2a2767e50ab670b57ef0ec03c7c5ea5fd3fad731d80c7a84440dad0",
     "src/validators.ts": "472ca773dbe352458bf64b43ee86954077200959a5b63e0b0bb34b0e3d973e46",
     "src/worlds/CharacterWorldScreen.tsx": "09650e282ae9f42dfa980ea17232f1a6a065c382aea9bf13284690ea401ce225",
     "src/worlds/characterActivityProjection.d.mts": "0a1f361ad7eea72c096a994e7088334d3941e1bfa3a95ca33cea2e99bb22c8f7",
@@ -342,10 +345,10 @@
   "composition": "ONE_ENGINE_TWO_ROUTE_SURFACES",
   "acceptance": "SEE_WEB_SDW_01B_RECEIPT",
   "provenance": {
-    "sourceCommit": "2cc256186e223297b0c3766653d3b5d6911ba881",
+    "sourceCommit": "e6c0175ed6797e76f0075db3936714efbbd1d01e",
     "buildIdentity": "52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398",
-    "sourceSnapshotSha256": "be8a513bd1a34182a4c6c60d89e454109d7593793b00b41f4ede62fa1b07d370",
-    "artifactSha256": "ead9e019c869a6b4a4444ff285163b54f402d16f3d020793d368176e68e010b2",
+    "sourceSnapshotSha256": "78b8a74af02bf4539d0ba209c0e80c86b5825f5a351f8bb91c613b614d91f813",
+    "artifactSha256": "08c7653cbaf7f4e5fdf9ee5a646380a1bd4af14646caa9b25f57e5b2f4a56d99",
     "destinationPath": "public/product-app",
     "destinationAbsolutePath": "/Volumes/DevMode/DiscoverWebsite/public/product-app"
   },
@@ -391,26 +394,26 @@
     "scripts/solid-state-package.mjs": "67a6e6a1774600ea5d47efe28450c230b6afe20358c0884504aeb1abdf620b2a"
   },
   "files": {
-    "_expo/static/js/web/entry-ddd496280294c582fb939b934919dfe6.js": {
-      "sha256": "f8a6a21396030b71709cedb07d482bf55dfa87c9cb18841a995d78f14ac03c2b",
-      "bytes": 698275,
+    "_expo/static/js/web/entry-97d897655c863448b23c851efc7a6f93.js": {
+      "sha256": "83d77f5cce6d1ed500c7724c4d8984054ec393d2ca818148945a8c5e118065b1",
+      "bytes": 697605,
       "contentEncoding": "br",
-      "decodedBytes": 3872741,
-      "decodedSha256": "efc12d1f677459c80a581c0a341eb8e02e5c2bf2fd1032d547c03ff7391bc4d4"
+      "decodedBytes": 3872626,
+      "decodedSha256": "47644db2dfd69992d96882792eeea87d0fd0a17a2f017d7689b1e576949d4df8"
     },
-    "_expo/static/js/web/index-f3e986eda9bfde8b52b23f3dfa77cd51.js": {
-      "sha256": "c350667c2b8e610e6fe4075e0056092fad3d6d1ce8816edf5118fad3e5781c17",
-      "bytes": 14127,
+    "_expo/static/js/web/index-60ded934a632b013500d9be238742125.js": {
+      "sha256": "dc2b86cdcbd32b3f255f18da59a7e4244c6b725f3bead0f037faf1d02f0d01e8",
+      "bytes": 14128,
       "contentEncoding": "br",
       "decodedBytes": 45532,
-      "decodedSha256": "c1cee30c919a6cc7527a62cf8c32276cf0f3cb309b049586cb0a851a559d97cd"
+      "decodedSha256": "50d62e35586cab38857dec067c3f9b1c163b9136c335e9ab694f1e5b1b9d3642"
     },
-    "_expo/static/js/web/worker-15bcb55a1f86755fa1c6679f3cc59a4a.js": {
-      "sha256": "4490c5fb47ba59d9e2ddcf4dde2c56cdb74cf74de4562e1b2d5553562d82a861",
-      "bytes": 33214,
+    "_expo/static/js/web/worker-8c3d74deb257e93eb5b86a86f7af8235.js": {
+      "sha256": "e6b2d78f5ca12b3719a79bdf7c86b1553a10e5112eec2a365de593fccfb231a9",
+      "bytes": 33216,
       "contentEncoding": "br",
       "decodedBytes": 132818,
-      "decodedSha256": "df4f72251c7027a2d437b801fc253d4e7039abafe1ce9867715fa9fe1a2a3d2a"
+      "decodedSha256": "e27f6de31d0407b919cb398dee481c75d7ea778b82f74d9785027bc431b93a86"
     },
     "assets/__ScriptureDiscovery/assets/digital-altar/media-demo/choir-demo.1d918aaa7a90110755e69daf9f83f02d.png": {
       "sha256": "3c88f71d6e1b655c72735dd22eea649a97164f377bc18193a862d1eccaf44247",
@@ -602,11 +605,11 @@
       "decodedSha256": "1eac9f5b052653957139ccfce2339be94b9870ed035006af66def9a114f63a5b"
     },
     "index.html": {
-      "sha256": "cb4dd36c1d95c974db1c3d4a1ccd836c440cab726f3853d24cb5aa34a1fa6741",
+      "sha256": "55d16a8a7905d9c8edc9b2f6252d16050f8601ca74b34d5adb469f44ccc8a134",
       "bytes": 1485,
       "contentEncoding": "identity",
       "decodedBytes": 1485,
-      "decodedSha256": "cb4dd36c1d95c974db1c3d4a1ccd836c440cab726f3853d24cb5aa34a1fa6741"
+      "decodedSha256": "55d16a8a7905d9c8edc9b2f6252d16050f8601ca74b34d5adb469f44ccc8a134"
     },
     "metadata.json": {
       "sha256": "aa5f19cc84d41c0f8c70ececb2bc82e863227ea1e121632aca879eb616056991",

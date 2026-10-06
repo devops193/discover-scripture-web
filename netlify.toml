@@ -5,6 +5,48 @@ publish = ".next"
 [build.environment]
 NODE_VERSION = "22"
 
+# The embedded Expo web app owns these client-side routes. Serve its shell on
+# direct visits and refreshes while leaving hashed bundles and data assets alone.
+[[redirects]]
+from = "/product-app/discovery/*"
+to = "/product-app/index.html"
+status = 200
+
+[[redirects]]
+from = "/product-app/discover/*"
+to = "/product-app/index.html"
+status = 200
+
+[[redirects]]
+from = "/product-app/digital-altar/*"
+to = "/product-app/index.html"
+status = 200
+
+[[redirects]]
+from = "/product-app/c3/*"
+to = "/product-app/index.html"
+status = 200
+
+[[redirects]]
+from = "/product-app/reading"
+to = "/product-app/index.html"
+status = 200
+
+[[redirects]]
+from = "/product-app/saved"
+to = "/product-app/index.html"
+status = 200
+
+[[redirects]]
+from = "/product-app/trails"
+to = "/product-app/index.html"
+status = 200
+
+[[redirects]]
+from = "/product-app/phase0-benchmark"
+to = "/product-app/index.html"
+status = 200
+
 # Netlify's Next.js runtime serves /privacy, /terms, and /support from the
 # same generated canonical content used by the native application. Runtime
 # release values remain environment/configuration concerns; this file does
