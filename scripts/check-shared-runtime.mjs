@@ -46,7 +46,12 @@ try {
   await page.waitForTimeout(1000);
   console.log('WORLD_ROUTE', frame.url());
   report.worldOpened = await evidence();
-  assert.equal(report.worldOpened.counts.worldKernel, 1);
+  await frame.getByText('Abraham World', { exact: true }).waitFor();
+  await frame.getByRole('button', { name: "Begin with Abraham's profile", exact: true }).waitFor();
+  await frame.getByText('Where the story can go next', { exact: true }).waitFor();
+  assert.equal(report.worldOpened.counts.worldRoots, 1);
+  assert.equal(report.worldOpened.counts.worldKernel ?? 0, 0);
+  report.currentSemanticWorld = true;
   const worldRoute = frame.url();
   await switchTo('commander');
   await switchTo('discover');

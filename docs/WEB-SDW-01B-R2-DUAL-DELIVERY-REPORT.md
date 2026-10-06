@@ -1,6 +1,6 @@
 # WEB-SDW-01B-R2 — integrated release verification
 
-Status: LOCAL_INTEGRATION_PASS — final diff/release review pending. GitHub push and live deployment are not yet claimed. This current section supersedes the historical checkpoints below. The user explicitly authorized this website report update after the earlier auto-review rejection; the native Discovery repository remains read-only.
+Status: LOCAL_INTEGRATION_PASS — committed and pushed; live deployment verification pending. Website release commit `70b58acdd49ca6c940d5cdce366eaee6a378a80a` is confirmed on GitHub production `main`. The live site still serves the previous build; Netlify build status requires dashboard sign-in. No final R2 release PASS is claimed. This current section supersedes the historical checkpoints below. The user explicitly authorized this website report update after the earlier auto-review rejection; the native Discovery repository remains read-only.
 
 ## Current public candidate
 
@@ -41,7 +41,7 @@ Final entry artifact: 3,831,885 decoded / 690,151 Brotli bytes, versus the origi
 
 ## Release status
 
-`INTEGRATED_RUNNING_APP=PASS`; `productionBuild=PASS`; `responsiveMatrix=PASS` using retained matrix plus focused refresh closure; `dependencyReleaseGate=PASS`. Final intended-file review, commit, existing-production-branch push, Netlify automatic deployment and live smoke test remain pending. Full `WEB_SDW_01B_R2=PASS` is reserved for the completed release receipt. No Netlify CLI is used.
+`INTEGRATED_RUNNING_APP=PASS`; `productionBuild=PASS`; `responsiveMatrix=PASS` using retained matrix plus focused refresh closure; `dependencyReleaseGate=PASS`. Intended-file review, commit and existing-production-branch push are complete. Netlify automatic deployment is unconfirmed and the expected public revision is not yet live. Full `WEB_SDW_01B_R2=PASS` is reserved for the completed live release receipt. No Netlify CLI is used. The post-push receipt and live-evidence filename adjustment remain local until live verification closes.
 
 ## Historical checkpoints
 

@@ -8,7 +8,9 @@
   "scripts": {
     "export:product": "node scripts/export-product.mjs --r2-candidate && node scripts/prepare-r2-public-candidate.mjs && node scripts/product-manifest.mjs --write",
     "verify:product-artifacts": "node scripts/product-manifest.mjs",
+    "verify:current-app-preview": "node scripts/verify-current-app-preview.mjs",
     "verify:viewport": "node scripts/check-shared-runtime.mjs",
+    "verify:gtm-pilot": "node scripts/verify-gtm-pilot-01b.mjs",
     "dev": "vinext dev",
     "build": "vinext build",
     "build:netlify": "next build",

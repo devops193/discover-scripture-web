@@ -1,6 +1,8 @@
 # WEB-SDW-01B release receipt
 
-Status: LOCAL_INTEGRATION_PASS — RELEASE_REVIEW_PENDING. Not yet pushed or live-verified. This section supersedes the historical checkpoints below.
+Status: LOCAL_INTEGRATION_PASS — LIVE_DEPLOYMENT_VERIFICATION_PENDING. The reviewed website release is committed and pushed to the existing production `main` branch. Live acceptance is not claimed. This section supersedes the historical checkpoints below.
+
+Release commit: `70b58acdd49ca6c940d5cdce366eaee6a378a80a` (`Release R2A progressive shared Scripture runtime`). GitHub confirms this is `main`. At 2026-10-02 04:16 UTC, the live site still serves its previous build and `/product-app/progressive-manifest.json` returns 404. GitHub reports no deployment statuses or check runs; its aggregate `pending` with an empty list is not proof that Netlify started a build. The Netlify dashboard requires sign-in, requested from the operator. No Netlify CLI, manual deployment, or deployment-setting change was attempted. Final live smoke tests must wait for the expected revision to appear.
 
 ## Current local acceptance
 
@@ -32,10 +34,10 @@ responsiveMatrix=PASS
 dependencyReleaseGate=PASS
 canonicalScriptureChanged=NO
 discoveryProductionRepoMutated=NO
-gitCommit=null
-gitPush=NO
-netlifyAutoBuild=PENDING
-liveSmokeTest=PENDING
+gitCommit=70b58acdd49ca6c940d5cdce366eaee6a378a80a
+gitPush=YES
+netlifyAutoBuild=UNCONFIRMED
+liveSmokeTest=BLOCKED_EXPECTED_REVISION_NOT_LIVE
 liveUrl=https://www.dscripture.com/
 ```
 

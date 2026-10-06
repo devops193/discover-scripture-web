@@ -52,10 +52,10 @@ export const discoverSearchRecords=new Proxy([], {get(_target,key){
 `);
   changed.push('data/discover-search-index.generated.ts');
   edit('components/DiscoverSearchSheet.tsx', [
-    ['  classification,', '  classification,\n  loading = false,'],
+    ['export function DiscoverSearchSheet({ visible, sessionKey, query, results, classification, onChangeQuery, onDismiss, onSelect }: {', 'export function DiscoverSearchSheet({ visible, sessionKey, query, results, classification, loading = false, onChangeQuery, onDismiss, onSelect }: {'],
     ['  classification: DiscoverSearchClassification;', '  classification?: DiscoverSearchClassification;\n  loading?: boolean;'],
-    ['{query.trim() ? (', '{query.trim() && classification && !loading ? ('],
-    ['{query.trim() && results.length ? results.map', '{loading ? <Text accessibilityRole="progressbar" style={[styles.prompt, { color: theme.textSecondary }]}>Loading verified search…</Text> : query.trim() && results.length ? results.map'],
+    ['  function ordinaryContent() {\n    if (!query.trim())', '  function ordinaryContent() {\n    if (loading) return <Text accessibilityRole="progressbar" style={[styles.prompt, { color: theme.textSecondary }]}>Loading verified search…</Text>;\n    if (!query.trim())'],
+    ["{mode === 'SEARCH' && query.trim() ? <Text style={[styles.classification, { color: theme.textTertiary }]}>{classification.replaceAll('_', ' ').toLocaleLowerCase()}</Text> : null}", "{mode === 'SEARCH' && query.trim() && classification && !loading ? <Text style={[styles.classification, { color: theme.textTertiary }]}>{classification.replaceAll('_', ' ').toLocaleLowerCase()}</Text> : null}"],
   ]);
   edit('app/discovery/[slug]/dissect.tsx', [
     ["import { router, Stack, useLocalSearchParams } from 'expo-router';", "import { router, Stack, useLocalSearchParams } from 'expo-router';\nimport { ProgressiveDissectBoundary } from '@/website-runtime/ProgressiveDissectBoundary';"],

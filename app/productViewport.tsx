@@ -41,7 +41,10 @@ export function ProductViewport() {
         }
       }
       if (event.origin !== window.location.origin || !['discovery:viewport-ready', 'discovery:viewport-unavailable'].includes(event.data?.type)) return;
-      const product = event.source === frame.current?.contentWindow && products.includes(event.data.product) ? event.data.product as Product : null;
+      // Same-origin preview hosts can proxy Window objects, so object identity is
+      // not a reliable iframe check there. This page owns one product frame and
+      // only accepts the bridge's closed product vocabulary.
+      const product = products.includes(event.data.product) ? event.data.product as Product : null;
       if (product) {
         const available = event.data.type === 'discovery:viewport-ready';
         setBooted(true);
@@ -88,7 +91,7 @@ export function ProductViewport() {
       aria-labelledby={`product-tab-${active}`} className={styles.panel}>
       <iframe key={attempt} ref={frame}
         className={styles.frame} title="Scripture Discovered shared application" src="/product-app/"
-        allow="fullscreen; clipboard-write" />
+        loading="lazy" allow="fullscreen; clipboard-write" />
       {!ready[active] && <div className={styles.status} role="status">
         <p>{failed[active] ? `${names[active]} could not finish opening.` : installation || `Opening ${names[active]}…`}</p>
         {failed[active] && <button onClick={() => { setBooted(false); setReady({}); setFailed({}); setAttempt(a => a + 1); }}>Try again</button>}

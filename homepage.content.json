@@ -2,7 +2,7 @@
   "page": "home",
   "url": "https://discover-scripture.netlify.app/",
   "documentTitle": "Discover Scripture",
-  "metaDescription": "A calm, offline-first instrument for investigating Scripture.",
+  "metaDescription": "Explore Scripture Discovered, Commander CE, Church Pilot, and Network and Partners.",
   "renderedTopToBottom": [
     {
       "region": "header",
@@ -15,99 +15,45 @@
       "navigation": {
         "ariaLabel": "Primary navigation",
         "links": [
-          { "text": "About", "href": "/about" },
-          { "text": "Privacy", "href": "/privacy" },
-          { "text": "Terms", "href": "/terms" },
-          { "text": "Support", "href": "/support" }
+          { "text": "Scripture Discovered", "href": "/product-app/" },
+          { "text": "Commander CE", "href": "/#commander-ce" },
+          { "text": "Network and Partners", "href": "/#network-and-partners" }
         ]
       }
     },
     {
       "region": "hero",
-      "eyebrow": "Scripture is the content. Discover Scripture is the instrument.",
-      "heading": "Read Scripture with more of your attention intact.",
-      "lead": "A calm, offline-first Scripture instrument for following people, events, and ideas across the whole canon—including the Apocrypha."
+      "heading": "Scripture, discovered.",
+      "lead": "Explore Scripture through different lenses: people, event, concepts, timelines, history, original language translation, and walk the scenes through different paths.",
+      "audience": "For readers, teachers, and churches."
     },
     {
-      "region": "lookAgain",
-      "ariaLabel": "A sample Scripture investigation",
-      "eyebrow": "Look again",
-      "quote": "What becomes visible when passages are held together?",
-      "rows": [
-        { "label": "Source", "value": "Inspectable Scripture" },
-        { "label": "Method", "value": "Observation before conclusion" }
-      ]
+      "region": "scriptureDiscovered",
+      "heading": "Explore a World. Follow the story.",
+      "publicationStates": ["PILOT", "PREVIEW"],
+      "liveApplication": "/product-app/"
     },
     {
-      "region": "threeLenses",
-      "eyebrow": "Three lenses",
-      "heading": "A whole-canon Scripture instrument—including the Apocrypha—built for attention",
-      "items": [
-        {
-          "index": "01",
-          "title": "Follow",
-          "body": "People across changing places, relationships, decisions, pressure, failure, and memory."
-        },
-        {
-          "index": "02",
-          "title": "Enter",
-          "body": "Events as scenes—not summaries—with people, actions, tensions, consequences, and source evidence."
-        },
-        {
-          "index": "03",
-          "title": "Trace",
-          "body": "Ideas and patterns across books, voices, and moments in Scripture."
-        }
-      ]
+      "region": "commanderCE",
+      "heading": "Research it. Teach it. Present it. Run the service.",
+      "publicationState": "PILOT"
     },
     {
-      "region": "library",
-      "eyebrow": "Current Scripture library",
-      "heading": "What is already inside.",
-      "stats": [
-        "50 Topics",
-        "4,640 Scripture Scenes",
-        "1,510 Compares",
-        "760 Pivots",
-        "599 Source-language glosses"
-      ],
-      "note": "Built into the instrument and available offline. New content packs are added regularly."
+      "region": "networkAndPartners",
+      "heading": "Connected around real ministry work.",
+      "publicationState": "PREVIEW"
     },
     {
-      "region": "positioning",
-      "eyebrow": "A different posture",
-      "heading": "Scripture investigation instrument\nNo interpretation\nYou conclude",
-      "body": "Authored trails, inspectable Scripture evidence, comparisons, and questions keep the text in view—so you can follow the evidence and form your own conclusions."
-    },
-    {
-      "region": "included",
-      "eyebrow": "Included",
-      "heading": "One instrument.\nLocal Scripture.\nNo reader account.",
-      "items": [
-        "Character, Event, and Concept discoveries",
-        "Local Scripture—including the Apocrypha—for source inspection",
-        "Trails, Dissect, Compare, Pivot, Saved, and Discover Scripture content packs",
-        "New content packs and Discover Scripture enhancements added regularly"
-      ]
-    },
-    {
-      "region": "ownership",
-      "eyebrow": "Ownership",
-      "heading": "One purchase. No subscription.",
-      "paragraphs": [
-        "Existing owners pay no subscription or paid content-pack fee.",
-        "New Discover Scripture content packs and product updates are included for existing owners."
-      ],
-      "prices": [
-        { "label": "Launch price", "value": "$9.99" },
-        { "label": "Full Pack", "value": "$19.99" }
-      ]
+      "region": "churchPilot",
+      "heading": "Put the platform into a real service."
     },
     {
       "region": "footer",
       "navigation": {
         "ariaLabel": "Legal and support",
         "links": [
+          { "text": "Investors", "locked": true },
+          { "text": "About", "href": "/about" },
           { "text": "Privacy", "href": "/privacy" },
           { "text": "Terms", "href": "/terms" },
           { "text": "Support", "href": "/support" }

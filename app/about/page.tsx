@@ -26,7 +26,7 @@ export default function AboutPage() {
       <section className="document-section">
         <h2>Independent development</h2>
         <p>Discover Scripture is independently designed, developed, and published. The work progresses through enhancements to the investigation system, expansion of the Scripture library, and the addition of new Discover Scripture content packs over time.</p>
-        <p><Link href="/church-edition#foundation">DiscoveryMinistryNetworkCE Foundation</Link> is being formed as the nonprofit side of the wider Discover Scripture platform.</p>
+        <p><Link href="/#network-and-partners">Network and Partners</Link> is the public home for future ministry coordination, partner participation, and shared programs.</p>
       </section>
     </main></SiteShell>
   );

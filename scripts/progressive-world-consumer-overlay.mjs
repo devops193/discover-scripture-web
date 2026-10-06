@@ -19,15 +19,10 @@ export function applyProgressiveWorldConsumerOverlay(stage) {
     ['  const binding = Object.freeze({ revision: tree.revisionId,', '  const manifest = getProgressiveTree().metadata.manifest, authority = getProgressiveDgr().authority;\n  const binding = Object.freeze({ revision: tree.revisionId,'],
   ]);
   edit('worlds/CharacterWorldScreen.tsx', [
-    ["import { useMemo, useState, type ReactNode } from 'react';", "import { useMemo, useState, type ReactNode } from 'react';\nimport { ProgressiveWorldBoundary, useWorldDescriptors } from '@/website-runtime/ProgressiveWorldBoundary';\nimport { acquireWorldFocus } from '@/website-runtime/progressiveWorldRuntime';"],
-    ['  return <View>{refs.slice(page * 12, page * 12 + 12).map', '  const ready = useWorldDescriptors(root.ref, refs.slice(page * 12, page * 12 + 12));\n  return !ready ? <Text accessibilityRole="progressbar">Loading references…</Text> : <View>{refs.slice(page * 12, page * 12 + 12).map'],
-    ['  return <ScrollView>{refs.slice(page * 12, page * 12 + 12).map', '  const ready = useWorldDescriptors(root.ref, refs.slice(page * 12, page * 12 + 12));\n  return !ready ? <Text accessibilityRole="progressbar">Loading branch references…</Text> : <ScrollView>{refs.slice(page * 12, page * 12 + 12).map'],
-    ['export function CharacterWorldScreen({ slug }: { slug: string }) {', 'export function CharacterWorldScreen({ slug }: { slug: string }) {\n  return <ProgressiveWorldBoundary slug={slug}><AcquiredCharacterWorldScreen slug={slug} /></ProgressiveWorldBoundary>;\n}\nfunction AcquiredCharacterWorldScreen({ slug }: { slug: string }) {'],
-    ['    try { const model = openCharacterWorld(slug); return { model, initial: model.begin() }; }\n    catch { return undefined; }', '    const model = openCharacterWorld(slug); return { model, initial: model.begin() };'],
-    ["  const [error, setError] = useState('');", "  const [error, setError] = useState('');\n  const [acquisitionError, setAcquisitionError] = useState<Error>();\n  if (acquisitionError) throw acquisitionError;"],
-    ['  const traverse = (ref: string) => {', "  const prepare = async (ref: string, action: () => void) => {\n    try { await acquireWorldFocus(root.ref, ref); action(); }\n    catch (error) { setAcquisitionError(error instanceof Error ? error : Error(String(error))); }\n  };\n  const traverse = (ref: string) => {\n    void prepare(ref, () => {"],
-    ["    run(event, () => model.traverse(state, ref));\n  };", "    run(event, () => model.traverse(state, ref));\n    });\n  };"],
-    ["      run(event, () => model.openBranchRef(state, ref));", "      void prepare(ref, () => run(event, () => model.openBranchRef(state, ref)));"],
+    ["import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';", "import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';\nimport { ProgressiveWorldBoundary } from '@/website-runtime/ProgressiveWorldBoundary';\nimport { acquireScene } from '@/website-runtime/progressiveRuntime';"],
+    ["  const [menuVisible, setMenuVisible] = useState(false);", "  const [menuVisible, setMenuVisible] = useState(false);\n  const [acquisitionError, setAcquisitionError] = useState<Error>();\n  if (acquisitionError) throw acquisitionError;"],
+    ["  const openScene = (item: PassageNode) => open({ kind: 'SCENE', id: item.id });", "  const openScene = (item: PassageNode) => {\n    void acquireScene(topic.id, item.id).then(\n      () => open({ kind: 'SCENE', id: item.id }),\n      (error) => setAcquisitionError(error instanceof Error ? error : Error(String(error))),\n    );\n  };"],
+    ["    if (item.destinationType === 'SCENE') open({ kind: 'SCENE', id: item.destinationRef.id });", "    if (item.destinationType === 'SCENE') {\n      const target = projection.scenes.find((scene) => scene.id === item.destinationRef.id);\n      if (target) openScene(target);\n    }"],
   ]);
   return changed;
 }

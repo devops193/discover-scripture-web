@@ -15,7 +15,7 @@ export function PilotInquiry({ email }: { email: string }) {
       '',
       String(form.get('note') ?? ''),
     ];
-    const href = `mailto:${email}?subject=${encodeURIComponent('Church Edition pilot request')}&body=${encodeURIComponent(lines.join('\n'))}`;
+    const href = `mailto:${email}?subject=${encodeURIComponent('Church Pilot request')}&body=${encodeURIComponent(lines.join('\n'))}`;
     window.location.href = href;
   }
 
@@ -27,10 +27,10 @@ export function PilotInquiry({ email }: { email: string }) {
         <label>Church or ministry<input name="church" autoComplete="organization" required /></label>
         <label>Email<input name="email" type="email" autoComplete="email" required /></label>
       </div>
-      <label>What do you want to try?<textarea name="note" rows={4} placeholder="Ministry preparation, service programs, presentation, Commander, or Commander CE." /></label>
+      <label>What do you want to test?<textarea name="note" rows={4} placeholder="Scripture preparation, service runtime, presentation, or Commander CE." /></label>
       <div className="cta-row">
-        <button className="button" type="submit">Request a Pilot</button>
-        <Link className="button secondary" href="/">See Scripture Discovery</Link>
+        <button className="button" type="submit">Join the Church Pilot</button>
+        <Link className="button secondary" href="/product-app/">Open Scripture Discovered</Link>
       </div>
       <p className="form-note">This opens an email to <a href={`mailto:${email}`}>{email}</a>. The site does not store the inquiry.</p>
     </form>

@@ -170,9 +170,9 @@ export function SmartPresenterSection() {
 export function MinistryNetworkSection() {
   return (
     <section className="network" id="ministry-network" aria-labelledby="ministry-network-title">
-      <p className="eyebrow">Discovery Ministry Network</p>
+      <p className="eyebrow">Network and Partners</p>
       <h2 id="ministry-network-title">Move ministry beyond the room.</h2>
-      <MoreInfoButton ariaLabel="More info about Discovery Ministry Network" />
+      <MoreInfoButton ariaLabel="More info about Network and Partners" />
       <p>Connect churches, ministries, programs, broadcasts, partnerships, and community activity through one growing ministry network.</p>
       <p>The network is where ministry can move—from one church to many. Network broadcast and cross-church distribution are still developing and are not generally available.</p>
     </section>
@@ -190,7 +190,7 @@ export function SupportLivesSection() {
       <ul className="supportlives-list">
         {supportLivesAreas.map((area) => <li key={area}>{area}</li>)}
       </ul>
-      <div className="foundation-note"><strong>DiscoveryMinistryNetworkCE Foundation</strong> <MoreInfoButton ariaLabel="More info about DiscoveryMinistryNetworkCE Foundation" /></div>
+      <div className="foundation-note"><strong>Network and Partners</strong> <MoreInfoButton ariaLabel="More info about Network and Partners" /></div>
     </section>
   );
 }

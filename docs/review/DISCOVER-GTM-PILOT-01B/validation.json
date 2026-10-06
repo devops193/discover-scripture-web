@@ -1,0 +1,108 @@
+{
+  "baseURL": "http://127.0.0.1:4173",
+  "generatedAt": "2026-10-06T01:12:20.413Z",
+  "viewports": {
+    "phone-portrait": {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "h1Count": 1,
+      "imageFailures": [],
+      "overflowElements": [
+        {
+          "tag": "a",
+          "className": "productViewport-module__RhHpSa__siteLink",
+          "right": -9862
+        }
+      ],
+      "horizontalOverflow": false
+    },
+    "phone-landscape": {
+      "width": 844,
+      "height": 390,
+      "scrollWidth": 844,
+      "clientWidth": 844,
+      "h1Count": 1,
+      "imageFailures": [],
+      "overflowElements": [],
+      "horizontalOverflow": false
+    },
+    "tablet-portrait": {
+      "width": 820,
+      "height": 1180,
+      "scrollWidth": 820,
+      "clientWidth": 820,
+      "h1Count": 1,
+      "imageFailures": [],
+      "overflowElements": [],
+      "horizontalOverflow": false
+    },
+    "tablet-landscape": {
+      "width": 1180,
+      "height": 820,
+      "scrollWidth": 1180,
+      "clientWidth": 1180,
+      "h1Count": 1,
+      "imageFailures": [],
+      "overflowElements": [],
+      "horizontalOverflow": false
+    },
+    "desktop": {
+      "width": 1440,
+      "height": 1000,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "h1Count": 1,
+      "imageFailures": [],
+      "overflowElements": [],
+      "horizontalOverflow": false
+    }
+  },
+  "accessibility": {
+    "mobileNavigationLabels": [
+      "Scripture Discovered",
+      "Commander CE",
+      "Network and Partners"
+    ],
+    "unlabeledControls": [],
+    "imagesWithoutAlt": [],
+    "landmarks": [
+      "header",
+      "nav",
+      "main",
+      "form",
+      "footer",
+      "nav"
+    ],
+    "headingLevels": [
+      1,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      2
+    ],
+    "requiredFieldValidation": true,
+    "keyboardFocusVisible": true
+  },
+  "performance": {
+    "navigation": {
+      "domContentLoadedMs": 34,
+      "loadMs": 63,
+      "transferBytes": 5550
+    },
+    "initialResourceCount": 18,
+    "initialTransferBytes": 806296,
+    "initialImages": [
+      "http://127.0.0.1:4173/platform/gtm/character-world.jpg",
+      "http://127.0.0.1:4173/platform/church-edition-verse-focus.jpg"
+    ],
+    "initialIframes": []
+  },
+  "consoleErrors": []
+}

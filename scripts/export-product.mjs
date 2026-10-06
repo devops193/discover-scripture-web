@@ -30,6 +30,15 @@ fs.writeFileSync(path.join(stage, 'package.json'), JSON.stringify({ ...sourcePac
 fs.copyFileSync(path.join(source, 'tsconfig.json'), path.join(stage, 'tsconfig.json'));
 // Router contexts require real paths beneath the staging root, not source symlinks.
 fs.cpSync(path.join(source, 'src'), path.join(stage, 'src'), { recursive: true });
+// Current Discover surfaces import this governed, repository-owned semantic
+// projection directly. Keep the isolated website staging tree faithful to the
+// development checkout without mutating or reaching back into native source.
+const governedSourceInputs = ['docs/discover-next/DISCOVER-NEXT-01-GATE-B-ABRAHAM-DATA.json'];
+for (const relative of governedSourceInputs) {
+  const destination = path.join(stage, relative);
+  fs.mkdirSync(path.dirname(destination), { recursive: true });
+  fs.copyFileSync(path.join(source, relative), destination);
+}
 fs.cpSync(path.join(site, 'product-runtime'), path.join(stage, 'src/website-runtime'), { recursive: true });
 const solidState = progressiveCandidate ? undefined : buildSolidStatePackage(site, source, stage);
 if (progressiveCandidate) fs.writeFileSync(path.join(stage, 'sdw-redirects.json'), '{}');

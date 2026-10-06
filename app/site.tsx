@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import type { ReactNode } from 'react';
-import { APP_STORE_URL } from './platform';
+import { APP_STORE_URL } from './marketing';
 import { publicReleaseConfig } from './releaseConfig.generated';
 import { releaseContent } from './releaseContent.generated';
 import { StoreLinks } from './storeLinks';
@@ -13,19 +13,18 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
       {children}
       <footer className="site-footer">
         <div className="footer-col">
-          <a href="/#personal-edition">Scripture Discovery PE</a>
-          <a className="footer-emphasis" href={APP_STORE_URL} rel="noopener noreferrer" target="_blank">Download on the App Store<span className="sr-only"> (opens in a new tab)</span></a>
-          <a className="footer-group" href="/#church-edition-summary">Scripture Discovery CE</a>
-          <a className="footer-group" href="/#commander-ce">Commander CE</a>
-          <span className="footer-status">Pilot deployments</span>
+          <Link className="footer-emphasis" href="/product-app/">Open Scripture Discovered</Link>
+          <a href={APP_STORE_URL} rel="noopener noreferrer" target="_blank">Download on the App Store<span className="sr-only"> (opens in a new tab)</span></a>
+          <Link className="footer-group" href="/#commander-ce">Commander CE</Link>
+          <Link href="/#network-and-partners">Network and Partners</Link>
+          <span className="site-nav-locked" aria-disabled="true" aria-label="Investors, locked">Investors</span>
         </div>
         <nav className="footer-col" aria-label="Legal and support">
-          <a href="/about">About</a>
-          <a href="/privacy">Privacy</a>
-          <a href="/terms">Terms</a>
-          <a href="/support">Support</a>
+          <Link href="/about">About</Link>
+          <Link href="/privacy">Privacy</Link>
+          <Link href="/terms">Terms</Link>
+          <Link href="/support">Support</Link>
         </nav>
-        {/* eslint-enable @next/next/no-html-link-for-pages */}
       </footer>
     </div>
   );
