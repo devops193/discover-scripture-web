@@ -1,6 +1,10 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
+  // Retire public promotions without deleting deferred CE source or operational routes.
+  async redirects() {
+    return ['/church-edition', '/church-pilot', '/commander-ce', '/digital-altar', '/network-and-partners', '/partners', '/investors'].map(source => ({ source, destination: '/', permanent: true }));
+  },
   async rewrites() {
     return { beforeFiles: [], afterFiles: [], fallback: [
       { source: '/product-app/:path*', destination: '/product-app/index.html' },

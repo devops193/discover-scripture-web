@@ -22,3 +22,12 @@
   .siteLink:focus { position: static; }
 }
 @media (prefers-reduced-motion: reduce) { .switcher button:active { transform: none; } }
+
+/* W01: actual application immediately follows the compact introduction. */
+.viewport { width: min(1180px, calc(100% - 32px)); height: clamp(540px, 72dvh, 800px); min-height: 540px; margin: 0 auto; border: 1px solid var(--line); border-radius: 16px; }
+.title { margin: 0; font: inherit; font-weight: 650; font-size: 1rem; letter-spacing: 0; }
+.siteLink { position: static; min-height: 44px; text-underline-offset: 4px; }
+@media (max-width: 600px) {
+  .viewport { width: calc(100% - 24px); height: 72dvh; min-height: 520px; }
+  .toolbar { flex-wrap: nowrap; gap: 8px; }
+}

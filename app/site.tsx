@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import type { ReactNode } from 'react';
-import { APP_STORE_URL } from './marketing';
 import { publicReleaseConfig } from './releaseConfig.generated';
 import { releaseContent } from './releaseContent.generated';
 import { StoreLinks } from './storeLinks';
@@ -13,16 +12,15 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
       {children}
       <footer className="site-footer">
         <div className="footer-col">
-          <Link className="footer-emphasis" href="/product-app/">Open Scripture Discovered</Link>
-          <a href={APP_STORE_URL} rel="noopener noreferrer" target="_blank">Download on the App Store<span className="sr-only"> (opens in a new tab)</span></a>
-          <Link className="footer-group" href="/#commander-ce">Commander CE</Link>
-          <Link href="/#network-and-partners">Network and Partners</Link>
-          <span className="site-nav-locked" aria-disabled="true" aria-label="Investors, locked">Investors</span>
+          <a href="https://apps.apple.com/us/app/scripture-discovery/id6810717915" rel="noopener noreferrer" target="_blank">Download on the App Store<span className="sr-only"> (opens in a new tab)</span></a>
         </div>
         <nav className="footer-col" aria-label="Legal and support">
           <Link href="/about">About</Link>
+          <span aria-hidden="true">·</span>
           <Link href="/privacy">Privacy</Link>
+          <span aria-hidden="true">·</span>
           <Link href="/terms">Terms</Link>
+          <span aria-hidden="true">·</span>
           <Link href="/support">Support</Link>
         </nav>
       </footer>

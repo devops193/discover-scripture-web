@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-10-28T08:46:00.356Z",
+  "base": "http://localhost:4101",
+  "pages": [
+    {
+      "label": "About",
+      "path": "/about",
+      "status": 200,
+      "footerNavigation": "PASS",
+      "mobileOverflow": false
+    },
+    {
+      "label": "Support",
+      "path": "/support",
+      "status": 200,
+      "footerNavigation": "PASS",
+      "mobileOverflow": false
+    },
+    {
+      "label": "Privacy",
+      "path": "/privacy",
+      "status": 200,
+      "footerNavigation": "PASS",
+      "mobileOverflow": false
+    },
+    {
+      "label": "Terms",
+      "path": "/terms",
+      "status": 200,
+      "footerNavigation": "PASS",
+      "mobileOverflow": false
+    }
+  ],
+  "price": "$9.99 USD",
+  "productionPush": false,
+  "result": "PASS"
+}

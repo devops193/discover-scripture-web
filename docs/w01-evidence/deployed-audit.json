@@ -1,0 +1,114 @@
+{
+  "checkedAt": "2026-10-28T07:20:47.954Z",
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "finalUrl": "https://www.dscripture.com/",
+      "title": "Discover Scripture — Scripture, discovered",
+      "promotionalTerms": [
+        "Commander CE",
+        "Church Pilot",
+        "Network and Partners",
+        "Church Edition"
+      ]
+    },
+    {
+      "path": "/church-edition",
+      "status": 200,
+      "finalUrl": "https://www.dscripture.com/church-edition",
+      "title": "Commander CE | Discover Scripture",
+      "promotionalTerms": [
+        "Commander CE",
+        "Network and Partners",
+        "Church Pilot"
+      ]
+    },
+    {
+      "path": "/church-pilot",
+      "status": 200,
+      "finalUrl": "https://www.dscripture.com/church-pilot",
+      "title": "Church Pilot | Discover Scripture",
+      "promotionalTerms": [
+        "Church Pilot",
+        "Commander CE",
+        "Network and Partners",
+        "Church Edition"
+      ]
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "finalUrl": "https://www.dscripture.com/about",
+      "title": "About · Discover Scripture",
+      "promotionalTerms": [
+        "Commander CE",
+        "Network and Partners"
+      ]
+    },
+    {
+      "path": "/investors",
+      "status": 200,
+      "finalUrl": "https://www.dscripture.com/",
+      "title": "Discover Scripture — Scripture, discovered",
+      "promotionalTerms": [
+        "Commander CE",
+        "Church Pilot",
+        "Network and Partners",
+        "Church Edition"
+      ]
+    },
+    {
+      "path": "/privacy",
+      "status": 200,
+      "finalUrl": "https://www.dscripture.com/privacy",
+      "title": "Privacy Policy · Discover Scripture",
+      "promotionalTerms": [
+        "Commander CE",
+        "Network and Partners"
+      ]
+    },
+    {
+      "path": "/terms",
+      "status": 200,
+      "finalUrl": "https://www.dscripture.com/terms",
+      "title": "Terms &amp; Conditions · Discover Scripture",
+      "promotionalTerms": [
+        "Commander CE",
+        "Network and Partners"
+      ]
+    },
+    {
+      "path": "/support",
+      "status": 200,
+      "finalUrl": "https://www.dscripture.com/support",
+      "title": "Support · Discover Scripture",
+      "promotionalTerms": [
+        "Commander CE",
+        "Network and Partners"
+      ]
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 404,
+      "finalUrl": "https://www.dscripture.com/sitemap.xml",
+      "title": "Discover Scripture",
+      "promotionalTerms": []
+    },
+    {
+      "path": "/robots.txt",
+      "status": 404,
+      "finalUrl": "https://www.dscripture.com/robots.txt",
+      "title": "Discover Scripture",
+      "promotionalTerms": []
+    }
+  ],
+  "appStore": {
+    "sellerName": "Erik Brown",
+    "trackName": "Scripture Discovery",
+    "price": 9.99,
+    "currency": "USD",
+    "trackViewUrl": "https://apps.apple.com/us/app/scripture-discovery/id6810717915?uo=4",
+    "onePurchaseStated": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "task": "DISCOVER-WEBSITE-RESET-W01",
+  "implementation": "LOCAL_CANDIDATE",
+  "scopedVerification": "PASS",
+  "fullPublicSurfaceClosure": "REVIEW_REQUIRED_INTERNAL_COMMANDER_NAVIGATION_REMAINS",
+  "verification": "docs/w01-evidence/verification.json",
+  "deployedAudit": "docs/w01-evidence/deployed-audit.json",
+  "review": "docs/w01-evidence/REVIEW.md",
+  "appArtifactSha256": "08c7653cbaf7f4e5fdf9ee5a646380a1bd4af14646caa9b25f57e5b2f4a56d99",
+  "appExportChanged": false,
+  "ceSourcePreserved": true,
+  "operationalEndpointsChanged": false,
+  "netlifyPipelineChanged": false,
+  "nativeProductionChanged": false,
+  "commitCreated": false,
+  "productionPush": false,
+  "ownerDeploymentApproval": "NOT_REQUESTED_OR_INFERRED",
+  "limitations": [
+    "Existing internal desktop Commander navigation remains inside the preserved app",
+    "Existing legal-name and launch-date placeholders remain; corporate entity was not invented",
+    "Browser responsive checks are not physical-device or Safari certification"
+  ]
+}

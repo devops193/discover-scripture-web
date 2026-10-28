@@ -1,5 +1,7 @@
 @import 'tailwindcss';
 
+/* W01 rules are scoped to the public reset; shared app styles remain untouched. */
+
 :root {
   color-scheme: dark;
   --background: #13110e;

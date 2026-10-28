@@ -1,0 +1,134 @@
+{
+  "base": "http://localhost:4101",
+  "checkedAt": "2026-10-28T08:46:04.742Z",
+  "routes": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/about",
+      "status": 200
+    },
+    {
+      "path": "/privacy",
+      "status": 200
+    },
+    {
+      "path": "/terms",
+      "status": 200
+    },
+    {
+      "path": "/support",
+      "status": 200
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200
+    },
+    {
+      "path": "/product-app/",
+      "status": 200
+    },
+    {
+      "path": "/church-edition",
+      "status": 308,
+      "location": "/"
+    },
+    {
+      "path": "/church-pilot",
+      "status": 308,
+      "location": "/"
+    },
+    {
+      "path": "/commander-ce",
+      "status": 308,
+      "location": "/"
+    },
+    {
+      "path": "/digital-altar",
+      "status": 308,
+      "location": "/"
+    },
+    {
+      "path": "/network-and-partners",
+      "status": 308,
+      "location": "/"
+    },
+    {
+      "path": "/partners",
+      "status": 308,
+      "location": "/"
+    },
+    {
+      "path": "/investors",
+      "status": 308,
+      "location": "/"
+    }
+  ],
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "overflow": false,
+      "appTop": 287.546875
+    },
+    {
+      "name": "tablet",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "appTop": 262.859375
+    },
+    {
+      "name": "phone",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "appTop": 306.09375
+    },
+    {
+      "name": "small-phone",
+      "width": 320,
+      "height": 740,
+      "overflow": false,
+      "appTop": 332.484375
+    },
+    {
+      "name": "landscape",
+      "width": 844,
+      "height": 390,
+      "overflow": false,
+      "appTop": 266.96875
+    }
+  ],
+  "app": {
+    "legacyMarketingQueryStillOpensDiscover": true,
+    "entryUrl": "http://localhost:4101/product-app/",
+    "characterWorld": "http://localhost:4101/product-app/discovery/abraham/world",
+    "reading": {
+      "route": "http://localhost:4101/product-app/reading",
+      "openingTextVerified": "In the beginning, God created the heavens and the earth."
+    },
+    "standaloneDeepLink": "PASS: fresh reader opens the book chooser",
+    "manifestSha256": "a51cad3938e8933365482e2b5a90e082308b2784ef39b93cbb19362d3c031502",
+    "provenance": {
+      "sourceCommit": "e6c0175ed6797e76f0075db3936714efbbd1d01e",
+      "buildIdentity": "52add6f41edc5dd9c21f65f02f933fbd1cec266285bee8bce249607475050398",
+      "sourceSnapshotSha256": "78b8a74af02bf4539d0ba209c0e80c86b5825f5a351f8bb91c613b614d91f813",
+      "artifactSha256": "08c7653cbaf7f4e5fdf9ee5a646380a1bd4af14646caa9b25f57e5b2f4a56d99",
+      "destinationPath": "public/product-app",
+      "destinationAbsolutePath": "/Volumes/DevMode/DiscoverWebsite/public/product-app"
+    }
+  },
+  "errors": [],
+  "productionPush": false,
+  "textScaling200Percent": true,
+  "keyboardEntryFocusable": true,
+  "result": "PASS"
+}
